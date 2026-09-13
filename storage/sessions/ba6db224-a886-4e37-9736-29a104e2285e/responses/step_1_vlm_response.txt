@@ -1,0 +1,28 @@
+{
+  "thought": "Navigate directly to GeM portal for procurement search.",
+  "action": "navigate",
+  "value": "https://gem.gov.in",
+  "scratchpad": {
+    "activePillar": "6: Procurement",
+    "isroOperationalTelemetry": {
+      "spacecraft": "LVM3-M4 / ISRO Launch Vehicles",
+      "metricSummary": "Material: Titanium Ti-6Al-4V | Portal: GeM",
+      "operationalStatus": "Navigating to GeM Portal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "in_progress"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "pending"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

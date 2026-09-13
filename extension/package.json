@@ -1,0 +1,32 @@
+{
+  "name": "zero-trust-ai-agent-extension",
+  "version": "1.0.0",
+  "description": "Zero-Trust AI Web Agent Chrome Extension",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "postbuild": "node scripts/copy-assets.mjs",
+    "preview": "wxt preview",
+    "fetch-models": "node scripts/fetch-models.mjs",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.2.9",
+    "@types/react": "^19.2.18",
+    "autoprefixer": "^10.5.5",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.0",
+    "wxt": "^0.19.27"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^1.0.1",
+    "onnxruntime-web": "^1.29.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

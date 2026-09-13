@@ -1,0 +1,16 @@
+{
+  "thought": "Delete remaining item from cart.",
+  "action": "click",
+  "id": "agent-119",
+  "selector": "[name='submit.delete-active.b8882c6c-b5c1-4c18-96a0-88aa5e111f4d']",
+  "value": "",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "model": "iPhone",
+      "storage": "256gb"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

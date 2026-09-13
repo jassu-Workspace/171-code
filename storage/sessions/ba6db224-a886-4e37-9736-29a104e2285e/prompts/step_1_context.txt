@@ -1,0 +1,54 @@
+Task: Open GeM portal and search for space-grade titanium alloy Ti-6Al-4V procurement specifications.
+
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <a> About
+[agent-2] <a> Store
+[agent-3] <a> Gmail
+[agent-4] <a> Search for Images
+[agent-5] <a role="button" aria-expanded="false"> Google apps
+[agent-6] <a role="button" aria-haspopup="true" aria-expanded="false"> Google Account: Jaswanth Sri sai ([EMAIL]), Google membership
+[agent-7] <button aria-haspopup="menu"> Add files, tools, and select a model
+[agent-8] <textarea type="textarea" id="ti6dpd" name="q"> (empty input, placeholder: "Search")
+[agent-9] <div role="button"> Search by voice
+[agent-10] <div role="button"> Search by image
+[agent-11] <button role="link"> .plR5qb.PHjFye .CcxW7b{display:none}.plR5qb:focus-visible .bvUkz{outline:2px solid var(--Nsm0ce);outline-offset:2px}.plR5qb.VzUPFe .PD3zdc{c
+[agent-12] <input type="submit" name="btnK"> (empty input, placeholder: "Google Search")
+[agent-13] <input type="submit" name="btnI"> (empty input, placeholder: "I'm Feeling Lucky")
+[agent-14] <a> हिन्दी
+[agent-15] <a> বাংলা
+[agent-16] <a> తెలుగు
+[agent-17] <a> मराठी
+[agent-18] <a> தமிழ்
+[agent-19] <a> ગુજરાતી
+[agent-20] <a> ಕನ್ನಡ
+[agent-21] <a> മലയാളം
+[agent-22] <a> ਪੰਜਾਬੀ
+[agent-23] <a> Advertising
+[agent-24] <a> Business
+[agent-25] <a> How Search works
+[agent-26] <a> Privacy
+[agent-27] <a> Terms
+[agent-28] <div role="button" aria-haspopup="true" aria-expanded="false"> Settings
+[agent-29] <div aria-haspopup="true"> Settings
+
+--- PAGE TEXT ---
+About
+Store
+GmailImages
+AI Mode
+ 
+Google offered in: हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ
+India
+Advertising
+Business
+How Search works
+Privacy
+Terms
+Settings
+ZERO-TRUST SHIELD ACTIVE
+25 CLASSES GUARDED
+
+redaction_legend:
+[]

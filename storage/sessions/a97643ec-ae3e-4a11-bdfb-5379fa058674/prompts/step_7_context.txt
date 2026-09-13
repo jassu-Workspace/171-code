@@ -1,0 +1,158 @@
+Task: go to amazon and clear the cart and after do add an iphone of 256gb into cart and goto the final checkout
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-18 value: ""
+- Step 2: click target: agent-120 value: ""
+- Step 3: click target: agent-121 value: ""
+- Step 4: click target: agent-120 value: ""
+- Step 5: click target: agent-118 value: ""
+- Step 6: click target: agent-130 value: ""
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <a id="nav-top"> (empty input)
+[agent-2] <a id="nav-assist-skip-to-main-content"> Main content
+[agent-3] <a id="nav-assist-shopping-cart"> Your Amazon Cart
+[agent-4] <a id="nav-assist-skip-to-your-items-saved"> Saved for Later
+[agent-5] <a id="nav-assist-skip-to-your-items-buy-again"> Buy it Again
+[agent-6] <a id="nav-assist-search" role="link"> Search alt + /
+[agent-7] <a id="nav-assist-cart" role="link"> Cart shift + alt + C
+[agent-8] <a id="nav-assist-home" role="link"> Home shift + alt + H
+[agent-9] <a id="nav-assist-your-orders" role="link"> Orders shift + alt + O
+[agent-10] <button id="nav-assist-show-shortcuts" role="button"> Show/Hide shortcuts shift + alt + Z
+[agent-11] <a id="nav-logo-sprites"> .in
+[agent-12] <a id="nav-global-location-popover-link" role="button"> Deliver to D.V.V.R... Visakhapa... 530047‌
+[agent-13] <select type="select" id="searchDropdownBox" name="url" selected="All Categories"> [Select Dropdown - Current: "All Categories"] Available Options: [opt-1: "All Categories" (val: "search-alias=aps")], [opt-2: "Alexa Skills"
+[agent-14] <input type="text" id="twotabsearchtextbox" name="field-keywords" placeholder="Search Amazon.in"> (empty input, placeholder: "Search Amazon.in")
+[agent-15] <input type="submit" id="nav-search-submit-button" data-has-content="true" data-char-count="2"> [Typed Value (2 chars)]: Go
+[agent-16] <a> Choose a language for shopping in Amazon India. The current selection is English (EN).
+[agent-17] <button> Expand to Change Language or Country
+[agent-18] <a> Hello, D.V.V.RAMANA Account & Lists
+[agent-19] <button> Expand Account and Lists
+[agent-20] <a id="nav-orders"> Returns & Orders
+[agent-21] <a id="nav-cart"> 4 Cart
+[agent-22] <a id="nav-hamburger-menu" role="button" aria-expanded="false"> Open All Categories Menu
+[agent-23] <button id="nav-rufus-disco" role="button"> Open Rufus panel
+[agent-24] <a> Fresh
+[agent-25] <a> Prime Video
+[agent-26] <a> Sell
+[agent-27] <a> Gift Cards
+[agent-28] <a> Amazon Pay
+[agent-29] <a> Today's Deals
+[agent-30] <a> Buy Again
+[agent-31] <a> Gift Ideas
+[agent-32] <a> Browsing History
+[agent-33] <button aria-expanded="false"> Browsing History Details
+[agent-34] <a id="nav-your-amazon"> D.V.V.RAMANA's Amazon.in
+[agent-35] <a> Prime
+[agent-36] <button aria-expanded="false"> Prime Details
+[agent-37] <a> Health, Household & Personal Care
+[agent-38] <a> Subscribe & Save
+[agent-39] <a> AmazonBasics
+[agent-40] <a> Home Improvement
+[agent-41] <a> Customer Service
+[agent-42] <a> Audible
+[agent-43] <a> Electronics
+[agent-44] <a> Books
+[agent-45] <a> Toys & Games
+[agent-46] <a> Beauty & Personal Care
+[agent-47] <a> Bestsellers
+[agent-48] <a> Home & Kitchen
+[agent-49] <a> Computers
+[agent-50] <a> New Releases
+[agent-51] <a> Mobiles
+[agent-52] <a> Sports, Fitness & Outdoors
+[agent-53] <a> Car & Motorbike
+[agent-54] <a> Kindle eBooks
+[agent-55] <a> Pet Supplies
+[agent-56] <a> Video Games
+[agent-57] <a> Baby
+[agent-58] <input type="submit" name="proceedToALMCheckout-ctnow" data-has-content="true" data-char-count="19"> [Typed Value (19 chars)]: Proceed to checkout
+[agent-59] <a id="a-autoid-2-announce"> Go to Fresh Cart
+[agent-60] <a> Continue shopping on Fresh
+[agent-62] <a> FREE Delivery
+[agent-63] <input type="checkbox" id="sc-buy-box-gift-checkbox" name="isToBeGiftWrapped" data-has-content="true" data-char-count="1"> [Typed Value (1 chars)]: 1
+[agent-64] <input type="submit" name="proceedToRetailCheckout" data-has-content="true" data-char-count="19"> [Typed Value (19 chars)]: Proceed to checkout
+[agent-65] <a role="link"> Apple iPad 11″: A16 chip, 27.69 cm (11″) Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera, Touch ID, All-Day Batter
+[agent-66] <a> 4.6 out of 5 stars, 1,107 ratings
+[agent-67] <a role="link"> -4%
+[agent-68] <a role="link"> ₹47,999.00₹47,999.00
+[agent-69] <a role="link"> M.R.P: ₹49,900.00
+[agent-70] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart, Apple iPad 11″: A16 chip, 27.69 cm (11″) Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/1
+[agent-71] <a role="link"> HP Smartchoice Victus, 13th Gen i7-13620H, 6GB RTX 4050, 16GB DDR4(Upgradeable) 512GB SSD, 144Hz, 300nits, 15.6''/39.6cm, Win11, Office24, M
+[agent-72] <a> 4.1 out of 5 stars, 169 ratings
+[agent-73] <a role="link"> ₹1,34,990.00₹1,34,990.00
+[agent-74] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart, HP Smartchoice Victus, 13th Gen i7-13620H, 6GB RTX 4050, 16GB DDR4(Upgradeable) 512GB SSD, 144Hz, 3
+[agent-75] <a role="link"> HP Smartchoice Victus, AMD Ryzen 7 7445HS, 6GB RTX 3050, 16GB DDR5(Upgradeable) 512GB SSD, 144Hz, 300 nits, 15.6''/39.6cm, Win 11, Office 24
+[agent-76] <a> 4.0 out of 5 stars, 42 ratings
+[agent-77] <a role="link"> -31%
+[agent-78] <a role="link"> ₹1,06,990.00₹1,06,990.00
+[agent-79] <a role="link"> M.R.P: ₹1,54,384.00
+[agent-80] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart, HP Smartchoice Victus, AMD Ryzen 7 7445HS, 6GB RTX 3050, 16GB DDR5(Upgradeable) 512GB SSD, 144Hz, 3
+[agent-81] <a role="link"> Lava Bold N4 Lite (Ghost Silver, 3GB RAM, 32GB Storage) | 6.56" qHD Display | 8MP Rear Camera | 5000 mAh Battery | Free Service @ Home | Fin
+[agent-82] <a> 5.0 out of 5 stars, 3 ratings
+[agent-83] <a role="link"> -17%
+[agent-84] <a role="link"> ₹8,299.00₹8,299.00
+[agent-85] <a role="link"> M.R.P: ₹9,999.00
+[agent-86] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart, Lava Bold N4 Lite (Ghost Silver, 3GB RAM, 32GB Storage) | 6.56" qHD Display | 8MP Rear Camera | 500
+[agent-87] <a role="link"> OnePlus N6x | 4GB+128GB | Burgundy Red | 7000mAh Battery | Power for Days | 48-Months Smoothness | Smooth 120Hz Display | Largest 5300mm2 Co
+[agent-88] <a> 3.5 out of 5 stars, 289 ratings
+[agent-89] <a role="link"> -21%
+[agent-90] <a role="link"> ₹22,999.00₹22,999.00
+[agent-91] <a role="link"> M.R.P: ₹28,999.00
+[agent-92] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart, OnePlus N6x | 4GB+128GB | Burgundy Red | 7000mAh Battery | Power for Days | 48-Months Smoothness | 
+[agent-93] <a role="link"> Apple iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front
+[agent-94] <a> 4.5 out of 5 stars, 360 ratings
+[agent-95] <a role="link"> -15%
+[agent-96] <a role="link"> ₹1,01,900.00₹1,01,900.00
+[agent-97] <a role="link"> M.R.P: ₹1,19,900.00
+[agent-98] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart, Apple iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, 
+[agent-99] <a role="link"> Lenovo IdeaPad Slim 3 13th Gen Intel Core i3-1315U 15.6 Inch (39.6cm) FHD Thin & Light Laptop (8GB RAM/512GB SSD/Windows 11/Office Home 2024
+[agent-100] <a> 4.4 out of 5 stars, 9 ratings
+[agent-101] <a role="link"> -9%
+[agent-102] <a role="link"> ₹54,650.00₹54,650.00
+[agent-103] <a role="link"> M.R.P: ₹59,890.00
+[agent-104] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart, Lenovo IdeaPad Slim 3 13th Gen Intel Core i3-1315U 15.6 Inch (39.6cm) FHD Thin & Light Laptop (8GB 
+[agent-105] <a role="link"> Samsung Galaxy M07 Mobile (Black, 4GB RAM, 64GB Storage) | MediaTek Helio G99 | AnTuTu 624K | IP54| 50MP Camera | 7.6mm Slim | 5000mAh Batte
+[agent-106] <a> 3.3 out of 5 stars, 11 ratings
+[agent-107] <a role="link"> -29%
+[agent-108] <a role="link"> ₹11,999.00₹11,999.00
+[agent-109] <a role="link"> M.R.P: ₹16,999.00
+[agent-110] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart, Samsung Galaxy M07 Mobile (Black, 4GB RAM, 64GB Storage) | MediaTek Helio G99 | AnTuTu 624K | IP54|
+[agent-111] <a id="deselect-all"> Deselect all items
+[agent-112] <input type="checkbox"> (empty input, placeholder: "Select Dettol Icy Cool Bathing Soap Bar With 3x intense cooling (625gm), 125gm - Pack of 5 for checkout")
+[agent-113] <a> Dettol Icy Cool Bathing Soap Bar With 3x intense cooling (625gm), 125gm - Pack of 5 
+[agent-114] <a> Terms
+[agent-115] <input type="checkbox"> (empty input)
+[agent-116] <a> This is a gift Learn more
+[agent-117] <button> Delete Dettol Icy Cool Bathing Soap Bar With 3x intense cooling (625gm), 125gm - Pack of 5
+[agent-118] <button> Increase quantity by one, Quantity is 1, Dettol Icy Cool Bathing Soap Bar With 3x intense cooling (625gm), 125gm - Pack of 5
+[agent-119] <input type="submit" name="submit.delete-active.b8882c6c-b5c1-4c18-96a0-88aa5e111f4d" data-has-content="true" data-char-count="6"> [Typed Value (6 chars)]: Delete
+[agent-120] <input type="submit" name="submit.save-for-later.b8882c6c-b5c1-4c18-96a0-88aa5e111f4d" data-has-content="true" data-char-count="14"> [Typed Value (14 chars)]: Save for later
+[agent-121] <a> Share Dettol Icy Cool Bathing Soap Bar With 3x intense cooling (625gm), 125gm - Pack of 5
+[agent-122] <a> Sunny Herbals Black Hair Color | With Henna, Amla, Shikakai & Bh... Opens in a new tab
+[agent-123] <input type="checkbox"> (empty input, placeholder: "Select Dettol Lime Fresh (Lime Cool) Bathing Soap Bar with 12hr Freshness (750gm) |Long Lasting Freshness, 150gm
+[agent-124] <a> Dettol Lime Fresh (Lime Cool) Bathing Soap Bar with 12hr Freshness (750gm) |Long Lasting Freshness, 150gm Pack of 5 (3308672) 
+[agent-125] <a> Terms
+[agent-126] <input type="checkbox"> (empty input)
+[agent-127] <a> This is a gift Learn more
+[agent-128] <button> Delete Dettol Lime Fresh (Lime Cool) Bathing Soap Bar with 12hr Freshness (750gm) |Long Lasting Freshness, 150gm Pack of 5 (3308672)
+[agent-129] <button> Increase quantity by one, Quantity is 1, Dettol Lime Fresh (Lime Cool) Bathing Soap Bar with 12hr Freshness (750gm) |Long Lasting Freshness,
+[agent-130] <input type="submit" name="submit.delete-active.cca84ae8-4d43-4553-bf2e-1100a74ff9d4" data-has-content="true" data-char-count="6"> [Typed Value (6 chars)]: Delete
+[agent-131] <input type="submit" name="submit.save-for-later.cca84ae8-4d43-4553-bf2e-1100a74ff9d4" data-has-content="true" data-char-count="14"> [Typed Value (14 chars)]: Save for later
+[agent-132] <a> Share Dettol Lime Fresh (Lime Cool) Bathing Soap Bar with 12hr Freshness (750gm) |Long Lasting Freshness, 150gm Pack of 5 (3308672)
+[agent-133] <input type="checkbox"> (empty input, placeholder: "Select Sunny Herbals Black Hair Color | With Henna, Amla, Shikakai &amp;amp; Bhringraj | Long-Lasting Color | De
+[agent-134] <a> Sunny Herbals Black Hair Color | With Henna, Amla, Shikakai & Bhringraj | Long-Lasting Color | Deep Root-to-Tip Coverage | Ammonia-Free | Si
+[agent-135] <input type="checkbox" name="sns-item-cart-desktop" data-has-content="true" data-char-count="2"> [Typed Value (2 chars)]: on
+[agent-137] <a> Terms
+[agent-138] <input type="checkbox"> (empty input)
+[agent-139] <a> This is a gift Learn more
+[agent-140] <button> Delete Sunny Herbals Black Hair Color | With Henna, Amla, Shikakai &amp; Bhringraj | Long-Lasting Color | Deep Root-to-Tip Coverage | Ammoni
+[agent-141] <button> Increase quantity by one, Quantity is 1, Sunny Herbals Black Hair Color | With Henna, Amla, Shikakai &amp; Bhringraj | Long-Lasting Color | 
+[agent-142] <input type="submit" name="submit.delete-active.75c0d22e-1281-4ba9-839e-83829615e4c0" data-has-content="true" data-char-count="6"> [Typed Value (6 chars)]: Delete
+
+--- PAGE TEXT ---
+[ADDRESS REDACTED]
+
+redaction_legend:
+[]

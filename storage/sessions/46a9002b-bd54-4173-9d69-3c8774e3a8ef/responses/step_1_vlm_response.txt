@@ -1,0 +1,20 @@
+{
+  "thought": "Open the layer menu on MOSDAC viewer to select INSAT-3D thermal infrared product.",
+  "action": "click",
+  "id": "agent-123",
+  "selector": "#abbr",
+  "scratchpad": {
+    "activePillar": "2: Earth Observation & GIS",
+    "isroOperationalTelemetry": {
+      "spacecraft": "INSAT-3D",
+      "metricSummary": "Thermal Infrared / Cyclonic Tracking",
+      "operationalStatus": "Layer Selection"
+    },
+    "milestones": [
+      { "name": "Navigate to live portal or mission console", "status": "completed" },
+      { "name": "Execute pillar-specific command or spatial analysis", "status": "in_progress" },
+      { "name": "Verify telemetry, authorization, or confirmation toast", "status": "pending" }
+    ],
+    "isComplete": false
+  }
+}

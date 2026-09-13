@@ -1,0 +1,15 @@
+{
+  "thought": "Cart has items. Delete first item.",
+  "action": "click",
+  "id": "agent-120",
+  "selector": "[name='submit.delete-active.707b1802-0cd4-404c-92e9-49ef5da28069']",
+  "scratchpad": {
+    "currentBudget": 0,
+    "requiredSpecs": {
+      "product": "iPhone",
+      "storage": "256gb"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

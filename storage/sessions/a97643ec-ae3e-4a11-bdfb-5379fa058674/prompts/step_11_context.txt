@@ -1,0 +1,160 @@
+Task: go to amazon and clear the cart and after do add an iphone of 256gb into cart and goto the final checkout
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-121 value: ""
+- Step 2: click target: agent-120 value: ""
+- Step 3: click target: agent-118 value: ""
+- Step 4: click target: agent-130 value: ""
+- Step 5: click target: agent-119 value: ""
+- Step 6: click target: agent-131 value: ""
+- Step 7: click target: agent-116 value: ""
+- Step 8: click target: agent-21 value: ""
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <a id="nav-top"> (empty input)
+[agent-2] <a id="nav-assist-skip-to-main-content"> Main content
+[agent-3] <a id="nav-assist-shopping-cart"> Your Amazon Cart
+[agent-4] <a id="nav-assist-skip-to-your-items-saved"> Saved for Later
+[agent-5] <a id="nav-assist-skip-to-your-items-buy-again"> Buy it Again
+[agent-6] <a id="nav-assist-search" role="link"> Search alt + /
+[agent-7] <a id="nav-assist-cart" role="link"> Cart shift + alt + C
+[agent-8] <a id="nav-assist-home" role="link"> Home shift + alt + H
+[agent-9] <a id="nav-assist-your-orders" role="link"> Orders shift + alt + O
+[agent-10] <button id="nav-assist-show-shortcuts" role="button"> Show/Hide shortcuts shift + alt + Z
+[agent-11] <a id="nav-logo-sprites"> .in
+[agent-12] <a id="nav-global-location-popover-link" role="button"> Deliver to D.V.V.R... Visakhapa... 530047‌
+[agent-13] <select type="select" id="searchDropdownBox" name="url" selected="All Categories"> [Select Dropdown - Current: "All Categories"] Available Options: [opt-1: "All Categories" (val: "search-alias=aps")], [opt-2: "Alexa Skills"
+[agent-14] <input type="text" id="twotabsearchtextbox" name="field-keywords" placeholder="Search Amazon.in"> (empty input, placeholder: "Search Amazon.in")
+[agent-15] <input type="submit" id="nav-search-submit-button" data-has-content="true" data-char-count="2"> [Typed Value (2 chars)]: Go
+[agent-16] <a> Choose a language for shopping in Amazon India. The current selection is English (EN).
+[agent-17] <button> Expand to Change Language or Country
+[agent-18] <a> Hello, D.V.V.RAMANA Account & Lists
+[agent-19] <button> Expand Account and Lists
+[agent-20] <a id="nav-orders"> Returns & Orders
+[agent-21] <a id="nav-cart"> 1 Cart
+[agent-22] <a id="nav-hamburger-menu" role="button" aria-expanded="false"> Open All Categories Menu
+[agent-23] <button id="nav-rufus-disco" role="button"> Open Rufus panel
+[agent-24] <a> Fresh
+[agent-25] <a> Prime Video
+[agent-26] <a> Sell
+[agent-27] <a> Gift Cards
+[agent-28] <a> Amazon Pay
+[agent-29] <a> Today's Deals
+[agent-30] <a> Buy Again
+[agent-31] <a> Gift Ideas
+[agent-32] <a> Browsing History
+[agent-33] <button aria-expanded="false"> Browsing History Details
+[agent-34] <a id="nav-your-amazon"> D.V.V.RAMANA's Amazon.in
+[agent-35] <a> Prime
+[agent-36] <button aria-expanded="false"> Prime Details
+[agent-37] <a> Health, Household & Personal Care
+[agent-38] <a> Subscribe & Save
+[agent-39] <a> AmazonBasics
+[agent-40] <a> Home Improvement
+[agent-41] <a> Customer Service
+[agent-42] <a> Audible
+[agent-43] <a> Electronics
+[agent-44] <a> Books
+[agent-45] <a> Toys & Games
+[agent-46] <a> Beauty & Personal Care
+[agent-47] <a> Bestsellers
+[agent-48] <a> Home & Kitchen
+[agent-49] <a> Computers
+[agent-50] <a> New Releases
+[agent-51] <a> Mobiles
+[agent-52] <a> Sports, Fitness & Outdoors
+[agent-53] <a> Car & Motorbike
+[agent-54] <a> Kindle eBooks
+[agent-55] <a> Pet Supplies
+[agent-56] <a> Video Games
+[agent-57] <a> Baby
+[agent-58] <input type="submit" name="proceedToALMCheckout-ctnow" data-has-content="true" data-char-count="19"> [Typed Value (19 chars)]: Proceed to checkout
+[agent-59] <a id="a-autoid-2-announce"> Go to Fresh Cart
+[agent-60] <a> Continue shopping on Fresh
+[agent-62] <span role="button"> Leave feedback on Sponsored ad
+[agent-63] <a> DUDAO R4MAX Premium Metal Body 45W Super Fast Car Charger with Dual Port USB-C PD+USB QC Qualcomm 4.0 Compatible with iPhone/Galaxy S25/S24,
+[agent-64] <a> 4.2 out of 5 stars 30 ratings
+[agent-65] <a> ₹549.00₹549.00
+[agent-66] <a id="a-autoid-31-announce"> See all buying options
+[agent-67] <a> Steelbird Universal Bike Mount Phone Holder 360 Degree Rotating Handlebar Cradle Stand for Bicycle, Motorcycle, Fits All Smartphones (Mobile
+[agent-68] <a> 3.0 out of 5 stars 281 ratings
+[agent-69] <a> ₹546.00₹546.00
+[agent-70] <a id="a-autoid-32-announce"> See all buying options
+[agent-71] <a> 120W 4 in1 Retractable Car Charger Socket New 2025,Multi USB Car Charger Type C Adapter with Dual Ports,Fast Charger for All mobiles Compati
+[agent-72] <a> 4.5 out of 5 stars 2 ratings
+[agent-73] <a> ₹603.00₹603.00
+[agent-74] <a id="a-autoid-33-announce"> See all buying options
+[agent-75] <a> 120W Fast Car Charger, Fast Charging Adapter with Retractable Type-C & Lightning Cable, PD 30W USB-C Port, USB-A Port, LED Voltage Display, 
+[agent-76] <a> 3.0 out of 5 stars 2 ratings
+[agent-77] <a> ₹649.00₹649.00
+[agent-78] <a id="a-autoid-34-announce"> See all buying options
+[agent-79] <a> continue shopping
+[agent-80] <a role="tab" aria-selected="true"> Saved for later
+[agent-81] <a role="tab" aria-selected="false"> Buy it again
+[agent-82] <input type="submit"> (empty input)
+[agent-83] <a> See full details
+[agent-84] <input type="submit"> (empty input)
+[agent-85] <input type="submit"> (empty input)
+[agent-86] <input type="submit"> (empty input)
+[agent-87] <input type="submit"> (empty input)
+[agent-88] <input type="submit"> (empty input)
+[agent-89] <input type="submit"> (empty input)
+[agent-90] <input type="submit"> (empty input)
+[agent-91] <input type="submit"> (empty input)
+[agent-92] <input type="submit"> (empty input)
+[agent-93] <input type="submit"> (empty input)
+[agent-94] <input type="submit"> (empty input)
+[agent-95] <input type="submit"> (empty input)
+[agent-96] <input type="submit"> (empty input)
+[agent-97] <input type="submit"> (empty input)
+[agent-98] <a role="button" aria-expanded="false"> See more categories
+[agent-99] <a> TVS Kit USB Victor Motorcycle Bike Mobile Phone USB Charger Power Adapter 5v with Rain ResistantTVS Kit USB Victor Motorcycle Bike Mobile Ph
+[agent-100] <button id="a-autoid-18-announce"> See similar items TVS Kit USB Victor Motorcycle Bike Mobile Phone USB Charger Power Adapter 5v with Rain Resistant
+[agent-101] <input type="submit" name="submit.delete-saved.2647e8f5-5b1d-4f80-b2b8-d3233861e1a6" data-has-content="true" data-char-count="6"> [Typed Value (6 chars)]: Delete
+[agent-102] <input type="submit" name="submit.add-to-list-popover.2647e8f5-5b1d-4f80-b2b8-d3233861e1a6" data-has-content="true" data-char-count="11"> [Typed Value (11 chars)]: Add to list
+[agent-103] <a> WOW IMAGINE Shock Proof Flip Cover Back Case Cover for Realme Narzo 80 Lite 4G | Realme C71 5G (Flexible | Leather Finish | Card Pockets Wal
+[agent-104] <input type="submit" name="submit.move-to-cart.7bee236e-3020-4e97-8b4b-31f6f547dcf6" data-has-content="true" data-char-count="12"> [Typed Value (12 chars)]: Move to cart
+[agent-105] <input type="submit" name="submit.delete-saved.7bee236e-3020-4e97-8b4b-31f6f547dcf6" data-has-content="true" data-char-count="6"> [Typed Value (6 chars)]: Delete
+[agent-106] <input type="submit" name="submit.add-to-list-popover.7bee236e-3020-4e97-8b4b-31f6f547dcf6" data-has-content="true" data-char-count="11"> [Typed Value (11 chars)]: Add to list
+[agent-107] <a> Amazon Basics Digital Safe With Electronic Keypad Locker For Home, Gross Capacity - 39L (Net - 33L)Amazon Basics Digital Safe With Electroni
+[agent-108] <button id="a-autoid-21-announce"> See similar items Amazon Basics Digital Safe With Electronic Keypad Locker For Home, Gross Capacity - 39L (Net - 33L)
+[agent-109] <input type="submit" name="submit.delete-saved.1664e7e5-0fd5-49cc-9590-15a37d62c34b" data-has-content="true" data-char-count="6"> [Typed Value (6 chars)]: Delete
+[agent-110] <input type="submit" name="submit.add-to-list-popover.1664e7e5-0fd5-49cc-9590-15a37d62c34b" data-has-content="true" data-char-count="11"> [Typed Value (11 chars)]: Add to list
+[agent-111] <a> Pigeon Electric Rechargeable Idiyappam and Noodle Maker, Pasta Machine with 5 Molds, Dough PressPigeon Electric Rechargeable Idiyappam and N
+[agent-112] <a> AR RETAIL INC
+[agent-113] <input type="submit" name="submit.move-to-cart.0362c59d-85b4-420f-87c7-be3b0c034aa4" data-has-content="true" data-char-count="12"> [Typed Value (12 chars)]: Move to cart
+[agent-114] <input type="submit" name="submit.delete-saved.0362c59d-85b4-420f-87c7-be3b0c034aa4" data-has-content="true" data-char-count="6"> [Typed Value (6 chars)]: Delete
+[agent-115] <input type="submit" name="submit.add-to-list-popover.0362c59d-85b4-420f-87c7-be3b0c034aa4" data-has-content="true" data-char-count="11"> [Typed Value (11 chars)]: Add to list
+[agent-116] <a> boAt Airdopes 181 Pro TWS Earbuds with 100 Hours Playback, 4 Mics ENx Technology, Beast™ Mode, ASAP Charge, Bluetooth v5.3 (Mocha Elegance)b
+[agent-117] <button id="a-autoid-24-announce"> See similar items boAt Airdopes 181 Pro TWS Earbuds with 100 Hours Playback, 4 Mics ENx Technology, Beast&amp;trade; Mode, ASAP Charge, Blue
+[agent-118] <input type="submit" name="submit.delete-saved.1f1098ed-5c68-402c-aaea-713e9af218ad" data-has-content="true" data-char-count="6"> [Typed Value (6 chars)]: Delete
+[agent-119] <input type="submit" name="submit.add-to-list-popover.1f1098ed-5c68-402c-aaea-713e9af218ad" data-has-content="true" data-char-count="11"> [Typed Value (11 chars)]: Add to list
+[agent-120] <a> SANSUI 80cm (32) HD Ready Google TV with A+ Panel, HDR10, Dolby Audio, Surround Sound, Game Mode, 60Hz Refresh Rate JSW32HG5 (Black)SANSUI 8
+[agent-121] <a> offers
+[agent-122] <button id="a-autoid-25-announce"> See similar items SANSUI 80cm (32) HD Ready Google TV with A+ Panel, HDR10, Dolby Audio, Surround Sound, Game Mode, 60Hz Refresh Rate JSW32H
+[agent-123] <input type="submit" name="submit.delete-saved.9db26784-6b57-4d23-8ed5-59786d459467" data-has-content="true" data-char-count="6"> [Typed Value (6 chars)]: Delete
+[agent-124] <input type="submit" name="submit.add-to-list-popover.9db26784-6b57-4d23-8ed5-59786d459467" data-has-content="true" data-char-count="11"> [Typed Value (11 chars)]: Add to list
+[agent-125] <a> Halonix Bug Zapper Anti-Mosquito Racquet, Insect Killer Bat with Rechargeable 400 mAh Battery | Mosquito bat | Fly swatter | OrangeHalonix B
+[agent-126] <a> Himachal marketing
+[agent-127] <a role="button"> Learn more about new seller
+[agent-128] <input type="submit" name="submit.add-best-offer.3b9251de-9f12-4d04-bb7a-0c021ea48572" data-has-content="true" data-char-count="12"> [Typed Value (12 chars)]: Move to cart
+[agent-129] <input type="submit" name="submit.delete-saved.3b9251de-9f12-4d04-bb7a-0c021ea48572" data-has-content="true" data-char-count="6"> [Typed Value (6 chars)]: Delete
+[agent-130] <input type="submit" name="submit.add-to-list-popover.3b9251de-9f12-4d04-bb7a-0c021ea48572" data-has-content="true" data-char-count="11"> [Typed Value (11 chars)]: Add to list
+[agent-131] <a> MONIT PVC Nozzle Bibcock Tap with Teflon Tape & Hose Clamp | Durable Plastic Faucet for Garden, Bathroom & Kitchen | Eco-Friendly Water Tap 
+[agent-132] <a role="button"> Save 3%
+[agent-133] <a> Collect Coupon
+[agent-134] <a> Mantra trade
+[agent-135] <input type="submit" name="submit.move-to-cart.1d358477-1d0d-4287-8a37-b752b1651202" data-has-content="true" data-char-count="12"> [Typed Value (12 chars)]: Move to cart
+[agent-136] <input type="submit" name="submit.delete-saved.1d358477-1d0d-4287-8a37-b752b1651202" data-has-content="true" data-char-count="6"> [Typed Value (6 chars)]: Delete
+[agent-137] <input type="submit" name="submit.add-to-list-popover.1d358477-1d0d-4287-8a37-b752b1651202" data-has-content="true" data-char-count="11"> [Typed Value (11 chars)]: Add to list
+[agent-138] <a> Microtek EM 4160+ Automatic Voltage Stabilizer For Air Conditioners (A.C.) upto 1.5 Ton Working Power 160V-285V (Metalic Grey) with 3 year w
+[agent-139] <button id="a-autoid-30-announce"> See similar items Microtek EM 4160+ Automatic Voltage Stabilizer For Air Conditioners (A.C.) upto 1.5 Ton Working Power 160V-285V (Metalic G
+[agent-140] <input type="submit" name="submit.delete-saved.7a51517a-2630-48d3-bfe0-a363ca4b6775" data-has-content="true" data-char-count="6"> [Typed Value (6 chars)]: Delete
+[agent-141] <input type="submit" name="submit.add-to-list-popover.7a51517a-2630-48d3-bfe0-a363ca4b6775" data-has-content="true" data-char-count="11"> [Typed Value (11 chars)]: Add to list
+
+--- PAGE TEXT ---
+[ADDRESS REDACTED]
+
+redaction_legend:
+[{"id":"R1","type":"card","bbox":[189.95756184299148,33.076425009780785,160.00374645857508,20.998919203858936]},{"id":"R2","type":"card","bbox":[900.4429455832028,575.111082922894,213.0049504304451,45.200824770720104]},{"id":"R3","type":"address","bbox":[1035.5398375367713,624.4991317085597,176.00410817993512,241.1438556931774]}]

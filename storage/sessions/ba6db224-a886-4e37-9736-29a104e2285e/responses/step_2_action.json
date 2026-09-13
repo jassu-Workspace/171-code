@@ -1,0 +1,31 @@
+{
+  "thought": "GeM search bar located. Type query for Ti-6Al-4V procurement specifications.",
+  "action": "type",
+  "id": "agent-12",
+  "selector": "#search",
+  "value": "space-grade titanium alloy Ti-6Al-4V\n",
+  "scroll_direction": "down",
+  "scratchpad": {
+    "activePillar": "6: Procurement",
+    "isroOperationalTelemetry": {
+      "spacecraft": "LVM3-M4 / Cartosat-3",
+      "metricSummary": "Procurement query: Ti-6Al-4V titanium alloy specs",
+      "operationalStatus": "Searching GeM Portal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

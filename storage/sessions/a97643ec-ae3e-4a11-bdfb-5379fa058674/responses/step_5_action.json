@@ -1,0 +1,17 @@
+{
+  "thought": "Delete Ikea Modern Chair from cart.",
+  "action": "click",
+  "id": "agent-118",
+  "selector": "[data-agent-id='agent-118']",
+  "value": "",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "storage": "256gb",
+      "brand": "Apple",
+      "category": "iPhone"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

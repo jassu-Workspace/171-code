@@ -1,0 +1,14 @@
+{
+  "thought": "Final checkout page reached.",
+  "action": "done",
+  "scratchpad": {
+    "currentBudget": 150000,
+    "requiredSpecs": {
+      "storage": "256gb"
+    },
+    "candidates": [
+      "iPhone 256GB"
+    ],
+    "rejectedCandidates": []
+  }
+}

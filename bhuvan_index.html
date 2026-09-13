@@ -1,0 +1,297 @@
+﻿﻿
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta property="og:title" content="ISRO's Geoportal | Gateway to Indian Earth Observation | Applications |  Bhuvan | Thematic Data dissemination | Free GIS Data | OGC Services | Clip and Ship " />	
+<title>ISRO's Geoportal | Gateway to Indian Earth Observation | Applications | Bhuvan | Thematic Data dissemination | Free GIS Data | OGC Services | Clip and Ship  </title>
+	
+<link rel="icon" href="https://bhuvan-app1.nrsc.gov.in/thematic/thematic/favicon.ico"/>
+<link rel="apple-touch-icon" href="https://bhuvan-app1.nrsc.gov.in/thematic/thematic/favicon.ico"/>
+   <meta content="Department of Space,Indian Space Research Organisation(ISRO),National Remote Sensing Centre (NRSC),Indian Remote Sensing Satellites (IRS),Indian Earth Observation Visualisation,Free data, open data,data download,Spatial data,IRS,ISRO,NRSC,EO,Thematic Services,Free GIS API,OGC web serivces,Land Cover Map,Land Use Map,Metadata,overlay,LULC" name="keywords"/> 
+	  <link rel="stylesheet" href="theme/default/style.css" type="text/css" /> 
+	  <link rel="stylesheet" href="theme/default/jquery-ui-1.7.2.custom.css" type="text/css">  	  
+	  <link rel="stylesheet" href="theme/default/jquery-ui.css" type="text/css">  	  
+<style type="text/css"> 
+.olImageLoadError{background-color:transparent!important}
+body{margin-left:0;margin-top:0;margin-right:0;width:100%;height:100%;} <!-- added width and height for body-->
+#map{border:1px solid #ccc}
+ #ga {
+   
+    cursor: pointer;
+    font-family: Verdana;
+    font-size: 11px;
+}
+.try{
+display:none;
+} 	
+#live{position:absolute;z-index:3000;left:140px;top:83px;width:255px;}
+#login{position:absolute;z-index:3000;right:140px;top:10px;width:300px}	
+#main{margin:0;width:100%;height:100%}	
+#bannerstrip{z-index:2990;}		
+#iframediv {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+	}		 
+</style>
+
+<script type="text/javascript">
+var bhuvanusername="";
+if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)){ //test for MSIE x.x;
+ var ieversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+ if (ieversion<7)
+  alert("Your browser IE6.x is not supported. we recommend 'Mozilla Firefox 3.5.1 or above, Chrome 6.0 or above, Safari 5.0 or above'for better performance.");
+  }
+  
+var theme1='',tab1='';
+</script>
+
+  <script type='text/javascript'>theme1="";</script><script type='text/javascript'>tab1="";</script><SCRIPT LANGUAGE="javascript"> var bhuvanusername="empty"</script>
+
+     </head>
+<body onLoad="init()" style="width:100%; height:100%;">
+<div id="main" style="width:100%; height:100%;">
+	<div id="banner">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0"  height="60px">
+			<tr>
+				<td width="52%" height="60px" valign="top">
+					<a href='https://bhuvan.nrsc.gov.in'><img border=0  src="img/bhuvan_viewer3t3.png" style='float:left; padding-left:5px;  vertical-align:middle'></a>
+				</td>               
+				<td width="30%" height="50px"></td>
+				<td width="52%" height="60px" valign="top"><img border=0  src="img/bhuvan_viewer3t2.png" style='float:right; padding-right:5px; vertical-align:middle'>
+				</td>               
+			</tr>
+		</table>
+				
+		<div id="login" style="float:right;">
+			<div   id="logindiv" style="float:right; padding-top:4px; vertical-align:middle; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:11px">
+				<b>
+										<a href="#" title="Way to portal login" alt="login" Onclick="load_video('#LoginFrame','loading.php?q=login.php','Login','900','700');" style="font-family: Arial; font-size: 11px; color: darkblue">Login</a> 
+									</b>
+			</div>
+				
+			<div id="loggedindiv" style="float:right; padding-top:4px; vertical-align:middle; font-family: Arial; font-size: 11px; color: darkblue">
+				<b>
+					&nbsp;&nbsp;Welcome User &nbsp;&nbsp;				</b>
+			</div>
+		</div>
+	</div>
+	
+	<div id="bannerstrip">
+		<table width='100%'>
+			<tr bgcolor="#6495ED">
+				<td width="450px" height="22px">	
+					<div  style="vertical-align:middle; width:450px; height:100%;font-color:white;"> 
+						<div id="titlediv" style="float:left;padding-top:4px;vertical-align:middle; width:140px; height:100%;font-family: Arial; font-size: 12px; color: white">
+							<b> &nbsp;&nbsp; Thematic Services &nbsp;&nbsp;&nbsp;&nbsp; </b>
+						</div>					
+						<div>
+							<form id="form1" name="myform1" method="post" action="" style="padding-top:2px; padding-left:10px">
+							<input type="hidden" name="csrf" value="825dd3ab96e19dd67095817c1417abe0ff2e4a62" />
+								<input  type="text" value="Enter City or Lat,Lon(ex:chennai or 13.2,80.3)" name='long' id='Val' style="color: Gray; font-size:12px;width:200px;" onkeyup="showResult(this.value)" onClick="remove1(this.id)">
+								<a href="#" style="cursor: hand; vertical-align:middle" onClick="Go()">
+								<img src="img/searchnew.png" width="18" height="15" border="0" /></a>						
+							</form>	
+						</div>
+					</div>
+					<div id="live"></div>
+				</td>
+				
+				<td colspan="2">					
+					<table cellpadding="0px" cellspacing="0px" border="0" style="float:right; padding-top:2px; vertical-align:middle; height:100%;font-family: Arial; font-size: 14px; color: white">
+						<tr>							
+							<td>
+								<div id="query_2" style="float:right; vertical-align:top;">
+								<img src="img/info.png" id="query_1" width="20" height="20" style="border:0px;cursor:pointer" value="Shows Tile Info" title="Use this to get Information on click" alt="TileInfo" onclick="if(this.src.match('info.png') == 'info.png') {infoActivate();} else { infoDeactivate(), this.src = 'img/info.png' }" /> &nbsp;
+								</div>	
+							</td>							
+							<td>
+								<b><a id='printing' href='#' title="Print map in view extent" target='_blank' onClick="print();" style="font-family: Arial; font-size: 12px; color: white">Print Map</a>&nbsp;&nbsp;</b>
+							</td>							
+							<td>
+								<b><a href="#" title="Click to add or remove Base Layers" alt="Add WMS Layer" onClick='load_video("#baselayerFrame","add_wms.php","Additional Layers")' style="font-family: Arial; font-size: 12px; color: white">Add WMS Layer</a>&nbsp;&nbsp;&nbsp;		</b>
+							</td>
+							<td>
+								<b><a href="#" title="Recent Bhuvan Updates" alt="Bhuvan Updates" onClick="load_video('#bhuvanupdates','bhuvanupdates.php','Recent Bhuvan Updates','560','280')" style="font-family: Arial; font-size: 12px; color: white">Updates</a>&nbsp;&nbsp;&nbsp;		</b>
+							</td>
+							<td>
+								<b><a href="https://bhuvan-app1.nrsc.gov.in/2dresources/bhuvanstore.php" title="Data Products and Services Available" style="font-family: Arial; font-size: 12px; color: white" target='_blanck'>Bhuvan Store</a>&nbsp;&nbsp;&nbsp;
+								</b>
+							</td>					
+							<td>
+								<b><a href="https://bhuvan-app1.nrsc.gov.in/thematic/thematic/help/help.html" target="_blank" title="Help" style="font-family: Arial; font-size: 12px; color: white">Help</a>&nbsp;&nbsp;&nbsp;</b>
+							</td>	
+							<td>
+								<b><a href="https://bhuvan.nrsc.gov.in" title="Bhuvan Home Page" style="font-family: Arial; font-size: 12px; color: white" target='_blanck'>Home</a>&nbsp;&nbsp;&nbsp;</b>
+							</td>							
+														
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div> <!--end of bannerstrip-->
+	<div id="leftrightdiv" style="vertical-align:middle; width:100%; height:90%;">
+		<table height="100%" width="100%">
+			<tr>
+				<td id="LeftAreaTD" height="100%" align="center" valign="top" style="vertical-align:top; display:block;border-right:#6699FF 2px solid">			
+				<table height="100%" width="100%">	
+					<tr height="5%" width="100%">
+						<td>
+							<div id="india1"  style="float:right">
+								<a class="s10" style="cursor:pointer;" onClick="load_video('#faqFrame','faq.php','Frequently Asked Questions','500','500')"><u>FAQ</u></a>&nbsp;&nbsp;
+								<a class="s10" style="cursor:pointer;" onClick="load_video('#policy','policy.php','Policy','500','500')"><u>Policy</u></a>&nbsp;&nbsp;
+								<a class="s10" style="cursor:pointer;" onClick= "load_video('#disclaimFrame','disclaimer.php','Disclaimer','500','310')"><u>Disclaimer</u></a>&nbsp;&nbsp;
+								<a class="s10" style="cursor:pointer;" onClick="load_video('#feedbackFrame','loading_feedback.php?q=feedback.php','Feedback','500','550')"><u>Feedback</u></a>&nbsp;&nbsp;
+							</div>
+						</td>
+					</tr>
+					<tr height="95%" width="100%">
+						<td>
+						    <!--<div width='600px' id='loadingdiv' style='display:none'><font color='red'><b>&nbsp;&nbsp;Please Wait ... PDF report is Generating</b></font><br></div> -->
+							<div id="LoadingDiv" style="display:none;"></div>
+							
+							<div id="india" style="vertical-align:middle; width:100%; height:100%;"></div>
+						</td>
+					</tr>
+				</table>		
+				</td>
+				<td id="rightAreaTD" height="100%" width="55%" align="center" valign="bottom">	
+					<div id="map" style="vertical-align:bottom; width:100% ; height:100%" class="smallmap">						
+						<img id="hideshowimg" src="img/minimize.png" style='z-index:3000;position:absolute;'onClick="hideshowmap()" />
+					</div>					
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+
+</div>  <!-- end of main -->	
+
+	<div id="meta" title="" align="left" style="display: none;"></div>
+	<div id="search" title="Search Results" align="left"  style="display: none;">
+			<span>
+				<h1><b>Select a location</b></h1>
+				<h2>We couldn't find exact match for your search. Did you mean :<br></h2>
+			</span>
+		<div id="livesearch"></div>
+	</div>
+	<div id="live"></div>
+
+<div id="LogoutFrame" style="display: none;" ></div>
+<div id="LoginFrame" style="display: none;" ></div>
+ <div id="feedbackFrame" style="display: none;" ></div>
+  <div id="faqFrame" style="display: none;" ></div>
+   <div id="tourFrame" style="display: none;" ></div>
+   <div id="disclaimFrame" style="display: none;" ></div>
+    <div id="viewFrame" style="display: none;" ></div>
+    <div id="legendFrame" style="display: none;" ></div>
+    <div id="baselayerFrame" style="display: none;"></div>
+	<div id="annuallayerFrame" style="display: none;" ></div>
+	<div id="bhuvanupdates" style="display: none;" ></div>
+	<div id="policy" style="display: none;" ></div>
+
+<div id="glwb_anlys" style="display: none;" ></div>
+<!--print -->
+<div id="printDialog" style="display: none;" ></div>
+<div><form name='pdfform' id='pdfform' action='../../print/printpdf/tcpdf/pdfreport/printpdf_theme.php'  target='_blank' method='post'><input type="hidden" name="csrf" value="825dd3ab96e19dd67095817c1417abe0ff2e4a62" /><input type='hidden' name='title' id='title'></input><input type='hidden' name='pdflayerinfo' id='pdflayerinfo'></input></input><input type='hidden' name='filename' id='filename'></input><input type='hidden' name='pngurl' id='pngurl'></input><input type='hidden' name='scale' id='scale'></input><input type='hidden' name='bounds' id='bounds'><input type='hidden' name='sql' id='sql'></input><input type='hidden' name='zoom' id='zoom'></input><input type='hidden' name='source' id='source'></input></form></div></div>
+<iframe id="printiframe" src=""  width="100%" height="100%" style="display:none"  ></iframe>
+	 		
+  <SCRIPT LANGUAGE="javascript"></SCRIPT>     <!-- <script src="lib/cbhuvanol210_284.js"></script>	 -->
+      <script src="lib/uncomp/cbhuvanol210_284_uncomp.js"></script>	 
+	  
+      <!--<script src="lib/script2.min.js"></script>-->
+	   <script src="lib/uncomp/script2.js"></script>
+	   
+      <script src="lib/jquery_new.js"></script>
+      <script src="lib/jquery-ui.min.js"></script>
+
+  <script type="text/javascript">
+    var id=""; // id for help file link
+    var langid="en-us";
+    var t_id="";
+    var helptitle="Bhuvan help";var frame;
+ var externalwms=0; 
+ var externalwmsresult="";
+  //document.getElementById('hideshowimg').style.top=document.getElementById('map').clientHeight/2+75+'px';
+  document.getElementById('hideshowimg').style.top= parseInt(0.45*screen.height);
+  //alert(parseInt(screen.height));
+  //alert(document.getElementById('hideshowimg').style.top);
+function createIframe(){
+frame = document.createElement("iframe");
+
+//frame.src = "usertasks/download1/tooldown1.php";
+if(theme1 == '' && tab1 =='')
+			frame.src = "usertasks/download1/tooldown1.php"; //change	
+		else{
+		    console.log("bhuvan username in index.php", bhuvanusername);
+			if(theme1 == "sisdpPh2" && tab1 =="GetData" && bhuvanusername =="empty"){
+			    console.log("empty");
+				sessionStorage.setItem("Key", "yes");
+				window.location = "loading.php?q=login.php&a=link";
+			}
+			frame.src = "usertasks/download1/tooldown1.php?theme1="+theme1+"&tab1="+tab1; //change
+		}
+
+frame.scrolling = "auto";
+frame.border = 0;
+frame.width = "100%";
+frame.height = "100%";
+frame.id = "startPageFrame";
+frame.name = "startPageFrame";
+document.getElementById("india").appendChild(frame);
+
+};
+if (window.addEventListener)
+window.addEventListener("load", createIframe, false);
+else if (window.attachEvent)
+window.attachEvent("onload", createIframe);
+else window.onload = createIframe;
+
+
+function externallayers()
+	{
+	
+	if(externalwms>0) {
+	document.getElementById('addlayer1').style.display='inline';
+	var temp=externalwmsresult.split("<br/>");
+	var layers=map.layers;
+	for(var i=1;i<=externalwms;i++)
+	{
+	for (var j=2; j<layers.length; j++) 
+	{
+	if (layers[j].name == "wmsurl"+i) {
+	var frame = document.createElement("div");
+	frame.id=i;
+	
+	var s="<a onclick='document.getElementById("+i+").style.display=\"none\",removelayer(\"wmsurl"+i+"\")' style=\"cursor:pointer\"><img title=\"delete layer\" alt=\"Remove layer\" src=\"images/deleteIcon.gif\" /></a>&nbsp;";
+    s = s+"&nbsp;&nbsp;<a style=\"cursor:pointer\" onclick=\"changeOpacity(-0.1,'wmsurl"+i+"')\"><img alt=\"-\" title=\"decrease opacity\" src=\"img/minus.bmp\" /></a> <input id=\"opacity_wmsurl"+i+"\" type=\"text\" value=\"0.5\" size=\"1\" disabled=\"true\" />	<a  style=\"cursor:pointer\" title=\"increase opacity\" onclick=\"changeOpacity(0.1,'wmsurl"+i+"')\"><img alt=\"-\" src=\"img/plus.bmp\" /></a>&nbsp;"+temp[i-1];
+	frame.innerHTML=s;
+	
+	document.getElementById("result").appendChild(frame);
+	}	}	}	}	}
+	
+	function infoActivate()
+	{
+		query.activate();
+		document.getElementById("query_1").src='img/infono.png';
+		document.getElementById("query_1").title="Disable Information on click";
+	}
+
+	function infoDeactivate()
+	{
+		document.getElementById("query_1").title="Use this to get Information on click";
+		//navigate();
+		query.deactivate();
+	}
+
+
+  </script>
+
+
+</body>
+
+
+</html>

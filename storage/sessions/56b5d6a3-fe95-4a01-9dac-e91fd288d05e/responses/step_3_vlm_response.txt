@@ -1,0 +1,15 @@
+{
+  "thought": "Cart empty (0 items). Search iPhone 16 256GB.",
+  "action": "type",
+  "id": "agent-14",
+  "value": "iPhone 16 256GB\n",
+  "scratchpad": {
+    "currentBudget": 0,
+    "requiredSpecs": {
+      "model": "iPhone 16",
+      "storage": "256GB"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

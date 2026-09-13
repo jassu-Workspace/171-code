@@ -1,0 +1,329 @@
+Task: Open GeM portal and search for space-grade titanium alloy Ti-6Al-4V procurement specifications.
+
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-30 value: ""
+- Step 2: type target: agent-15 value: "Ti-6Al-4V\n"
+- Step 3: click target: agent-24 value: ""
+- Step 4: click target: agent-16 value: ""
+- Step 5: click target: agent-30 value: ""
+- Step 6: click target: agent-21 value: ""
+- Step 7: click target: agent-30 value: ""
+- Step 8: type target: agent-15 value: "Ti-6Al-4V\n"
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <a> Dark Mode
+[agent-2] <a> Font Size
+[agent-3] <a> A-
+[agent-4] <a> A
+[agent-5] <a> A+
+[agent-6] <a> Skip to Main Content
+[agent-7] <a data-dropdown="true"> Need Help?
+[agent-8] <a> Login
+[agent-10] <a> Forward Auction
+[agent-11] <a> Bids
+[agent-12] <a> Signup
+[agent-14] <select type="select" selected="Titanium Sheet"> [Select Dropdown - Current: "Titanium Sheet"] Available Options: [opt-1: "All Categories" (val: "/home/search ")], [opt-2: "Titanium Sheet" 
+[agent-15] <input type="text" id="search-input" name="q" data-has-content="true" data-char-count="9"> [Typed Value (9 chars)]: Ti-6Al-4V
+[agent-16] <input type="submit" data-has-content="true" data-char-count="2"> [Typed Value (2 chars)]: GO
+[agent-17] <a> (Category Insights)
+[agent-18] <select type="select" id="sort_type" name="sort_type" selected="Price:Low to High"> [Select Dropdown - Current: "Price:Low to High"] Available Options: [opt-1: "Price:Low to High" (val: "price_in_asc")], [opt-2: "Price:High 
+[agent-19] <a> <img alt="Unbranded Grade 5 (6Al-4V) Titanium Sheet" title=Unbranded Grade 5 (6Al-4V) Titanium Sheet src="https://assets-mkpbg.gem.gov.in/im
+[agent-20] <a> Unbranded Grade 5 (6Al 4V) Titanium Sheet
+[agent-21] <a> <img alt="JAI AMBE METAL &amp; ALLOYS Grade 5 (6Al-4V) Titanium Sheet" title=JAI AMBE METAL &amp; ALLOYS Grade 5 (6Al-4V) Titanium Sheet src
+[agent-22] <a> JAI AMBE METAL & ALLOYS Grade 5 (6Al 4V) …
+[agent-23] <a> <img alt="MIDHANI Grade 5 (6Al-4V) Titanium Sheet" title=MIDHANI Grade 5 (6Al-4V) Titanium Sheet src="https://assets-mkpbg.gem.gov.in/img/ot
+[agent-24] <a> MIDHANI Grade 5 (6Al 4V) Titanium Sheet
+[agent-25] <a> <img alt="MIDHANI Grade 5 (6Al-4V) Titanium Sheet" title=MIDHANI Grade 5 (6Al-4V) Titanium Sheet src="https://assets-mkpbg.gem.gov.in/img/ot
+[agent-26] <a> MIDHANI Grade 5 (6Al 4V) Titanium Sheet
+[agent-27] <a> <img alt="JAI AMBE METAL &amp; ALLOYS Grade 5 (6Al-4V) Titanium Sheet" title=JAI AMBE METAL &amp; ALLOYS Grade 5 (6Al-4V) Titanium Sheet src
+[agent-28] <a> JAI AMBE METAL & ALLOYS Grade 5 (6Al 4V) …
+[agent-29] <a> <img alt="Unbranded Grade 5 (6Al-4V) Titanium Sheet" title=Unbranded Grade 5 (6Al-4V) Titanium Sheet src="https://assets-mkpbg.gem.gov.in/im
+[agent-30] <a> Unbranded Grade 5 (6Al 4V) Titanium Sheet
+[agent-31] <a> <img alt="Unbranded Grade 5 (6Al-4V) Titanium Sheet" title=Unbranded Grade 5 (6Al-4V) Titanium Sheet src="https://assets-mkpbg.gem.gov.in/im
+[agent-32] <a> Unbranded Grade 5 (6Al 4V) Titanium Sheet
+[agent-33] <a> <img alt="Unbranded Grade 5 (6Al-4V) Titanium Sheet" title=Unbranded Grade 5 (6Al-4V) Titanium Sheet src="https://assets-mkpbg.gem.gov.in/im
+[agent-34] <a> Unbranded Grade 5 (6Al 4V) Titanium Sheet
+[agent-35] <a> <img alt="Unbranded Grade 5 (6Al-4V) Titanium Sheet" title=Unbranded Grade 5 (6Al-4V) Titanium Sheet src="https://assets-mkpbg.gem.gov.in/im
+[agent-36] <a> Unbranded Grade 5 (6Al 4V) Titanium Sheet
+[agent-37] <a> <img alt="Unbranded Grade 4 Titanium Sheet" title=Unbranded Grade 4 Titanium Sheet src="https://assets-mkpbg.gem.gov.in/img/othe/6368129/60/
+[agent-38] <a> Unbranded Grade 4 Titanium Sheet
+[agent-39] <a> <img alt="Unbranded Grade 23(6AL-4V ELI) Titanium Sheet" title=Unbranded Grade 23(6AL-4V ELI) Titanium Sheet src="https://assets-mkpbg.gem.g
+[agent-40] <a> Unbranded Grade 23(6AL 4V ELI) Titanium Sheet
+[agent-41] <a> <img alt="JAI AMBE METAL &amp; ALLOYS Grade 5 (6Al-4V) Titanium Sheet" title=JAI AMBE METAL &amp; ALLOYS Grade 5 (6Al-4V) Titanium Sheet src
+[agent-42] <a> JAI AMBE METAL & ALLOYS Grade 5 (6Al 4V) …
+[agent-43] <a> Page 2
+[agent-44] <a> Next →
+[agent-45] <a> product compare
+[agent-46] <a> product history1
+[agent-47] <a> Terms of Use
+[agent-48] <a> Website Policies
+[agent-49] <a> Document Help
+[agent-50] <a> Sitemap
+[agent-51] <a> Web Information Manager
+[agent-52] <a> Introduction to GeM
+[agent-53] <a> Statistics
+[agent-54] <a> Right to Information
+[agent-55] <a> Analytics
+[agent-56] <a> New on GeM
+[agent-57] <a> BRAND GeM
+[agent-58] <a> Newsroom
+[agent-59] <a> Gallery
+[agent-60] <a> Notifications
+[agent-61] <a> CCM Schedule
+[agent-62] <a> Forums
+[agent-63] <a> Testimonials
+[agent-64] <a> GeM Handbook
+[agent-65] <a> OM’s/Circulars
+[agent-66] <a> Terms and Conditions
+[agent-67] <a> Policies/Manuals
+[agent-68] <a> Miscellaneous
+[agent-69] <a> MoU's
+[agent-70] <a> LMS
+[agent-71] <a> Training Calendar
+[agent-72] <a> Training Module
+[agent-73] <a> Facilitators
+[agent-74] <a> Download GeM Logo
+[agent-75] <a> FAQs
+[agent-76] <a> Feedback
+[agent-77] <a> Raise a Ticket
+[agent-78] <a> Contact Us
+[agent-79] <a> Careers
+[agent-80] <a> External link that opens in a new window
+[agent-81] <a> External link that opens in a new window
+[agent-82] <a> External link that opens in a new window
+[agent-83] <a> External link that opens in a new window
+[agent-84] <a> External link that opens in a new window
+[agent-85] <a> External link that opens in a new window
+[agent-86] <a> External link that opens in a new window
+[agent-87] <a> External link that opens in a new window
+[agent-88] <a> External link that opens in a new window
+[agent-89] <a> STQC Certification for Quality Evaluation of GeM
+[agent-90] <a> External link that opens in a new window
+[agent-91] <a> External link that opens in a new window
+[agent-92] <a> External link that opens in a new window
+[agent-93] <a> External link that opens in a new window
+[agent-94] <a> External link that opens in a new window
+
+--- PAGE TEXT ---
+ 
+ Dark Mode
+ 
+Font Size
+ 
+A-
+ 
+A
+ 
+A+
+ 
+Skip to Main Content
+Need Help? Login
+Forward Auction Bids Signup
+
+ 
+
+All Categories
+Titanium Sheet
+Titanium Sheet (Q3 Category)
+(Category Insights)
+Search : Ti-6Al-4V
+X
+Reset Filters
+Showing 1 - 12 products of 20 products for Ti-6Al-4V in Titanium Sheet
+Sort by : 
+Price:Low to High
+Price:High to Low
+Unbranded Grade 5 (6Al 4V) Titanium Sheet
+Seller:
+Resellers
+4.5 - 5.0
+Brand: NA
+Min. Qty. Per Consignee: 50
+₹8,000.00
+₹600.00
+JAI AMBE METAL & ALLOYS Grade 5 (6Al 4V) …
+Seller:
+Resellers
+4.5 - 5.0
+Brand: JAI AMBE METAL & ALLOYS
+Min. Qty. Per Consignee: 375
+₹5,000.00
+₹600.00
+MIDHANI Grade 5 (6Al 4V) Titanium Sheet
+Seller:
+Resellers
+4.5 - 5.0
+Brand: MIDHANI
+Min. Qty. Per Consignee: 832
+₹8,000.00
+₹600.00
+MIDHANI Grade 5 (6Al 4V) Titanium Sheet
+Seller:
+Resellers
+4.5 - 5.0
+Brand: MIDHANI
+Min. Qty. Per Consignee: 80
+₹2,940.00
+₹600.00
+JAI AMBE METAL & ALLOYS Grade 5 (6Al 4V) …
+Seller:
+Resellers
+4.5 - 5.0
+Brand: JAI AMBE METAL & ALLOYS
+Min. Qty. Per Consignee: 99
+₹5,000.00
+₹600.00
+Unbranded Grade 5 (6Al 4V) Titanium Sheet
+Seller:
+Resellers
+3.0 - 3.49
+Brand: NA
+Min. Qty. Per Consignee: 1
+₹5,599.00
+₹600.00
+Unbranded Grade 5 (6Al 4V) Titanium Sheet
+Seller:
+Resellers
+4.5 - 5.0
+Brand: NA
+Min. Qty. Per Consignee: 180
+₹4,500.00
+₹600.00
+Unbranded Grade 5 (6Al 4V) Titanium Sheet
+Seller:
+Resellers
+4.0 - 4.49
+Brand: NA
+Min. Qty. Per Consignee: 122
+₹5,000.00
+₹600.00
+Unbranded Grade 5 (6Al 4V) Titanium Sheet
+Seller:
+Resellers
+4.5 - 5.0
+Brand: NA
+Min. Qty. Per Consignee: 1
+₹7,000.00
+₹600.00
+Unbranded Grade 4 Titanium Sheet
+Seller:
+Resellers
+4.5 - 5.0
+Brand: NA
+Min. Qty. Per Consignee: 15
+₹3,500.00
+₹600.00
+Unbranded Grade 23(6AL 4V ELI) Titanium Sheet
+Seller:
+Resellers
+4.0 - 4.49
+Brand: NA
+Min. Qty. Per Consignee: 7
+₹5,300.00
+₹600.00
+JAI AMBE METAL & ALLOYS Grade 5 (6Al 4V) …
+Seller:
+Resellers
+4.5 - 5.0
+Brand: JAI AMBE METAL & ALLOYS
+Min. Qty. Per Consignee: 1
+₹3,000.00
+₹600.00
+← Previous
+1
+2
+Next →
+Product Compare
+Product History1
+
+WEB INFO
+
+Terms of Use
+
+Website Policies
+
+Document Help
+
+Sitemap
+
+Web Information Manager
+
+ABOUT GeM
+
+Introduction to GeM
+
+Statistics
+
+Right to Information
+
+Analytics
+
+New on GeM
+
+BRAND GeM
+NEWS & EVENTS
+
+Newsroom
+
+Gallery
+
+Notifications
+
+CCM Schedule
+
+Forums
+
+TESTIMONIALS
+RESOURCES
+
+GeM Handbook
+
+OM’s/Circulars
+
+Terms and Conditions
+
+Policies/Manuals
+
+Miscellaneous
+
+MOU'S
+[SWIFT_BIC]
+
+LMS
+
+Training Calendar
+
+Training Module
+
+Facilitators
+
+Download GeM Logo
+
+NEED HELP ?
+
+FAQs
+
+Feedback
+
+Raise a Ticket
+
+Contact Us
+
+Careers
+
+ 
+ 
+         
+ 
+
+© 2021 GeM All rights reserved
+
+Site operated and maintained by Managed Service Provider
+
+     
+ 
+
+redaction_legend:
+[]

@@ -1,0 +1,10 @@
+{
+  "thought": "Final checkout page reached.",
+  "action": "done",
+  "scratchpad": {
+    "candidates": [
+      "iPhone 256GB"
+    ],
+    "rejectedCandidates": []
+  }
+}

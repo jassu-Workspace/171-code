@@ -1,0 +1,18 @@
+{
+  "thought": "Latest launch mission details for GSLV-F17 / EOS-05 are visible on screen.",
+  "action": "done",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "GSLV-F17 / EOS-05",
+      "metricSummary": "Mission Accomplished | Orbit: Sub-GTO | Satellite: EOS-05 Earth Observation",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      { "name": "Navigate to live portal or mission console", "status": "completed" },
+      { "name": "Execute pillar-specific command or spatial analysis", "status": "completed" },
+      { "name": "Verify telemetry, authorization, or confirmation toast", "status": "completed" }
+    ],
+    "isComplete": true
+  }
+}

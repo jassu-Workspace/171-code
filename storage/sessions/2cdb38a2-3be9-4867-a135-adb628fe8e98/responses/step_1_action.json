@@ -1,0 +1,15 @@
+{
+  "thought": "Open cart to clear items.",
+  "action": "click",
+  "id": "agent-4",
+  "selector": "#nav-cart",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "storage": "256gb",
+      "item": "iphone"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

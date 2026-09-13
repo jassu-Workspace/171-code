@@ -1,0 +1,360 @@
+Task: Open MOSDAC, navigate to Live Satellite Products, and inspect the INSAT-3D thermal infrared cyclonic tracking layer. and keep that in 60 frames
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-123 value: ""
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <a> Skip to main Content
+[agent-2] <a id="text_resize_decrease"> -A
+[agent-3] <a id="text_resize_reset"> A
+[agent-4] <a id="text_resize_increase"> +A
+[agent-5] <a id="edit-enable-link"> A
+[agent-6] <a id="edit-disable-link"> A
+[agent-7] <select type="select" id="edit-lang-dropdown-select" name="lang_dropdown_select" selected="English"> [Select Dropdown - Current: "English"] Available Options: [opt-1: "English" (val: "en")], [opt-2: "हिन्दी" (val: "hi")]
+[agent-8] <a> SignUp
+[agent-9] <a> Login
+[agent-10] <a> Logout
+[agent-12] <a> Meteorological & Oceanographic Satellite Data Archival Centre
+[agent-13] <a id="main-content"> (empty input)
+[agent-14] <a role="menuitem"> Home
+[agent-15] <span role="menuitem" aria-haspopup="true" aria-expanded="false"> Missions »
+[agent-16] <a role="menuitem"> INSAT-3DR
+[agent-17] <a role="menuitem"> INSAT-3D
+[agent-18] <a role="menuitem"> KALPANA-1
+[agent-19] <a role="menuitem"> INSAT-3A
+[agent-20] <a role="menuitem"> MeghaTropiques
+[agent-21] <a role="menuitem"> SARAL-AltiKa
+[agent-22] <a role="menuitem"> [SWIFT_BIC]-2
+[agent-23] <a role="menuitem"> [SWIFT_BIC]-3
+[agent-24] <a role="menuitem"> INSAT-3DS
+[agent-25] <a role="menuitem"> SCATSAT-1
+[agent-26] <span role="menuitem" aria-haspopup="true" aria-expanded="false"> Catalog »
+[agent-27] <a role="menuitem"> Satellite
+[agent-28] <a role="menuitem"> Insitu (AWS)
+[agent-29] <a role="menuitem"> RADAR
+[agent-30] <span role="menuitem" aria-haspopup="true" aria-expanded="false"> Galleries »
+[agent-31] <a role="menuitem"> Satellite Products
+[agent-32] <a role="menuitem"> Weather Forecast
+[agent-33] <a role="menuitem"> Ocean Forecast
+[agent-34] <a role="menuitem"> RADAR (DWR)
+[agent-35] <a role="menuitem"> Global Ocean Current
+[agent-36] <span role="menuitem" aria-haspopup="true" aria-expanded="false"> Data Access »
+[agent-37] <a role="menuitem"> Order Data
+[agent-38] <a role="menuitem"> API based Access
+[agent-39] <span role="menuitem" aria-haspopup="true" aria-expanded="false"> Open Data »
+[agent-40] <span role="menuitem" aria-haspopup="true" aria-expanded="false"> Atmosphere »
+[agent-41] <a role="menuitem"> Bayesian based MT-SAPHIR rainfall
+[agent-42] <a role="menuitem"> GPS derived Integrated water vapour
+[agent-43] <a role="menuitem"> GSMap ISRO Rain
+[agent-44] <a role="menuitem"> METEOSAT8 Cloud Properties
+[agent-45] <span role="menuitem" aria-haspopup="true" aria-expanded="false"> Land »
+[agent-46] <a role="menuitem"> 3D Volumetric TERLS DWRproduct
+[agent-47] <a role="menuitem"> Inland Water Height
+[agent-48] <a role="menuitem"> River Discharge
+[agent-49] <a role="menuitem"> Soil Moisture
+[agent-50] <a role="menuitem"> SPADEX-1: Earth Viewing Data from HRC
+[agent-51] <a role="menuitem"> SPADEX-1: Earth Viewing Data from MMX
+[agent-52] <span role="menuitem" aria-haspopup="true" aria-expanded="false"> Ocean »
+[agent-53] <a role="menuitem"> Global Ocean Surface Current
+[agent-54] <a role="menuitem"> High Resolution Sea Surface Salinity
+[agent-55] <a role="menuitem"> Indian Mainland Coastal Product
+[agent-56] <a role="menuitem"> Ocean Subsurface
+[agent-57] <a role="menuitem"> Oceanic Eddies Detection
+[agent-58] <a role="menuitem"> Sea Ice Occurrence Probability
+[agent-59] <a role="menuitem"> Wave based Renewable Energy
+[agent-60] <a role="menuitem"> Cal-Val
+[agent-61] <a role="menuitem"> Forecast
+[agent-62] <a role="menuitem"> RSS Feeds
+[agent-63] <span role="menuitem" aria-haspopup="true" aria-expanded="false"> Reports »
+[agent-64] <span role="menuitem" aria-haspopup="true" aria-expanded="false"> Calibration »
+[agent-65] <a role="menuitem"> Insitu
+[agent-66] <a role="menuitem"> Relative
+[agent-67] <a role="menuitem"> Validation
+[agent-68] <a role="menuitem"> Data Quality
+[agent-69] <a role="menuitem"> Weather
+[agent-70] <a role="menuitem"> Atlases
+[agent-71] <a role="menuitem"> Tools
+[agent-72] <a role="menuitem"> Help
+[agent-73] <a role="menuitem"> Sitemap
+[agent-74] <a id="quicktabs-tab-showcase-0" role="tab" aria-selected="true"> Satellite Images
+[agent-75] <a id="quicktabs-tab-showcase-1" role="tab" aria-selected="false"> RADAR
+[agent-76] <a id="quicktabs-tab-showcase-2" role="tab" aria-selected="false"> Weather
+[agent-77] <a id="quicktabs-tab-showcase-3" role="tab" aria-selected="false"> OceanState
+[agent-78] <a id="quicktabs-tab-showcase-4" role="tab" aria-selected="false"> LIVE
+[agent-80] <a> Fullscreen
+[agent-81] <a id="quicktabs-tab-services-0" role="tab" aria-selected="true"> Forecast
+[agent-82] <a id="quicktabs-tab-services-1" role="tab" aria-selected="false"> Nowcast
+[agent-83] <a id="quicktabs-tab-services-2" role="tab" aria-selected="false"> Current Events
+[agent-84] <a id="quicktabs-tab-services-3" role="tab" aria-selected="false"> Alerts
+[agent-85] <a id="quicktabs-tab-services-4" role="tab" aria-selected="false"> Met Applications
+[agent-86] <a id="quicktabs-tab-services-5" role="tab" aria-selected="false"> Ocean Applications
+[agent-87] <a> City Weather 3-hourly Weather forecast.
+[agent-88] <a> Cold Waves
+[agent-89] <a> Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO.
+[agent-90] <a> Heat Waves Heat Wave Prediction over India (WRF Model)
+[agent-91] <a> Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model.
+[agent-92] <a> Lightning Lightning Forecast
+[agent-93] <a> Monsoon Monsoon Prediction 2024
+[agent-94] <a> Sea State Sea State forecast in terms of Wave Height, Wave period etc.
+[agent-95] <a> Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes
+[agent-96] <a> Seasonal Prediction of Tropical Cyclones in the North Indian Ocean
+[agent-97] <a> MOSDAC New Version release
+[agent-98] <a> Ethiopia’s Hayli-Gubbi Volcanic Eruption captured by INSAT-3DS
+[agent-99] <a> MOSDAC & VEDAS NEWSLETTER
+[agent-100] <a> archive
+[agent-101] <input type="search" id="edit-keys" name="keys" placeholder="Search by keyword or phrase."> (empty input, placeholder: "Search by keyword or phrase.")
+[agent-102] <input type="submit" id="edit-submit--2"> value="Search"
+[agent-103] <a> Follow us on Facebook
+[agent-105] <a> Follow us on Youtube
+[agent-107] <a role="menuitem"> Feedback
+[agent-108] <a role="menuitem"> About Us
+[agent-109] <a role="menuitem"> Contact Us
+[agent-110] <a role="menuitem"> Copyright Policy
+[agent-111] <a role="menuitem"> Data Access Policy
+[agent-112] <a role="menuitem"> Hyperlink Policy
+[agent-113] <a role="menuitem"> Privacy Policy
+[agent-114] <a role="menuitem"> Website Policies
+[agent-115] <a role="menuitem"> Terms & Conditions
+[agent-116] <a role="menuitem"> FAQs
+[agent-123] <span id="abbr" role="button"> ☰
+[agent-124] <span role="button"> ×
+[agent-125] <select type="select" id="sat" selected="INSAT-3DS"> [Select Dropdown - Current: "INSAT-3DS"] Available Options: [opt-1: "INSAT-3DS" (val: "0: 0")], [opt-2: "EOS-07" (val: "1: 1")], [opt-3: "EO
+[agent-126] <select type="select" id="sen" selected="IMAGER"> [Select Dropdown - Current: "IMAGER"] Available Options: [opt-1: "IMAGER" (val: "0: 0")], [opt-2: "SOUNDER" (val: "1: 1")]
+[agent-127] <select type="select" id="prodt" selected="Standard(Full Disk)"> [Select Dropdown - Current: "Standard(Full Disk)"] Available Options: [opt-1: "Standard(Full Disk)" (val: "0: 0")], [opt-2: "Standard(ASIA S
+[agent-128] <select type="select" id="prod" selected="Infrared1"> [Select Dropdown - Current: "Infrared1"] Available Options: [opt-1: "Infrared1" (val: "0: 0")], [opt-2: "Infrared1(BT)" (val: "1: 1")], [opt
+[agent-129] <input type="button" id="Favourite"> value="Add To Favourite"
+[agent-130] <input type="checkbox"> value="on"
+[agent-131] <input type="text" id="mat-input-0"> (empty input)
+[agent-132] <button aria-haspopup="dialog" aria-expanded="false"> Open calendar
+[agent-134] <a id="sharelink"> 
+[agent-135] <i role="button"> 
+[agent-136] <button> +
+[agent-137] <button> -
+[agent-138] <a role="button"> Previous
+[agent-139] <a role="button"> ‖
+[agent-140] <a role="button"> Next
+[agent-141] <input type="range"> value="10"
+[agent-142] <select type="select" selected="8 Frames"> [Select Dropdown - Current: "8 Frames"] Available Options: [opt-1: "Latest" (val: "1")], [opt-2: "8 Frames" (val: "8")], [opt-3: "16 Frames"
+[agent-143] <a role="button"> «
+[agent-144] <a role="button"> (empty input)
+
+--- PAGE TEXT ---
+Skip to main Content
+
+-A
+A
++A
+AA
+Select your language
+English
+हिन्दी
+User-Login-Menu
+SignUp
+Login
+Logout
+Meteorological & Oceanographic Satellite Data Archival Centre
+Space Applications Centre, ISRO
+Home
+Missions
+»
+INSAT-3DR
+INSAT-3D
+KALPANA-1
+INSAT-3A
+MeghaTropiques
+SARAL-AltiKa
+[SWIFT_BIC]-2
+[SWIFT_BIC]-3
+INSAT-3DS
+SCATSAT-1
+Catalog
+»
+Satellite
+Insitu (AWS)
+RADAR
+Galleries
+»
+Satellite Products
+Weather Forecast
+Ocean Forecast
+RADAR (DWR)
+Global Ocean Current
+Data Access
+»
+Order Data
+API based Access
+Open Data
+»
+Atmosphere
+»
+Bayesian based MT-SAPHIR rainfall
+GPS derived Integrated water vapour
+GSMap ISRO Rain
+METEOSAT8 Cloud Properties
+Land
+»
+3D Volumetric TERLS DWRproduct
+Inland Water Height
+River Discharge
+Soil Moisture
+SPADEX-1: Earth Viewing Data from HRC
+SPADEX-1: Earth Viewing Data from MMX
+Ocean
+»
+Global Ocean Surface Current
+High Resolution Sea Surface Salinity
+Indian Mainland Coastal Product
+Ocean Subsurface
+Oceanic Eddies Detection
+Sea Ice Occurrence Probability
+Wave based Renewable Energy
+Cal-Val
+Forecast
+RSS Feeds
+Reports
+»
+Calibration
+»
+Insitu
+Relative
+Validation
+Data Quality
+Weather
+Atlases
+Tools
+Help
+Sitemap
+Some of the information services are not getting updated. Thank you for your patience while we work to restore them.
+Satellite Images
+RADAR
+Weather
+OceanState
+LIVE
+Fullscreen
+Services
+Forecast
+Nowcast
+Current Events
+Alerts
+Met Applications
+Ocean Applications
+CITY WEATHER
+
+3-HOURLY WEATHER [SWIFT_BIC].
+
+COLD WAVES
+CYCLONE
+
+SAT. BASED CYCLONE OBSER. AND [SWIFT_BIC] PRED. OVER IO.
+
+HEAT WAVES
+
+HEAT WAVE PREDICTION OVER INDIA (WRF MODEL)
+
+HEAVY RAIN
+
+HEAVY RAIN (>5MM/HR) [SWIFT_BIC] USING NWP MODEL.
+
+LIGHTNING
+
+LIGHTNING [SWIFT_BIC]
+
+MONSOON
+
+MONSOON PREDICTION 2024
+
+SEA STATE
+
+SEA STATE [SWIFT_BIC] IN TERMS OF WAVE HEIGHT, WAVE PERIOD ETC.
+
+SOLAR & WIND
+
+3 DAYS SOLAR AND WIND [SWIFT_BIC] FOR EVERY 15 MINUTES
+
+Announcements
+Seasonal Prediction of Tropical Cyclones in the North Indian Ocean|PDF, Tool: PDFViewer, Size: 1020.6 KB|8 September, 2026
+MOSDAC New Version release|PDF, Tool: PDFViewer, Size: 501.48 KB|4 June, 2026
+Ethiopia’s Hayli-Gubbi Volcanic Eruption captured by INSAT-3DS|PDF, Tool: PDFViewer, Size: 359.4 KB|28 November, 2025
+MOSDAC & VEDAS NEWSLETTER|PDF, Tool: PDFViewer, Size: 7.27 MB|17 October, 2025
+archive
+Search
+ 
+Follow Us
+ 
+ 
+
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+
+Feedback
+About Us
+Contact Us
+Copyright Policy
+Data Access Policy
+Hyperlink Policy
+Privacy Policy
+Website Policies
+Terms & Conditions
+FAQs
+Supports Browsers: Edge 100.0/Firefox 100.0/Chrome 100.0/Opera 90.0 onwards. Ver 3.0; Last reviewed and updated on 13 September, 2026 & Served By: Web-Srv-Pri.
+ZERO-TRUST SHIELD ACTIVE
+25 CLASSES GUARDED
+☰
+Sun Sep 13 2026 08:30:00 (India Standard Time)
+×
+Satellite/Forecast
+INSAT-3DS
+EOS-07
+EOS-06
+INSAT-3DR
+MSG
+GOES + INSAT
+[SWIFT_BIC]
+INSAT-3D
+INSAT-3A
+KALPANA-1
+Sensor/Model
+IMAGER
+SOUNDER
+Product Type
+Standard(Full Disk)
+Standard(ASIA Sector)
+Standard(Sector Product)
+Geophysical
+Special
+Binned
+India States
+South Asian Countries
+Product
+Infrared1
+Infrared1(BT)
+Infrared2
+Infrared2(BT)
+Mid Infrared
+Mid Infrared(BT)
+Shortwave Infrared
+Visible
+Water Vapour
+Water Vapour(BT)
+AutoLoad 15mins.
+
++
+-
+13-09-2026_07:30
+13-09-2026_11:00
+13-09-2026_08:30
+«
+‖
+»
+Latest
+8 Frames
+16 Frames
+24 Frames
+32 Frames
+48 Frames
+60 Frames
+120 Frames
+«
+
+redaction_legend:
+[]

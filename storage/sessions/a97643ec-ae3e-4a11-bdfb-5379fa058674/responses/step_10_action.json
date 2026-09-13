@@ -1,0 +1,15 @@
+{
+  "thought": "Open cart to inspect and clear existing items.",
+  "action": "click",
+  "id": "agent-21",
+  "selector": "#nav-cart",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "product": "iphone",
+      "storage": "256gb"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

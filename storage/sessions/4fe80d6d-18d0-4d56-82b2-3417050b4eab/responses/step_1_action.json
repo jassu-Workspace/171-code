@@ -1,0 +1,30 @@
+{
+  "thought": "MOSDAC frame dropdown select 240 Frames for INSAT-3D thermal infrared tracking.",
+  "action": "select",
+  "id": "agent-142",
+  "selector": "#agent-142",
+  "value": "240 Frames",
+  "scratchpad": {
+    "activePillar": "2: Earth Observation & GIS",
+    "isroOperationalTelemetry": {
+      "spacecraft": "INSAT-3D",
+      "metricSummary": "Payload: IMAGER | Channel: Infrared1 (Thermal IR) | Animation: 240 Frames",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

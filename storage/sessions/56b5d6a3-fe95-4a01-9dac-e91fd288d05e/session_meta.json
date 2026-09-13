@@ -1,0 +1,95 @@
+{
+  "sessionId": "56b5d6a3-fe95-4a01-9dac-e91fd288d05e",
+  "createdAt": "2026-09-12T20:08:31.927Z",
+  "updatedAt": "2026-09-12T20:10:19.713Z",
+  "status": "active",
+  "task": "go to amazon and clear the cart and after do add an iphone 16 of 256gb into cart and goto the final checkout",
+  "totalSteps": 14,
+  "subTasks": [
+    "agent-18",
+    "agent-116",
+    "agent-14",
+    "action",
+    "action",
+    "action",
+    "action",
+    "agent-12",
+    "down",
+    "action",
+    "action",
+    "action",
+    "action"
+  ],
+  "actions": [
+    {
+      "step": 1,
+      "action": "click",
+      "timestamp": "2026-09-12T20:08:31.947Z"
+    },
+    {
+      "step": 2,
+      "action": "click",
+      "timestamp": "2026-09-12T20:08:39.620Z"
+    },
+    {
+      "step": 3,
+      "action": "type",
+      "timestamp": "2026-09-12T20:08:47.388Z"
+    },
+    {
+      "step": 4,
+      "action": "scroll",
+      "timestamp": "2026-09-12T20:08:59.788Z"
+    },
+    {
+      "step": 5,
+      "action": "scroll",
+      "timestamp": "2026-09-12T20:09:07.443Z"
+    },
+    {
+      "step": 6,
+      "action": "scroll",
+      "timestamp": "2026-09-12T20:09:14.993Z"
+    },
+    {
+      "step": 7,
+      "action": "scroll",
+      "timestamp": "2026-09-12T20:09:22.685Z"
+    },
+    {
+      "step": 8,
+      "action": "type",
+      "timestamp": "2026-09-12T20:09:29.623Z"
+    },
+    {
+      "step": 9,
+      "action": "scroll",
+      "timestamp": "2026-09-12T20:09:41.180Z"
+    },
+    {
+      "step": 10,
+      "action": "scroll",
+      "timestamp": "2026-09-12T20:09:48.716Z"
+    },
+    {
+      "step": 11,
+      "action": "scroll",
+      "timestamp": "2026-09-12T20:09:56.704Z"
+    },
+    {
+      "step": 12,
+      "action": "scroll",
+      "timestamp": "2026-09-12T20:10:04.270Z"
+    },
+    {
+      "step": 13,
+      "action": "scroll",
+      "timestamp": "2026-09-12T20:10:12.206Z"
+    },
+    {
+      "step": 14,
+      "action": "scroll",
+      "timestamp": "2026-09-12T20:10:19.713Z"
+    }
+  ]
+}

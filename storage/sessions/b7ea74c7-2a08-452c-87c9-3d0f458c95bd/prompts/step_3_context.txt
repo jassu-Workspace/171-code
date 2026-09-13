@@ -1,0 +1,87 @@
+Task: Open the ISRO website, navigate to the Missions section, and find the latest updates regarding the Gaganyaan crewed spaceflight program.
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-73 value: ""
+- Step 2: type target: agent-28 value: "Gaganyaan\n"
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <button id="openbtnAccessibility"> (empty input)
+[agent-2] <a> English
+[agent-3] <a> हिंदी
+[agent-4] <a> Sitemap
+[agent-5] <a> Contact us
+[agent-6] <a> Feedback
+[agent-7] <a> RTI
+[agent-8] <a> Career
+[agent-9] <a> Tender
+[agent-10] <a> FAQ
+[agent-11] <a> Visit ISRO on Facebook
+[agent-13] <a> Visit ISRO on Youtube
+[agent-14] <a> Instagram
+[agent-15] <a id="Ainc"> A+
+[agent-16] <a id="Arest"> A
+[agent-17] <a id="Adec"> A-
+[agent-18] <a> Skip to main content
+[agent-19] <a> ISRO DOS Home
+[agent-20] <a> Government of India
+[agent-21] <a role="menuitem"> Home
+[agent-22] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> About
+[agent-23] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Activities
+[agent-24] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Services
+[agent-25] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Programmes
+[agent-26] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Resources
+[agent-27] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Engagements
+[agent-28] <input type="text" id="searchTextD" placeholder="search"> (empty input, placeholder: "search")
+[agent-29] <a> Home
+[agent-30] <input type="text" id="gsc-i-id1" name="search"> value="Gaganyaan"
+[agent-31] <a role="button"> ×
+[agent-32] <div role="tab"> refinement
+[agent-33] <div role="tab"> refinement
+[agent-35] <a> Gaganyaan - ISRO
+[agent-37] <a> ISRO successfully conducts Integrated Main Parachute Air Drop Test ...
+[agent-39] <a> Gaganyaan TV-D1 Mission - ISRO
+[agent-41] <a> Successful accomplishment of Major Qualification Tests Crew ...
+[agent-43] <a> गगनयान - ISRO
+[agent-45] <a> Gaganyaan TV-D1 Gallery - ISRO
+[agent-46] <a> FAQ Gaganyaan - ISRO
+[agent-48] <a> Gaganyaan Program - ISRO
+[agent-49] <a> Gaganyaan TV-D1 Mission - Onboard Video - ISRO
+[agent-50] <a> Successful accomplishment of Drogue Parachute Deployment Tests ...
+[agent-51] <div role="link"> Page 2
+[agent-52] <div role="link"> Page 3
+[agent-53] <div role="link"> Page 4
+[agent-54] <div role="link"> Page 5
+[agent-55] <div role="link"> Page 6
+[agent-56] <div role="link"> Page 7
+[agent-57] <div role="link"> Page 8
+[agent-58] <div role="link"> Page 9
+[agent-59] <div role="link"> Page 10
+[agent-60] <a> searchSearch "Gaganyaan" on Google
+[agent-62] <a> RTI
+[agent-63] <a> Feedback
+[agent-64] <a> Contact us
+[agent-65] <a> FAQ
+[agent-66] <a> Website Policy
+[agent-67] <a> Copyright Policy
+[agent-68] <a> Hyper Linking Policy
+[agent-69] <a> Terms of Use
+[agent-70] <a> Archives
+[agent-71] <a> Web Information Manager
+[agent-72] <a> Space Policy
+[agent-73] <a> Parliament Questions
+[agent-74] <a> PIB
+[agent-75] <a> e-Saral Hindi Vakyakosh
+[agent-76] <a> Related links
+[agent-77] <a> Pensioners' Portal
+[agent-78] <a> Site Map
+[agent-79] <a> Help
+[agent-80] <a> Government of India
+[agent-81] <a> IYC 2025 logo
+[agent-82] <a> Website Quality Certificate
+
+--- PAGE TEXT ---
+[ADDRESS REDACTED]
+
+redaction_legend:
+[{"id":"R1","type":"card","bbox":[223.2132684866724,599.4326803606108,532.8749609542939,41.2242995784781]}]

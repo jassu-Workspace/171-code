@@ -1,0 +1,19 @@
+{
+  "thought": "Final checkout page reached.",
+  "action": "done",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "product": "iPhone",
+      "storage": "256gb"
+    },
+    "candidates": [
+      {
+        "name": "iPhone 256GB",
+        "price": "₹90,462.00",
+        "status": "In final checkout"
+      }
+    ],
+    "rejectedCandidates": []
+  }
+}

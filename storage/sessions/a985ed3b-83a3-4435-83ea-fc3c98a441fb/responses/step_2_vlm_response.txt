@@ -1,0 +1,21 @@
+{
+  "thought": "INSAT-3D satellite select from dropdown.",
+  "action": "select",
+  "id": "agent-125",
+  "selector": "#sat",
+  "value": "INSAT-3D",
+  "scratchpad": {
+    "activePillar": "2: Earth Observation & GIS",
+    "isroOperationalTelemetry": {
+      "spacecraft": "INSAT-3D",
+      "metricSummary": "Product: Thermal IR Cyclonic Tracking | Frames: 60",
+      "operationalStatus": "In Progress"
+    },
+    "milestones": [
+      { "name": "Select INSAT-3D satellite", "status": "in_progress" },
+      { "name": "Select Thermal Infrared product", "status": "pending" },
+      { "name": "Set frame count to 60 frames", "status": "pending" }
+    ],
+    "isComplete": false
+  }
+}

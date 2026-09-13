@@ -1,0 +1,150 @@
+Task: go toamazon and add an iphone of 256gb into cart and goto the final checkout
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <a id="nav-top"> (empty input)
+[agent-2] <a id="nav-assist-skip-to-main-content"> Main content
+[agent-3] <a id="nav-assist-search" role="link"> Search alt + /
+[agent-4] <a id="nav-assist-cart" role="link"> Cart shift + alt + C
+[agent-5] <a id="nav-assist-home" role="link"> Home shift + alt + H
+[agent-6] <a id="nav-assist-your-orders" role="link"> Orders shift + alt + O
+[agent-7] <button id="nav-assist-show-shortcuts" role="button"> Show/Hide shortcuts shift + alt + Z
+[agent-8] <a id="nav-logo-sprites"> .in
+[agent-9] <a id="nav-global-location-popover-link" role="button"> Deliver to D.V.V.R... Visakhapa... 530047‌
+[agent-10] <select type="select" id="searchDropdownBox" name="url" selected="All Categories"> [Select Dropdown - Current: "All Categories"] Available Options: [opt-1: "All Categories" (val: "search-alias=aps")], [opt-2: "Alexa Skills"
+[agent-11] <input type="text" id="twotabsearchtextbox" name="field-keywords" placeholder="Search Amazon.in"> (empty input, placeholder: "Search Amazon.in")
+[agent-12] <input type="submit" id="nav-search-submit-button" data-has-content="true" data-char-count="2"> [Typed Value (2 chars)]: Go
+[agent-13] <a> Choose a language for shopping in Amazon India. The current selection is English (EN).
+[agent-14] <button> Expand to Change Language or Country
+[agent-15] <a> Hello, D.V.V.RAMANA Account & Lists
+[agent-16] <button> Expand Account and Lists
+[agent-17] <a id="nav-orders"> Returns & Orders
+[agent-18] <a id="nav-cart"> 8 Cart
+[agent-19] <a id="nav-hamburger-menu" role="button" aria-expanded="false"> Open All Categories Menu
+[agent-20] <button id="nav-rufus-disco" role="button"> Open Rufus panel
+[agent-21] <a> Fresh
+[agent-22] <a> Prime Video
+[agent-23] <a> Sell
+[agent-24] <a> Gift Cards
+[agent-25] <a> Amazon Pay
+[agent-26] <a> Today's Deals
+[agent-27] <a> Buy Again
+[agent-28] <a> Gift Ideas
+[agent-29] <a> Browsing History
+[agent-30] <button aria-expanded="false"> Browsing History Details
+[agent-31] <a id="nav-your-amazon"> D.V.V.RAMANA's Amazon.in
+[agent-32] <a> Prime
+[agent-33] <button aria-expanded="false"> Prime Details
+[agent-34] <a> Health, Household & Personal Care
+[agent-35] <a> Subscribe & Save
+[agent-36] <a> AmazonBasics
+[agent-37] <a> Home Improvement
+[agent-38] <a> Customer Service
+[agent-39] <a> Audible
+[agent-40] <a> Electronics
+[agent-41] <a> Books
+[agent-42] <a> Toys & Games
+[agent-43] <a> Beauty & Personal Care
+[agent-44] <a> Bestsellers
+[agent-45] <a> Home & Kitchen
+[agent-46] <a> Computers
+[agent-47] <a> New Releases
+[agent-48] <a> Mobiles
+[agent-49] <a> Sports, Fitness & Outdoors
+[agent-50] <a> Car & Motorbike
+[agent-51] <a> Kindle eBooks
+[agent-52] <a> Pet Supplies
+[agent-53] <a> Video Games
+[agent-54] <a> Baby
+[agent-55] <a> ALtext-Test
+[agent-56] <button> Play
+[agent-57] <a> Min. 50% offClassic denim*T&C apply
+[agent-58] <a> Keep your card activeShop & get 100% back**up to ₹100 | T&C apply
+[agent-59] <a> Deals on Storage devicesUp to 70% off*T&C Apply
+[agent-60] <a> Pre-book nowSale starts on 18 Sep, 8 AM
+[agent-61] <a> Massive price drop!Up to 40% off*T&C apply
+[agent-62] <a> Carousel next slide
+[agent-63] <a> Livpure Smart Ortho CURVX Memory Foam Orthopedic Mattress|King 78x72x6 | Medium Firm with Back Support|5D SleepTech Crafted Zones|Premium Qu
+[agent-64] <span role="button"> Leave feedback on Sponsored ad
+[agent-66] <a> Pigeon by Stovekraft 101 Deluxe Aluminium Pressure Cooker, 2 Litres
+[agent-67] <span role="button"> Leave feedback on Sponsored ad
+[agent-69] <a> Keep shopping for
+[agent-71] <a> Keep shopping for
+[agent-72] <a> Keep shopping for
+[agent-73] <a> Buy it again
+[agent-74] <a> Deal for you79% off
+[agent-75] <a> Deal on your saved items85% off
+[agent-76] <a> Keep shopping for
+[agent-77] <a> Carousel next slide
+[agent-78] <a> Deals for you - See more deals
+[agent-79] <a> Yale YSS/250 Digital Safe Locker for Home | 16.3 Litre | Electronic Keypad with PIN Code | Emergency Key | Standard Security Safe | Grey | 1
+[agent-80] <a> Ben Martin Men's Smart Fit Stretchable Jeans || Dark Blue Mid-Rise Denim Pants with Whisker Wash || Premium Casual Wear Jean for Men || 5 Po
+[agent-81] <a> Belanto 1Kg Transparent Waterproofing Glue with Brush for Roof Leakage,Crack Seal Water Leakage Solution Indoor Outdoor, Waterproof Adhesive
+[agent-82] <a> 15 Pcs Multi Sizes Large-Eye Blunt Needles, Stainless Steel Yarn with Needle Threader, Tapestry Needle for Sewing Crochet Knitting Embroider
+[agent-83] <a> Inspired by your recent historyInspired by your recent history
+[agent-84] <span role="button"> Leave feedback on Sponsored ad
+[agent-85] <a> Bacca Bucci Men Lace Up Sneaker Shoes White, Size UK860% offLimited time deal
+[agent-86] <a> PUMA | Court Fusion63% offLimited time deal
+[agent-87] <a> Puma Men ST Runner v2 Full L Black62% offLimited time deal
+[agent-88] <a> Puma , Unisex-Adult, Court Curves, White-Poised Pink-Metallic Gold, Sneaker, 6UK, (40608806)58% offLimited time deal
+[agent-89] <a> Home Improvement - See more deals
+[agent-90] <a> Inditrust New Car Repair Tool Set 12 in 1 Tool KIT Socket Set 1/2 Chrome Vanadium Combination Socket Wrench Set with Ratchet Spanner60% offL
+[agent-91] <a> Inditrust 13PCS Vehicle Car T Shaped Handle Wrench Spanner with 8-19mm 1/2 Socket Tool Set (WITH SLEEVE)65% offLimited time deal
+[agent-92] <a> STANLEY STMT82672-0 1/4" 37-PIECE Chrome Compact Socket Set, Comes with Heavy-Duty Plastic Case, Ideal for Home, DIY, Industrial & Professio
+[agent-93] <a> JPT Heavy Duty Hex Professional Chrome Vanadium Hand Tool Kit, 32 Pcs DR Socket Wrench Set (1/2 Inches) For Repairing Work, DIY, Auto Repair
+[agent-94] <a> Home Improvement - See more deals
+[agent-95] <a> SPARTAN By Mechtec 12 in 1 Heavy Duty Socket Set 1/4" Chrome Vanadium Steel Ratchet Socket Wrench Spanner 12 Pieces Hand Tool Kit For Mechan
+[agent-96] <a> INGCO 55 Pcs Screwdriver Bits Set, Precision Screwdriver Set with Ratchet Wrench and Bits Magnetic Driver Kit Professional Electronics Repai
+[agent-97] <a> Inditrust 7PC Mirror doal Uses Ratchet wrench set (8.10.12.13.14.17.19) mm Ratchet Spanner Combination Wrench Set Of Keys Gear Ring Handle C
+[agent-98] <a> Inditrust 9Pcs Hex T-Socket Spanner Set Size (6,7,8,9,10,11,12,13 & 14) mm for Automobiles/Bike/Car Repair Tools Socket Set54% offLimited ti
+[agent-99] <a> 4 stars and above4 stars and above
+[agent-100] <a> UGREEN 40Gbps Right Angle USB C Adapter Combo 240W Charge 2 Pack52% offLimited time deal
+[agent-101] <a> Amazon Brand - Symbol Men's Regular Shorts (KSH17-01_Navy_Small_Navy_Small)60% offLimited time deal
+[agent-102] <a> BOBO BM4 PRO Plus Jaw-Grip with PRO Plus Vibration Damper Waterproof Bike/Motorcycle/Scooter Mobile Phone Holder Mount, Ideal for Maps and G
+[agent-103] <a> [SWIFT_BIC] C190 Berlin Office Chair, High Back Mesh Ergonomic Home Office Desk Chair (Grey - White)58% offLimited time deal
+[agent-104] <a> Carousel next slide
+[agent-105] <a> Buy again - Shop past purchases
+[agent-111] <a> Deals for you in Shoes & HandbagsDeals for you in Shoes & Handbags
+[agent-112] <a> Centrino Sandals for Men |Flat Casual Sandals With Adjustable Velcro Closure For Easy Wear With Flexible Fitting And Trendy | Stylish Sandal
+[agent-113] <a> BRUTON Stylish Men's Flip Flop | Comfortable, Lightweight PU Material Casual Footwear for Office & Daily Use- UK 1080% offLimited time deal
+[agent-114] <a> Liberty Coolers META-2 Casual Slipper for Men with EVA Sole | Durable & Lightweight | Stylish & Trendy Design | Cushioned Footbed | Comforta
+[agent-115] <a> ASIAN Women BLOSSOM-12 Running and Casual wear Running Shoes with Laces, Lightweight and Comfortable Shoes Gym and Sports Shoes for Women & 
+[agent-116] <a> Amazon Basics Digital Safe with Electronic Keypad Locker for Home, Gross Capacity - 39L (Net - 33L), GreyAmazon Basics Digit…Deal Price: ₹5,
+[agent-117] <a> Amazon Basics 30 Litres Digital Safes for Hotel & Office - Digital Lock 3-in-1 unlocking |locker safe with Motorized...Amazon Basics 30 Li…D
+[agent-118] <a> Amazon Basics 128GB OTG USB Flash Drive | 80+ Mbps Read Speed | Dual Interface Type-C & USB | High-Speed Data Transfer...Amazon Basics 128…D
+[agent-119] <a> Fruitri Premium Dried Figs (Anjeer) – 500g | Naturally Sweet | No Added Sugar | No Preservatives | Source of Dietary FiberFruitri Premium Dr
+[agent-120] <a role="link"> HP Smartchoice Victus, AMD Ryzen 7 7445HS, 6GB RTX 3050, 16GB DDR5(Upgradeable) 512GB SSD, 144Hz, 300 nits, 15.6''/39.6cm, Win 11, Office 24
+[agent-121] <a> 4.0 out of 5 stars, 42 ratings
+[agent-122] <a role="link"> -31%
+[agent-123] <a role="link"> ₹1,06,990.00₹1,06,990.00
+[agent-124] <a role="link"> M.R.P: ₹1,54,384.00
+[agent-125] <a role="link"> Raspberry Pi 5 8GB RAM | WiFi Bluetooth | Quad Core Single Board PC | 8GB RAM | Quad-Core 2.4GHz Processor | Dual 4K HDMI | WiFi Bluetooth |
+[agent-126] <a> 4.0 out of 5 stars, 36 ratings
+[agent-127] <a role="link"> -6%
+[agent-128] <a role="link"> ₹23,499.00₹23,499.00
+[agent-129] <a role="link"> M.R.P: ₹24,995.00
+[agent-130] <a role="link"> HP Victus, 14th Gen Intel Core i5-14450HX, 6GB RTX 3050, 24GB DDR5, 512GB SSD, FHD, 144Hz, IPS, 300 nits, 15.6''/39.6cm, Win11, M365* Office
+[agent-131] <a> 3.7 out of 5 stars, 13 ratings
+[agent-132] <a role="link"> -19%
+[agent-133] <a role="link"> ₹1,19,990.00₹1,19,990.00
+[agent-134] <a role="link"> M.R.P: ₹1,48,990.00
+[agent-135] <a role="link"> HP Victus 15-fa2191TX/FA2190 Gaming Laptop – 13th Gen Intel Core i5, 15.6" FHD 144Hz, RTX 3050A 4GB, 16GB RAM, 512GB SSD, Win 11, Backlit KB
+[agent-136] <a> 5.0 out of 5 stars, 1 ratings
+[agent-137] <a role="link"> -1%
+[agent-138] <a role="link"> ₹97,990.00₹97,990.00
+[agent-139] <a role="link"> M.R.P: ₹99,000.00
+[agent-140] <a role="link"> Puma Unisex-Adult Softride St Miler Sneaker
+[agent-141] <a> 4.3 out of 5 stars, 56 ratings
+[agent-142] <a role="link"> -60%
+[agent-143] <a role="link"> ₹2,389.00₹2,389.00
+[agent-144] <a role="link"> M.R.P: ₹5,999.00
+[agent-145] <a role="link"> Raspberry Pi 3-MODB-1GB Motherboard (RASPBERRYPI3-MODB-1GB)
+[agent-146] <a> 4.4 out of 5 stars, 11,916 ratings
+[agent-147] <a role="link"> -31%
+[agent-148] <a role="link"> ₹4,559.00₹4,559.00
+
+--- PAGE TEXT ---
+[ADDRESS REDACTED]
+
+redaction_legend:
+[]

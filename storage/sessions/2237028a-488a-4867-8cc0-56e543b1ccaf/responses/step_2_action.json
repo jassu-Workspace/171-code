@@ -1,0 +1,30 @@
+{
+  "thought": "GSLV-F17 EOS-05 mission link click to show latest launch news. Next: verify content.",
+  "action": "click",
+  "id": "agent-56",
+  "selector": "a:contains('GSLV-F17/EOS-05 MISSION')",
+  "value": "",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "GSLV-F17 / EOS-05",
+      "metricSummary": "Orbit manoeuvring nominal",
+      "operationalStatus": "Action Executed"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "sessionId": "4a4c1868-b8c4-4fe6-a826-187c6fdc72c4",
+  "createdAt": "2026-09-13T06:29:29.148Z",
+  "updatedAt": "2026-09-13T06:29:40.108Z",
+  "status": "active",
+  "task": "Open the ISRO website, navigate to the Missions section, and find the latest updates regarding the Gaganyaan crewed spaceflight program.",
+  "totalSteps": 2,
+  "subTasks": [
+    "agent-73"
+  ],
+  "actions": [
+    {
+      "step": 1,
+      "action": "click",
+      "timestamp": "2026-09-13T06:29:29.166Z"
+    },
+    {
+      "step": 2,
+      "action": "done",
+      "timestamp": "2026-09-13T06:29:40.108Z"
+    }
+  ],
+  "imageStats": {
+    "rawImagesCount": 2,
+    "maskedImagesCount": 0,
+    "vlmImagesCount": 2
+  }
+}

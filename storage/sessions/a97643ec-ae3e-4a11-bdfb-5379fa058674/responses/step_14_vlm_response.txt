@@ -1,0 +1,13 @@
+{
+  "thought": "Cart empty. Navigate search iphone 256gb.",
+  "action": "navigate",
+  "value": "https://www.amazon.in/s?k=iphone+256gb",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "storage": "256gb"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

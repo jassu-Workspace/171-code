@@ -1,0 +1,8 @@
+{
+  "step": 1,
+  "timestamp": "2026-09-13T06:35:53.511Z",
+  "byteSize": 89333,
+  "isMasked": false,
+  "model": "ag/gemini-3.7-flash-high",
+  "hasRawOriginal": true
+}

@@ -1,0 +1,153 @@
+Task: Open the ISRO website, and show me the news about the rocket's ot satilite's which are sent or launched latestly
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-56 value: ""
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <button id="openbtnAccessibility"> (empty input)
+[agent-2] <a> English
+[agent-3] <a> हिंदी
+[agent-4] <a> Sitemap
+[agent-5] <a> Contact us
+[agent-6] <a> Feedback
+[agent-7] <a> RTI
+[agent-8] <a> Career
+[agent-9] <a> Tender
+[agent-10] <a> FAQ
+[agent-11] <a> Visit ISRO on Facebook
+[agent-13] <a> Visit ISRO on Youtube
+[agent-14] <a> Instagram
+[agent-15] <a id="Ainc"> A+
+[agent-16] <a id="Arest"> A
+[agent-17] <a id="Adec"> A-
+[agent-18] <a> Skip to main content
+[agent-19] <a> ISRO DOS Home
+[agent-20] <a> Government of India
+[agent-21] <a role="menuitem"> Home
+[agent-22] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> About
+[agent-23] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Activities
+[agent-24] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Services
+[agent-25] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Programmes
+[agent-26] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Resources
+[agent-27] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Engagements
+[agent-28] <input type="text" id="searchTextD" placeholder="search"> (empty input, placeholder: "search")
+[agent-29] <a> NISAR S-Band SAR Data Products Release
+[agent-30] <button> Slide 1
+[agent-31] <button> Slide 2
+[agent-32] <button> Slide 3
+[agent-33] <button> Slide 4
+[agent-34] <button> Slide 5
+[agent-35] <button> Slide 6
+[agent-36] <button> Slide 7
+[agent-37] <button> Slide 8
+[agent-38] <button> Slide 9
+[agent-39] <button> Slide 10
+[agent-40] <button> Slide 11
+[agent-42] <a id="askanexpert"> NSpD-2026
+[agent-43] <a id="vedas"> Contact us
+[agent-44] <a id="ndem"> Ask an Expert
+[agent-45] <a id="mosdac"> Feedback
+[agent-46] <button aria-expanded="false"> EOS-06/Oceansat-3 detects impact of the developing El Niño on Marine Productivity in the Equatorial Pacific Ocean
+[agent-47] <button aria-expanded="false"> Successful Hot Test of CE20 Cryogenic Engine for LVM3 M7 Mission
+[agent-48] <button aria-expanded="false"> ZeeDP 2.0 Space Science Meet held at SAC, Ahmedabad
+[agent-49] <button aria-expanded="false"> National Anubhav Awards, 2026
+[agent-50] <button aria-expanded="false"> Third and final orbit manoeuvring of EOS-05 spacecraft
+[agent-51] <button aria-expanded="false"> Clarification regarding media reports on concerns relating to Space Sector Reforms and the role of ISRO
+[agent-52] <button aria-expanded="false"> Second orbit manoeuvring of EOS-05 spacecraft
+[agent-53] <button aria-expanded="false"> Orbit manoeuvring of EOS-05 spacecraft
+[agent-54] <button aria-expanded="false"> ISRO successfully conducts hot test of Semicryogenic Engine Power Head Test Article at full thrust level
+[agent-55] <button aria-expanded="true"> GSLV-F17/EOS-05 MISSION
+[agent-56] <a> GSLV-F17/EOS-05 MISSION
+[agent-57] <button aria-expanded="false"> Aditya-L1 Catches the Sun's Early Warning Signs Before Solar Flares
+[agent-58] <button aria-expanded="false"> Unusual Stratospheric Ozone Enhancement Over the North Bay of Bengal: Insights from the Indian ST/MST Radar Network an
+[agent-59] <button aria-expanded="false"> 3rd National Space Day 2026 celebrated at Ahmedabad
+[agent-60] <button aria-expanded="false"> ISRO and NASA Celebrate One Successful Year of NISAR Mission on Orbit
+[agent-61] <button aria-expanded="false"> Atmospheric Re-entry of LVM3 M5 Upper Stage on 30 July 2026
+[agent-62] <button aria-expanded="false"> ISRO tests an improved version of the first stage of Small Satellite Launch vehicle (SSLV)
+[agent-63] <button aria-expanded="false"> India – U.S. Civil Space Joint Working Group meeting at ISRO Headquarters, Bengaluru
+[agent-64] <button aria-expanded="false"> Bharatiya Antariksh Hackathon 2026 – Grand Finale Concludes Successfully
+[agent-65] <button aria-expanded="false"> ISRO Robotics Challenge – URSC (IRoC-U) 2026 Inspires Young Innovators to Shape India's Future in Space Exploration
+[agent-66] <button aria-expanded="false"> ISRO Conducts START Capacity Building Workshop-2026 at IIRS, Dehradun
+[agent-67] <button aria-expanded="false"> NISAR S-Band SAR Data Products Release
+[agent-68] <button aria-expanded="false"> Bharatiya Antariksh Hackathon (BAH) – 2026: Shortlisted Teams for Grand Finale Scheduled at NRSC Hyderabad during 6th 
+[agent-69] <button aria-expanded="false"> First National Workshop on Microgravity Research
+[agent-70] <button aria-expanded="false"> First private orbital launch lifts off from Sriharikota
+[agent-71] <button aria-expanded="false"> Aditya-L1 Mission: Announcement of Opportunity (AO) soliciting proposals for the third AO cycle observations
+[agent-72] <button aria-expanded="false"> Special YUVIKA Programme for Oman Students
+[agent-73] <button aria-expanded="false"> Successful accomplishment of Major Qualification Tests Crew Module systems of Gaganyaan Mission
+[agent-74] <button aria-expanded="false"> ISRO successfully conducts Integrated Main Parachute Air Drop Test (IMAT) for Gaganyaan Programme
+[agent-75] <button aria-expanded="false"> ISRO conducts Flight Acceptance Test of Cryogenic Engine successfully for next LVM3 mission
+[agent-76] <button aria-expanded="false"> ISRO conducts ground test for new sub-orbital solid motor-based test vehicle
+[agent-77] <button aria-expanded="false"> Chandrayaan-3's Alpha Particle X-ray Spectrometer measurements connect the composition at Shiv Shakti Statio to the firs
+[agent-78] <button aria-expanded="false"> Iron Fluorescence on the Sun During Massive Solar Flares: Aditya-L1 Observation
+[agent-79] <button aria-expanded="false"> ISRO successfully conducted hot test of Semicryogenic Engine Power Head Test Article at higher thrust level
+[agent-80] <button aria-expanded="false"> BRICS Heads of Space Agencies 2026 Conclude Meeting in Bengaluru, Advancing Discussions on Remote Sensing Satellite Cons
+[agent-81] <button aria-expanded="false"> BRICS Heads of Space Agencies to gather in India to Strengthen Space Cooperation
+[agent-82] <button aria-expanded="false"> XPoSat Mission: Announcement of Opportunity (AO) soliciting proposals for the second AO cycle observations
+[agent-83] <button aria-expanded="false"> ISRO Participation in RISE Conclave 2026, Bengaluru
+[agent-84] <button aria-expanded="false"> NRSC Conducts Capacity Building Programme on Forest Fire Detection and Burnt Area Mapping for Bhutan Officials
+[agent-85] <button aria-expanded="false"> ISRO and IIG Jointly Launch Space Weather Summer School 2026 to Nurture Future Space Scientists
+[agent-86] <button aria-expanded="false"> 13th Meeting of the NESAC Society
+[agent-87] <button aria-expanded="false"> International Planetary Data Alliance (IPDA) 2026 Concludes Successful Workshop & Steering Committee meeting at ISTRAC-I
+[agent-88] <button aria-expanded="false"> Chandrayaan-2 Dual Frequency Synthetic Aperture Radar (DFSAR) Observations Reveal Subsurface Ice in Lunar South Polar Re
+[agent-89] <button aria-expanded="false"> Announcement of Expression of Interest (EoI) for PSLV Transfer of Technology, on IN-SPACe Digital Platform
+[agent-90] <button aria-expanded="false"> Chandrayaan-3 "Hop" Experiment Reveals Hidden Lunar Secrets: Scientists Uncover Regolith Heterogeneity at Moon’s South
+[agent-91] <button aria-expanded="false"> Young Scientists Programme (YUva VIgyani KAryakram - YUVIKA) 2026
+[agent-92] <button aria-expanded="false"> ISRO at National Technology Day 2026
+[agent-93] <button aria-expanded="false"> IIRS Academic Meet (IAM)-2026
+[agent-94] <button aria-expanded="false"> Workshop on Indigenisation of IT Applications
+[agent-95] <button aria-expanded="false"> The 2nd selection list for YUVIKA-2026
+[agent-96] <button aria-expanded="false"> ISRO and TIFR Sign MoU for Collaboration in Space Science and Related Technologies
+[agent-97] <button aria-expanded="false"> International Conference on Spacecraft Mission Operations - SMOPS-2026
+[agent-98] <button aria-expanded="false"> Indian Space Situational Awareness Report (ISSAR) for 2025 Released
+[agent-99] <button aria-expanded="false"> Selection List for YUVIKA 2026
+[agent-100] <button aria-expanded="false"> ISRO’s Achievements during FY 2025-2026
+[agent-101] <button aria-expanded="false"> ISRO conducts Second Integrated Air Drop Test (IADT-02) for Gaganyaan
+[agent-102] <button aria-expanded="false"> ISRO Conferred AIMA Special Award for Public Service Excellence - 2025
+[agent-103] <button aria-expanded="false"> National Learning Week - “SADHANA SAPTAH” at ISRO
+[agent-104] <button aria-expanded="false"> MISSION MITRA by ISRO Mapping of Interoperable Traits and Response Assessment (MITRA)
+[agent-105] <button aria-expanded="false"> Aditya-L1 Mission: Announcement of Opportunity (AO) soliciting proposals for the second AO cycle observations
+[agent-106] <button aria-expanded="false"> IN-SPACe Short-Term Skill Development Course on Essentials of Space Data Product and Services
+[agent-107] <button aria-expanded="false"> Interaction of India Leadership Council (ILC) members with Secretary, DoS/Chairman, ISRO
+[agent-108] <button aria-expanded="false"> User Interaction Meet – 2026 (Jointly organised by NRSC/ ISRO and NSIL/DoS)
+[agent-109] <button aria-expanded="false"> IRNSS-1F successfully completed its mission life of 10 years
+[agent-110] <button aria-expanded="false"> Secretary, DOS/ Chairman, ISRO Inaugurated START-2026 Event
+[agent-111] <button aria-expanded="false"> ISRO conducts sea level test of cryogenic engine at 22 tonne thrust level with full area nozzle
+[agent-112] <button aria-expanded="false"> Indian Space Research Organisation (ISRO) and All India Institute of Medical Sciences (AIIMS) New Delhi signs Framewor
+[agent-113] <button aria-expanded="false"> Inauguration of ISRO’s Space Science and Technology Awareness Training (START 2026) programme on 11th March 2026
+[agent-114] <button aria-expanded="false"> Signing of ESA-ISRO Agreement on Joint Calibration/Validation Activities and Scientific Studies for EO Missions
+[agent-115] <button aria-expanded="false"> ISRO-[SWIFT_BIC] Joint Science Cooperation Meet
+[agent-116] <button aria-expanded="false"> ISRO showcased its prestigious achievements and advancements in “Pragatisheel Chhattisgarh 2026” at Janjgir-Champa, Ch
+[agent-117] <button aria-expanded="false"> Pearl Jubilee Celebration of CSSTEAP
+[agent-118] <button aria-expanded="false"> Inauguration of IIRS Academic Building at Dehradun
+[agent-119] <button aria-expanded="false"> ISRO Conducted the 23rd National Space Science Symposium (NSSS-2026) at NESAC, Umiam, Meghalaya
+[agent-120] <button aria-expanded="false"> PSLV related Update
+[agent-121] <button aria-expanded="false"> NVS-02 Spacecraft: On-Orbit Observations and Apex Committee Recommendations
+[agent-122] <button aria-expanded="false"> Announcement on START-2026 Inauguration
+[agent-123] <button aria-expanded="false"> Aditya-L1 measurementshelp to explain unusual dawn-time geomagnetic disturbances during strong solar storms
+[agent-124] <button aria-expanded="false"> Soil Moisture Products at 100m resolution from NISAR data
+[agent-125] <button aria-expanded="false"> Inauguration of Library Training Programme for ISRO’s library technical staff at INFLIBNET Centre, Gandhinagar
+[agent-126] <button aria-expanded="false"> Inauguration of new NSIL office at GIFT City, Gandhinagar, Gujarat
+[agent-127] <button aria-expanded="false"> ISRO conducts testing of sub-scale thrust chamber for LOX-Methane Engine
+[agent-128] <button aria-expanded="false"> Achievements of Department of Space - 2025
+[agent-129] <button aria-expanded="false"> Announcement of Opportunity: Indian Microgravity Experiments – IMEx-2026
+[agent-130] <button aria-expanded="false"> International conference on Celebrating Ten years of AstroSat
+[agent-131] <button aria-expanded="false"> Inauguration of Management Development Programme for ISRO's Junior level & Middle level Scientist/Engineers at Centre fo
+[agent-132] <button aria-expanded="false"> Call for Registration: ISRO START 2026 Programme for Academic Institutions
+[agent-133] <button aria-expanded="false"> ISRO and ESA jointly organise ISRO-ESA Heliophysics Workshop on Aditya-L1, Solar Orbiter and Proba-3
+[agent-134] <button aria-expanded="false"> ISRO’s Aditya-L1 decodes the Impact of a Powerful Solar Storm on Earth’s Invisible Magnetic Shield
+[agent-135] <button aria-expanded="false"> Overview of PSLV-C62 / EOS-N1 Mission
+[agent-136] <button aria-expanded="false"> Aditya-L1 Mission: Announcement of Opportunity (AO) soliciting proposals for the first AO cycle observations
+[agent-137] <button aria-expanded="false"> India’s Cosmic Dust Experiment - Ground-breaking Hunt for Interplanetary Secrets!
+[agent-138] <button aria-expanded="false"> ISRO conducts Ground Test of SSLV Third Stage
+[agent-139] <button aria-expanded="false"> Successful accomplishment of Drogue Parachute Deployment Tests for Gaganyaan
+[agent-140] <button aria-expanded="false"> LVM3-M6 / BlueBird Block-2 Mission
+[agent-141] <button aria-expanded="false"> ISRO Academia Day - 2025
+[agent-142] <button aria-expanded="false"> Chandrayaan-3's RAMBHA-LP Instrument Delivers Critical 'Ground Truth' on the Moon’s Plasma Environment
+
+--- PAGE TEXT ---
+[ADDRESS REDACTED]
+
+redaction_legend:
+[]

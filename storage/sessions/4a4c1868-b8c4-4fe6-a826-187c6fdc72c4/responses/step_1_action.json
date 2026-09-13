@@ -1,0 +1,29 @@
+{
+  "thought": "Open latest Gaganyaan crew module qualification test update.",
+  "action": "click",
+  "id": "agent-73",
+  "selector": "button:has-text('Successful accomplishment of Major Qualification Tests Crew Module systems of Gaganyaan Mission')",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "Gaganyaan",
+      "metricSummary": "Crew Module Qualification: In Progress | Parachute Systems: Tested | Atmospheric Descent: Validated",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "task": "Search for ISRO",
+  "maskedDom": "{\"maskedText\":\"ISRO - Wikipedia. Indian Space Research Organisation. [EMAIL] contact info. Navigation links.\",\"elementMap\":[{\"id\":\"agent-1\",\"tag\":\"input\",\"text\":\"\"},{\"id\":\"agent-2\",\"tag\":\"button\",\"text\":\"Search\"}]}",
+  "redactedImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAQ",
+  "redaction_legend": [
+    {"id": "R1", "type": "human_face", "bbox": [10, 20, 100, 100]},
+    {"id": "R2", "type": "dom_input", "bbox": [200, 300, 150, 40]}
+  ]
+}

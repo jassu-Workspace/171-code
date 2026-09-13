@@ -1,0 +1,15 @@
+{
+  "thought": "Delete first item in cart.",
+  "action": "click",
+  "id": "agent-120",
+  "selector": "[name^='submit.delete-active']",
+  "value": "",
+  "scratchpad": {
+    "currentBudget": 150000,
+    "requiredSpecs": {
+      "storage": "256gb"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

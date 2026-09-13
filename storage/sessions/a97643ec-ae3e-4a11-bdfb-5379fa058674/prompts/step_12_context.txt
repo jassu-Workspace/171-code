@@ -1,0 +1,122 @@
+Task: go to amazon and clear the cart and after do add an iphone of 256gb into cart and goto the final checkout
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-120 value: ""
+- Step 2: click target: agent-118 value: ""
+- Step 3: click target: agent-130 value: ""
+- Step 4: click target: agent-119 value: ""
+- Step 5: click target: agent-131 value: ""
+- Step 6: click target: agent-116 value: ""
+- Step 7: click target: agent-21 value: ""
+- Step 8: click target: agent-59 value: ""
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <button role="button"> Go back to previous page
+[agent-3] <a> Search products
+[agent-4] <button id="savings-meter-trigger-:Reajtt9kvfa:" aria-expanded="false"> SAVING₹[PHONE]3456789You are saving ₹[PHONE]3456789₹18 on this order
+[agent-5] <button> Decrease quantity
+[agent-6] <button> Increase quantity
+[agent-7] <button role="button"> Add more items
+[agent-8] <button role="link"> privacy notice
+[agent-9] <button role="link"> conditions of use
+[agent-10] <button role="link"> returns & replacement policy
+[agent-11] <button role="link"> Change - Deliver to D.V.V.R... - Visakhapa... 530047
+[agent-12] <button role="button"> Proceed to pay
+[agent-13] <button> Close bottom sheet
+[agent-14] <button role="button"> Close bottom sheet
+[agent-15] <button role="button"> Okay, got it
+
+--- PAGE TEXT ---
+SAVING
+₹
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+You are saving 
+₹
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+₹18
+ on this order
+
+Delivery 1
+
+of 1
+
+1 item
+
+Colgate Zig Zag Toothbrush Combo - Medium
+
+Pack of 1, 6 Pcs
+
+1
+
+₹
+120
+
+₹138
+
+Add more items
+Bill summary
+
+You are saving ₹18 on this order
+
+Discount on MRP
+
+₹18
+
+By placing your order, you agree to Amazon's privacy notice and conditions of use.
+
+
+
+
+See Amazon's returns & replacement policy.
+
+Deliver to D.V.V.R... - Visakhapa... 530047
+
+Change
+
+Your cart has been updated
+
+The price or quantity of some items may have changed. Please review your cart before you pay.
+
+Okay, got it
+
+redaction_legend:
+[{"id":"R1","type":"card","bbox":[300.6789069198276,837.9881820773486,271.5219791235513,16.99909561820652]}]

@@ -1,0 +1,16 @@
+{
+  "thought": "Search specifically for Apple iPhone 16 256 GB.",
+  "action": "type",
+  "id": "agent-12",
+  "selector": "#twotabsearchtextbox",
+  "value": "Apple iPhone 16 256 GB\n",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "model": "iPhone 16",
+      "storage": "256GB"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

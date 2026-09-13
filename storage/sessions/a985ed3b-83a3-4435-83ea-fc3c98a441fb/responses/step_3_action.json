@@ -1,0 +1,30 @@
+{
+  "thought": "Select 60 Frames from the frame history dropdown for INSAT-3D thermal infrared animation.",
+  "action": "select",
+  "id": "agent-142",
+  "selector": "select",
+  "value": "60 Frames",
+  "scratchpad": {
+    "activePillar": "2: Earth Observation & GIS",
+    "isroOperationalTelemetry": {
+      "spacecraft": "INSAT-3D",
+      "metricSummary": "Sensor: IMAGER | Product: Thermal Infrared (TIR-1) | Target Frames: 60",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

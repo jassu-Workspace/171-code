@@ -1,0 +1,33 @@
+{
+  "name": "sih-agent-tests",
+  "version": "1.0.0",
+  "description": "Test suite for the Zero-Trust AI Web Agent (extension + server)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "pretest": "npm run generate-scenarios && npm run generate-mocks-tsx",
+    "test:watch": "vitest",
+    "test:unit": "vitest run unit/",
+    "test:integration": "vitest run integration/",
+    "test:e2e": "vitest run e2e/",
+    "test:security": "vitest run security/",
+    "generate-mocks": "node --loader ts-node/esm setup/generateMocks.ts",
+    "generate-mocks-tsx": "tsx setup/generateMocks.ts",
+    "generate-scenarios": "tsx setup/generateScenarios.ts",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0",
+    "tsx": "^4.7.0",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.0",
+    "jsdom": "^24.0.0",
+    "@types/jsdom": "^21.1.6",
+    "supertest": "^6.3.4",
+    "@types/supertest": "^6.0.2",
+    "jest-canvas-mock": "^2.5.2",
+    "hono": "^4.6.0"
+  }
+}

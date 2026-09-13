@@ -1,0 +1,16 @@
+{
+  "thought": "Delete first item to begin clearing cart.",
+  "action": "click",
+  "id": "agent-120",
+  "selector": "input[name='submit.delete-active.e3fc46bc-e57c-4b46-8a70-675710f65628']",
+  "value": "",
+  "scratchpad": {
+    "currentBudget": 150000,
+    "requiredSpecs": {
+      "model": "iPhone",
+      "storage": "256GB"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

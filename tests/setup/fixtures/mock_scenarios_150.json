@@ -1,0 +1,2506 @@
+[
+  {
+    "scenario_name": "Filing IRS tax form 1040",
+    "mock_masked_dom": "<form><input type=\"text\" name=\"ssn\" value=\"***-**-****\" /><button>Submit</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "ssn",
+        "bbox": [
+          10,
+          10,
+          200,
+          30
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Paying property tax online",
+    "mock_masked_dom": "<div><input name=\"Property ID\" value=\"PROP-****\" /><input name=\"Amount\" value=\"?*****\" /><button>Pay Now</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "property_id",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Applying for Aadhaar update",
+    "mock_masked_dom": "<form><input name=\"aadhaar\" value=\"**** **** ****\" /><input name=\"name\" value=\"REDACTED\" /><button>Verify OTP</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "aadhaar",
+        "bbox": [
+          10,
+          10,
+          200,
+          30
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "PAN card application status check",
+    "mock_masked_dom": "<div><input name=\"pan\" value=\"**** *****\" /><button>Check Status</button><p>Status: Under Review</p></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "pan",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Filing GST return",
+    "mock_masked_dom": "<form><input name=\"gstin\" value=\"** **** **** ****\" /><input name=\"turnover\" value=\"?*****\" /><button>File Return</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "gstin",
+        "bbox": [
+          10,
+          10,
+          200,
+          30
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Income tax e-verification",
+    "mock_masked_dom": "<div><p>Aadhaar: **** **** ****</p><button>Verify via Aadhaar</button><button>Verify via Bank</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "aadhaar",
+        "bbox": [
+          10,
+          10,
+          200,
+          20
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Voter ID registration",
+    "mock_masked_dom": "<form><input name=\"name\" value=\"REDACTED\" /><input name=\"dob\" value=\"**/**/****\" /><input name=\"address\" value=\"REDACTED\" /><button>Submit</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "name",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "dob",
+        "bbox": [
+          10,
+          45,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Driving license renewal",
+    "mock_masked_dom": "<div><input name=\"dl_number\" value=\"DL-**********\" /><button>Renew</button><p>Fee: ?*****</p></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "dl_number",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Passport application tracking",
+    "mock_masked_dom": "<div><input name=\"file_number\" value=\"********\" /><button>Track</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "file_number",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Municipal water tax payment",
+    "mock_masked_dom": "<form><input name=\"connection_id\" value=\"WT-****\" /><input name=\"amount\" value=\"?****\" /><button>Pay</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "connection_id",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Booking IRCTC train ticket",
+    "mock_masked_dom": "<form><input name=\"from\" value=\"NDLS\" /><input name=\"to\" value=\"BCT\" /><input name=\"date\" value=\"**/**/****\" /><button>Search Trains</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "journey_date",
+        "bbox": [
+          10,
+          50,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Flight booking on MakeMyTrip",
+    "mock_masked_dom": "<div><input name=\"origin\" value=\"DEL\" /><input name=\"dest\" value=\"BOM\" /><input name=\"depart\" value=\"**/**/****\" /><button>Search Flights</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "depart_date",
+        "bbox": [
+          10,
+          50,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Bus ticket booking on RedBus",
+    "mock_masked_dom": "<form><input name=\"from\" value=\"Bangalore\" /><input name=\"to\" value=\"Chennai\" /><input name=\"date\" value=\"**/**/****\" /><button>Search Buses</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "travel_date",
+        "bbox": [
+          10,
+          50,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Hotel booking on Goibibo",
+    "mock_masked_dom": "<div><input name=\"city\" value=\"Goa\" /><input name=\"checkin\" value=\"**/**/****\" /><input name=\"checkout\" value=\"**/**/****\" /><button>Search Hotels</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "checkin",
+        "bbox": [
+          10,
+          30,
+          150,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "checkout",
+        "bbox": [
+          10,
+          60,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Uber cab booking",
+    "mock_masked_dom": "<div><input name=\"pickup\" value=\"REDACTED\" /><input name=\"drop\" value=\"REDACTED\" /><button>Confirm UberGo</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "pickup",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "drop",
+        "bbox": [
+          10,
+          45,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Ola auto booking",
+    "mock_masked_dom": "<form><input name=\"from\" value=\"REDACTED\" /><input name=\"to\" value=\"REDACTED\" /><button>Book Auto</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "from",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Railway platform ticket",
+    "mock_masked_dom": "<div><input name=\"station\" value=\"NDLS\" /><button>Buy ?10 Ticket</button></div>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Metro card recharge",
+    "mock_masked_dom": "<form><input name=\"card_no\" value=\"**** **** ****\" /><input name=\"amount\" value=\"?****\" /><button>Recharge</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "card_no",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "FASTag recharge",
+    "mock_masked_dom": "<div><input name=\"vehicle\" value=\"KA-**-****\" /><input name=\"amount\" value=\"?****\" /><button>Recharge</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "vehicle",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Airport check-in online",
+    "mock_masked_dom": "<form><input name=\"pnr\" value=\"******\" /><input name=\"last_name\" value=\"REDACTED\" /><button>Check In</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "pnr",
+        "bbox": [
+          10,
+          10,
+          100,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Visa application form",
+    "mock_masked_dom": "<form><input name=\"passport\" value=\"**********\" /><input name=\"dob\" value=\"**/**/****\" /><button>Submit</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "passport",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "dob",
+        "bbox": [
+          10,
+          45,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Domestic flight web check-in",
+    "mock_masked_dom": "<div><input name=\"pnr\" value=\"******\" /><input name=\"email\" value=\"***@***.com\" /><button>Next</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "email",
+        "bbox": [
+          10,
+          45,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Train PNR status check",
+    "mock_masked_dom": "<div><input name=\"pnr\" value=\"**********\" /><button>Get Status</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "pnr",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Cancel bus ticket",
+    "mock_masked_dom": "<form><input name=\"ticket_id\" value=\"TB-********\" /><button>Cancel</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "ticket_id",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Reschedule flight",
+    "mock_masked_dom": "<div><input name=\"booking_ref\" value=\"********\" /><input name=\"new_date\" value=\"**/**/****\" /><button>Reschedule</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "booking_ref",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Paying credit card bill",
+    "mock_masked_dom": "<form><input name=\"card\" value=\"**** **** **** ****\" /><input name=\"amount\" value=\"?*****\" /><button>Pay Now</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "card",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "NEFT fund transfer",
+    "mock_masked_dom": "<div><input name=\"account\" value=\"************\" /><input name=\"ifsc\" value=\"****000****\" /><input name=\"amount\" value=\"?*****\" /><button>Transfer</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "account",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "ifsc",
+        "bbox": [
+          10,
+          45,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "IMPS money transfer",
+    "mock_masked_dom": "<form><input name=\"mobile\" value=\"******.****\" /><input name=\"amount\" value=\"?****\" /><button>Send</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "mobile",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "UPI payment via Google Pay",
+    "mock_masked_dom": "<div><input name=\"upi\" value=\"***@***\" /><input name=\"amount\" value=\"?****\" /><button>Pay</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "upi",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Fixed deposit creation",
+    "mock_masked_dom": "<form><input name=\"amount\" value=\"?*****\" /><input name=\"tenure\" value=\"** years\" /><button>Create FD</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "amount",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Recurring deposit setup",
+    "mock_masked_dom": "<div><input name=\"monthly\" value=\"?****\" /><input name=\"rd_tenure\" value=\"** months\" /><button>Setup RD</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "monthly",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Loan EMI payment",
+    "mock_masked_dom": "<form><input name=\"loan_account\" value=\"LN-**********\" /><input name=\"emi\" value=\"?*****\" /><button>Pay EMI</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "loan_account",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "KYC update on banking portal",
+    "mock_masked_dom": "<div><input name=\"aadhaar\" value=\"**** **** ****\" /><input name=\"pan\" value=\"**** *****\" /><button>Update KYC</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "aadhaar",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "pan",
+        "bbox": [
+          10,
+          45,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Debit card PIN generation",
+    "mock_masked_dom": "<form><input name=\"card\" value=\"**** **** **** ****\" /><button>Generate PIN</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "card",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Cheque book request",
+    "mock_masked_dom": "<div><input name=\"account\" value=\"************\" /><button>Request 25 Leaves</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "account",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Account statement download",
+    "mock_masked_dom": "<form><input name=\"from\" value=\"**/**/****\" /><input name=\"to\" value=\"**/**/****\" /><button>Download PDF</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "from",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "to",
+        "bbox": [
+          10,
+          45,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Block lost credit card",
+    "mock_masked_dom": "<div><input name=\"card\" value=\"**** **** **** ****\" /><button>Block Card</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "card",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Credit limit increase request",
+    "mock_masked_dom": "<form><input name=\"current_limit\" value=\"?*****\" /><input name=\"requested\" value=\"?*****\" /><button>Submit</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "current_limit",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Mutual fund SIP registration",
+    "mock_masked_dom": "<div><input name=\"fund\" value=\"HDFC Equity\" /><input name=\"sip_amount\" value=\"?****\" /><button>Start SIP</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "sip_amount",
+        "bbox": [
+          10,
+          45,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Buy insurance policy",
+    "mock_masked_dom": "<form><input name=\"name\" value=\"REDACTED\" /><input name=\"age\" value=\"**\" /><input name=\"sum_assured\" value=\"?*****\" /><button>Buy</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "name",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Pay life insurance premium",
+    "mock_masked_dom": "<div><input name=\"policy\" value=\"LI-**********\" /><input name=\"premium\" value=\"?*****\" /><button>Pay</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "policy",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "File insurance claim",
+    "mock_masked_dom": "<form><input name=\"claim_id\" value=\"CL-********\" /><input name=\"amount\" value=\"?*****\" /><button>File Claim</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "claim_id",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Link Aadhaar to bank account",
+    "mock_masked_dom": "<div><input name=\"account\" value=\"************\" /><input name=\"aadhaar\" value=\"**** **** ****\" /><button>Link</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "account",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "aadhaar",
+        "bbox": [
+          10,
+          45,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Open new savings account",
+    "mock_masked_dom": "<form><input name=\"name\" value=\"REDACTED\" /><input name=\"mobile\" value=\"******.****\" /><input name=\"pan\" value=\"**** *****\" /><button>Open Account</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "name",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "mobile",
+        "bbox": [
+          10,
+          45,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Ordering on Amazon",
+    "mock_masked_dom": "<div><input name=\"address\" value=\"REDACTED\" /><input name=\"pincode\" value=\"******\" /><button>Deliver to this address</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "address",
+        "bbox": [
+          10,
+          10,
+          250,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Flipkart mobile recharge",
+    "mock_masked_dom": "<form><input name=\"mobile\" value=\"******.****\" /><input name=\"operator\" value=\"Jio\" /><input name=\"amount\" value=\"?***\" /><button>Recharge</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "mobile",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Myntra clothing purchase",
+    "mock_masked_dom": "<div><select><option>M</option><option>L</option></select><button>Add to Cart</button><button>Buy Now</button></div>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Adding product to cart",
+    "mock_masked_dom": "<div><p>Wireless Mouse</p><p>?***</p><button>Add to Cart</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "price",
+        "bbox": [
+          10,
+          30,
+          80,
+          20
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Applying coupon code",
+    "mock_masked_dom": "<form><input name=\"coupon\" value=\"SAVE**\" /><button>Apply</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "coupon",
+        "bbox": [
+          10,
+          10,
+          100,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "COD order placement",
+    "mock_masked_dom": "<div><input name=\"name\" value=\"REDACTED\" /><input name=\"phone\" value=\"******.****\" /><button>Place Order</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "phone",
+        "bbox": [
+          10,
+          45,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Return request on Amazon",
+    "mock_masked_dom": "<form><input name=\"order_id\" value=\"***-********-********\" /><select><option>Damaged</option></select><button>Request Return</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "order_id",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Track shipment",
+    "mock_masked_dom": "<div><input name=\"awb\" value=\"**********\" /><button>Track</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "awb",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Write product review",
+    "mock_masked_dom": "<form><textarea name=\"review\" value=\"REDACTED\"></textarea><button>Submit Review</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "review",
+        "bbox": [
+          10,
+          10,
+          300,
+          100
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Seller registration",
+    "mock_masked_dom": "<div><input name=\"gst\" value=\"** **** **** ****\" /><input name=\"pan\" value=\"**** *****\" /><button>Register</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "gst",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Gift card purchase",
+    "mock_masked_dom": "<form><input name=\"recipient_email\" value=\"***@***.com\" /><input name=\"amount\" value=\"?****\" /><button>Buy Gift Card</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "email",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Pre-book new launch phone",
+    "mock_masked_dom": "<div><p>iPhone 16</p><button>Pre-book</button><p>?*****</p></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "price",
+        "bbox": [
+          10,
+          50,
+          80,
+          20
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Exchange old device",
+    "mock_masked_dom": "<form><input name=\"imei\" value=\"***************\" /><button>Get Exchange Value</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "imei",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Subscribe to Amazon Prime",
+    "mock_masked_dom": "<div><button>Start 30-day Trial</button><button>Join Prime ?****/year</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "price",
+        "bbox": [
+          10,
+          40,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Cancel subscription",
+    "mock_masked_dom": "<div><p>Subscription: Active</p><button>Cancel</button></div>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Add item to wishlist",
+    "mock_masked_dom": "<div><p>Bluetooth Speaker</p><button>? Add to Wishlist</button></div>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Price drop alert setup",
+    "mock_masked_dom": "<form><input name=\"target_price\" value=\"?****\" /><button>Set Alert</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "target_price",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Bulk order for business",
+    "mock_masked_dom": "<div><input name=\"company\" value=\"REDACTED\" /><input name=\"gst\" value=\"** **** **** ****\" /><button>Get Quote</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "gst",
+        "bbox": [
+          10,
+          45,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "EMI option at checkout",
+    "mock_masked_dom": "<form><select><option>3 months</option><option>6 months</option></select><button>Pay with EMI</button></form>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Contact customer support",
+    "mock_masked_dom": "<div><textarea name=\"issue\" placeholder=\"Describe your issue\"></textarea><button>Chat Now</button></div>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Book doctor appointment on Practo",
+    "mock_masked_dom": "<form><input name=\"name\" value=\"REDACTED\" /><input name=\"phone\" value=\"******.****\" /><button>Book Appointment</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "phone",
+        "bbox": [
+          10,
+          45,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Order medicine on 1mg",
+    "mock_masked_dom": "<div><input name=\"medicine\" value=\"Paracetamol\" /><input name=\"prescription\" value=\"REDACTED\" /><button>Order</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "prescription",
+        "bbox": [
+          10,
+          45,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Lab test booking",
+    "mock_masked_dom": "<form><input name=\"test\" value=\"Complete Blood Count\" /><input name=\"patient\" value=\"REDACTED\" /><button>Book Test</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "patient",
+        "bbox": [
+          10,
+          45,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Download vaccination certificate",
+    "mock_masked_dom": "<div><input name=\"beneficiary\" value=\"**********\" /><button>Download Certificate</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "beneficiary",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Telemedicine consultation",
+    "mock_masked_dom": "<div><button>Start Video Call</button><p>Dr. REDACTED</p></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "doctor_name",
+        "bbox": [
+          10,
+          40,
+          150,
+          20
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Health insurance claim",
+    "mock_masked_dom": "<form><input name=\"policy\" value=\"HI-**********\" /><input name=\"hospital\" value=\"REDACTED\" /><button>Submit Claim</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "policy",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Add family member to insurance",
+    "mock_masked_dom": "<div><input name=\"member_name\" value=\"REDACTED\" /><input name=\"relation\" value=\"Spouse\" /><button>Add</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "member_name",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Mental health counseling booking",
+    "mock_masked_dom": "<form><select><option>Anxiety</option><option>Depression</option></select><button>Book Session</button></form>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Eye care appointment",
+    "mock_masked_dom": "<div><input name=\"clinic\" value=\"REDACTED\" /><button>Book Eye Test</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "clinic",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Dental checkup booking",
+    "mock_masked_dom": "<form><input name=\"phone\" value=\"******.****\" /><button>Confirm Slot</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "phone",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Blood donation camp registration",
+    "mock_masked_dom": "<div><input name=\"name\" value=\"REDACTED\" /><input name=\"blood_group\" value=\"O+\" /><button>Register</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "name",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Ambulance booking",
+    "mock_masked_dom": "<form><input name=\"location\" value=\"REDACTED\" /><input name=\"emergency\" value=\"Accident\" /><button>Book Ambulance</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "location",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Medical records upload",
+    "mock_masked_dom": "<div><input type=\"file\" name=\"report\" /><button>Upload Report</button></div>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Pharmacy store locator",
+    "mock_masked_dom": "<form><input name=\"pincode\" value=\"******\" /><button>Find Stores</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "pincode",
+        "bbox": [
+          10,
+          10,
+          100,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Diet consultation booking",
+    "mock_masked_dom": "<div><input name=\"goal\" value=\"Weight Loss\" /><button>Book Diet Plan</button></div>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "CBSE result check",
+    "mock_masked_dom": "<form><input name=\"roll\" value=\"********\" /><input name=\"dob\" value=\"**/**/****\" /><button>Get Result</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "roll",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "JEE Main registration",
+    "mock_masked_dom": "<div><input name=\"application\" value=\"**********\" /><input name=\"aadhaar\" value=\"**** **** ****\" /><button>Register</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "aadhaar",
+        "bbox": [
+          10,
+          45,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "NEET admit card download",
+    "mock_masked_dom": "<form><input name=\"reg_id\" value=\"**********\" /><button>Download Admit Card</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "reg_id",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Apply for scholarship",
+    "mock_masked_dom": "<div><input name=\"income\" value=\"?*****\" /><input name=\"caste\" value=\"REDACTED\" /><button>Apply</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "income",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "University fee payment",
+    "mock_masked_dom": "<form><input name=\"roll\" value=\"********\" /><input name=\"fee\" value=\"?*****\" /><button>Pay Fee</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "roll",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Course enrollment on NPTEL",
+    "mock_masked_dom": "<div><input name=\"course\" value=\"Data Structures\" /><button>Enroll Free</button></div>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Download degree certificate",
+    "mock_masked_dom": "<form><input name=\"university_roll\" value=\"**********\" /><button>Download</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "university_roll",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Student loan application",
+    "mock_masked_dom": "<div><input name=\"aadhaar\" value=\"**** **** ****\" /><input name=\"loan_amount\" value=\"?*****\" /><button>Apply</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "aadhaar",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Hostel booking",
+    "mock_masked_dom": "<form><input name=\"college\" value=\"REDACTED\" /><input name=\"room\" value=\"Single\" /><button>Book Hostel</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "college",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Library book renewal",
+    "mock_masked_dom": "<div><input name=\"book_id\" value=\"LIB-****\" /><button>Renew</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "book_id",
+        "bbox": [
+          10,
+          10,
+          100,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Attendance marking portal",
+    "mock_masked_dom": "<div><input name=\"student_id\" value=\"********\" /><button>Mark Present</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "student_id",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Exam form submission",
+    "mock_masked_dom": "<form><input name=\"subject\" value=\"Maths\" /><input name=\"center\" value=\"REDACTED\" /><button>Submit Form</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "center",
+        "bbox": [
+          10,
+          45,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Transfer certificate request",
+    "mock_masked_dom": "<div><input name=\"roll\" value=\"********\" /><button>Request TC</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "roll",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Alumni registration",
+    "mock_masked_dom": "<form><input name=\"graduation_year\" value=\"****\" /><input name=\"email\" value=\"***@***.com\" /><button>Register</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "email",
+        "bbox": [
+          10,
+          45,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Internship application",
+    "mock_masked_dom": "<div><input name=\"company\" value=\"REDACTED\" /><button>Apply Internship</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "company",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Electricity bill payment",
+    "mock_masked_dom": "<form><input name=\"consumer\" value=\"**********\" /><input name=\"amount\" value=\"?****\" /><button>Pay Bill</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "consumer",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Water bill payment",
+    "mock_masked_dom": "<div><input name=\"connection\" value=\"WB-********\" /><input name=\"amount\" value=\"?****\" /><button>Pay</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "connection",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Gas cylinder booking",
+    "mock_masked_dom": "<form><input name=\"bp\" value=\"BP**********\" /><button>Book Refill ?***</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "bp",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Broadband bill payment",
+    "mock_masked_dom": "<div><input name=\"account\" value=\"BB-**********\" /><input name=\"amount\" value=\"?****\" /><button>Pay</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "account",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Postpaid mobile bill payment",
+    "mock_masked_dom": "<form><input name=\"mobile\" value=\"******.****\" /><input name=\"amount\" value=\"?***\" /><button>Pay Bill</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "mobile",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "DTH recharge",
+    "mock_masked_dom": "<div><input name=\"subscriber\" value=\"**********\" /><input name=\"pack\" value=\"?***\" /><button>Recharge</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "subscriber",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Municipal property tax",
+    "mock_masked_dom": "<form><input name=\"property\" value=\"PT-********\" /><input name=\"amount\" value=\"?*****\" /><button>Pay</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "property",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Parking fine payment",
+    "mock_masked_dom": "<div><input name=\"challan\" value=\"CH-********\" /><input name=\"amount\" value=\"?****\" /><button>Pay Challan</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "challan",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Toll tax payment",
+    "mock_masked_dom": "<form><input name=\"vehicle\" value=\"KA-**-****\" /><button>Pay Toll ?**</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "vehicle",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Insurance premium payment",
+    "mock_masked_dom": "<div><input name=\"policy\" value=\"IN-**********\" /><input name=\"premium\" value=\"?*****\" /><button>Pay Premium</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "policy",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Credit card statement payment",
+    "mock_masked_dom": "<form><input name=\"card\" value=\"**** **** **** ****\" /><input name=\"amount\" value=\"?*****\" /><button>Pay Now</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "card",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Loan statement download",
+    "mock_masked_dom": "<div><input name=\"loan\" value=\"LN-**********\" /><button>Download Statement</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "loan",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "PPF account statement",
+    "mock_masked_dom": "<form><input name=\"ppf\" value=\"PPF-********\" /><button>View Statement</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "ppf",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "NPS contribution",
+    "mock_masked_dom": "<div><input name=\"pran\" value=\"**********\" /><input name=\"amount\" value=\"?****\" /><button>Contribute</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "pran",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Mutual fund statement request",
+    "mock_masked_dom": "<form><input name=\"folio\" value=\"MF-********\" /><button>Get Statement</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "folio",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Aadhaar linking to mobile",
+    "mock_masked_dom": "<div><input name=\"aadhaar\" value=\"**** **** ****\" /><input name=\"mobile\" value=\"******.****\" /><button>Link</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "aadhaar",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "mobile",
+        "bbox": [
+          10,
+          45,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Email account password reset",
+    "mock_masked_dom": "<form><input name=\"email\" value=\"***@***.com\" /><button>Send Reset Link</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "email",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Two-factor authentication setup",
+    "mock_masked_dom": "<div><input name=\"phone\" value=\"******.****\" /><button>Send OTP</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "phone",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Profile picture update",
+    "mock_masked_dom": "<div><input type=\"file\" name=\"avatar\" /><button>Upload Photo</button></div>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Change account password",
+    "mock_masked_dom": "<form><input type=\"password\" name=\"old\" value=\"********\" /><input type=\"password\" name=\"new\" value=\"********\" /><button>Change</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "password",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "password",
+        "bbox": [
+          10,
+          45,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Update delivery address",
+    "mock_masked_dom": "<div><textarea name=\"address\" value=\"REDACTED\"></textarea><button>Save Address</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "address",
+        "bbox": [
+          10,
+          10,
+          300,
+          80
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Newsletter subscription",
+    "mock_masked_dom": "<form><input name=\"email\" value=\"***@***.com\" /><button>Subscribe</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "email",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Feedback form submission",
+    "mock_masked_dom": "<div><textarea name=\"feedback\" placeholder=\"Your feedback\"></textarea><button>Submit</button></div>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Referral code sharing",
+    "mock_masked_dom": "<div><input name=\"referral\" value=\"REF-****\" /><button>Copy Code</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "referral",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Gift card redemption",
+    "mock_masked_dom": "<form><input name=\"code\" value=\"****-****-****\" /><button>Redeem</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "code",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Loyalty points check",
+    "mock_masked_dom": "<div><p>Points: ****</p><button>Redeem Now</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "points",
+        "bbox": [
+          10,
+          10,
+          100,
+          20
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Referral bonus withdrawal",
+    "mock_masked_dom": "<form><input name=\"upi\" value=\"***@***\" /><button>Withdraw ?***</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "upi",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Account deletion request",
+    "mock_masked_dom": "<div><p>Are you sure?</p><button>Delete My Account</button></div>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Privacy settings update",
+    "mock_masked_dom": "<form><input type=\"checkbox\" name=\"analytics\" checked /><button>Save Settings</button></form>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Download personal data",
+    "mock_masked_dom": "<div><button>Download My Data (GDPR)</button></div>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "File RTI application",
+    "mock_masked_dom": "<form><input name=\"applicant\" value=\"REDACTED\" /><textarea name=\"query\"></textarea><button>Submit RTI ?**</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "applicant",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Income certificate application",
+    "mock_masked_dom": "<div><input name=\"name\" value=\"REDACTED\" /><input name=\"purpose\" value=\"Scholarship\" /><button>Apply</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "name",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Caste certificate download",
+    "mock_masked_dom": "<form><input name=\"application\" value=\"CC-********\" /><button>Download</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "application",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Domicile certificate request",
+    "mock_masked_dom": "<div><input name=\"district\" value=\"REDACTED\" /><button>Request Domicile</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "district",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Birth certificate application",
+    "mock_masked_dom": "<form><input name=\"child_name\" value=\"REDACTED\" /><input name=\"dob\" value=\"**/**/****\" /><button>Apply</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "child_name",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Death certificate download",
+    "mock_masked_dom": "<div><input name=\"deceased\" value=\"REDACTED\" /><button>Download</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "deceased",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Marriage certificate registration",
+    "mock_masked_dom": "<form><input name=\"groom\" value=\"REDACTED\" /><input name=\"bride\" value=\"REDACTED\" /><button>Register</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "groom",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "bride",
+        "bbox": [
+          10,
+          45,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Ration card application",
+    "mock_masked_dom": "<div><input name=\"head\" value=\"REDACTED\" /><input name=\"members\" value=\"*\" /><button>Apply</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "head",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Senior citizen card",
+    "mock_masked_dom": "<form><input name=\"age\" value=\"**\" /><input name=\"aadhaar\" value=\"**** **** ****\" /><button>Apply</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "aadhaar",
+        "bbox": [
+          10,
+          45,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Disability certificate",
+    "mock_masked_dom": "<div><input name=\"disability\" value=\"**\" /><button>Apply Certificate</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "disability",
+        "bbox": [
+          10,
+          10,
+          100,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Land records search (Bhoomi)",
+    "mock_masked_dom": "<form><input name=\"survey\" value=\"**\" /><input name=\"village\" value=\"REDACTED\" /><button>Search</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "village",
+        "bbox": [
+          10,
+          45,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Court case status check",
+    "mock_masked_dom": "<div><input name=\"case\" value=\"**********\" /><button>Check Status</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "case",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Complaint filing on CPGRAMS",
+    "mock_masked_dom": "<form><textarea name=\"grievance\"></textarea><button>Submit to PMO</button></form>",
+    "mock_redaction_legend": [],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Public notice submission",
+    "mock_masked_dom": "<div><input name=\"notice\" value=\"REDACTED\" /><button>Publish Notice</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "notice",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Tender bid submission",
+    "mock_masked_dom": "<form><input name=\"bid_amount\" value=\"?*****\" /><button>Submit Bid</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "bid_amount",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Donate to PM Relief Fund",
+    "mock_masked_dom": "<div><input name=\"amount\" value=\"?****\" /><button>Donate Now</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "amount",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Register for COVID vaccination",
+    "mock_masked_dom": "<form><input name=\"mobile\" value=\"******.****\" /><input name=\"aadhaar\" value=\"**** **** ****\" /><button>Schedule Slot</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "mobile",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Download vaccine certificate",
+    "mock_masked_dom": "<div><input name=\"beneficiary\" value=\"**********\" /><button>Download</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "beneficiary",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Apply for startup recognition",
+    "mock_masked_dom": "<form><input name=\"cin\" value=\"REDACTED\" /><button>Apply for DPIIT</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "cin",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Trademark application",
+    "mock_masked_dom": "<div><input name=\"brand\" value=\"REDACTED\" /><input name=\"class\" value=\"**\" /><button>File TM</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "brand",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Copyright registration",
+    "mock_masked_dom": "<form><input name=\"work\" value=\"REDACTED\" /><button>Register Copyright</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "work",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Patent filing",
+    "mock_masked_dom": "<div><input name=\"invention\" value=\"REDACTED\" /><button>File Patent</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "invention",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "ISO certification inquiry",
+    "mock_masked_dom": "<form><input name=\"company\" value=\"REDACTED\" /><button>Get Quote</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "company",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "FSSAI license application",
+    "mock_masked_dom": "<div><input name=\"business\" value=\"REDACTED\" /><input name=\"turnover\" value=\"?*****\" /><button>Apply</button></div>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "business",
+        "bbox": [
+          10,
+          10,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "Import Export Code application",
+    "mock_masked_dom": "<form><input name=\"pan\" value=\"**** *****\" /><input name=\"bank\" value=\"************\" /><button>Apply IEC</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "pan",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "bank",
+        "bbox": [
+          10,
+          45,
+          200,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "scenario_name": "UPI Autopay Setup for SIP",
+    "mock_masked_dom": "<form><input name=\"upi\" value=\"***@***\" /><input name=\"amount\" value=\"?****\" /><button>Enable Autopay</button></form>",
+    "mock_redaction_legend": [
+      {
+        "id": "R1",
+        "type": "upi",
+        "bbox": [
+          10,
+          10,
+          150,
+          25
+        ]
+      }
+    ],
+    "mock_image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQI12NgAAIABQABNjN9GQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAA0lEQVQI12P4z8BQDwAEgAF/QualIQAAAABJRU5ErkJggg=="
+  }
+]

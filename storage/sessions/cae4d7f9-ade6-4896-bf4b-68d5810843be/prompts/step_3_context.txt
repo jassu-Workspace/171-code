@@ -1,0 +1,44 @@
+Task: Open MOSDAC, navigate to Live Satellite Products, and inspect the INSAT-3D thermal infrared cyclonic tracking layer. and keep that in full screen and in 30 frames
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-31 value: ""
+- Step 2: select target: agent-10 value: "32 Frames"
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <span id="abbr" role="button"> ☰
+[agent-3] <a id="sharelink"> 
+[agent-4] <i role="button"> 
+[agent-5] <button> +
+[agent-6] <button> -
+[agent-7] <a role="button"> Previous
+[agent-8] <a role="button"> ‖
+[agent-9] <a role="button"> Next
+[agent-10] <select type="select" selected="32 Frames"> [Select Dropdown - Current: "32 Frames"] Available Options: [opt-1: "Latest" (val: "1")], [opt-2: "8 Frames" (val: "8")], [opt-3: "16 Frames
+[agent-11] <a role="button"> «
+[agent-12] <a role="button"> (empty input)
+
+--- PAGE TEXT ---
+☰
+Sun Sep 13 2026 03:00:00 (India Standard Time)
+
++
+-
+12-09-2026_18:30
+13-09-2026_11:00
+13-09-2026_03:00
+«
+‖
+»
+Latest
+8 Frames
+16 Frames
+24 Frames
+32 Frames
+48 Frames
+60 Frames
+120 Frames
+«
+
+redaction_legend:
+[]

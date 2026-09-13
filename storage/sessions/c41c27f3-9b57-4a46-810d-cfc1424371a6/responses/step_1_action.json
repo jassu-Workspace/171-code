@@ -1,0 +1,29 @@
+{
+  "thought": "Navigate to ISRO Home to view latest launches and mission news.",
+  "action": "click",
+  "id": "agent-21",
+  "selector": "a[role='menuitem']:contains('Home')",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "Latest Launches / Missions",
+      "metricSummary": "Status: Navigating to Home",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "in_progress"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "pending"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

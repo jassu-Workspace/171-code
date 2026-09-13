@@ -1,0 +1,21 @@
+{
+  "thought": "Navigate to Satellite Products gallery.",
+  "action": "click",
+  "id": "agent-31",
+  "selector": "[data-agent-id='agent-31']",
+  "value": "",
+  "scratchpad": {
+    "activePillar": "2: Earth Observation & GIS",
+    "isroOperationalTelemetry": {
+      "spacecraft": "INSAT-3D",
+      "metricSummary": "Thermal Infrared Cyclonic Tracking | Live Stream",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      { "name": "Navigate to live portal or mission console", "status": "in_progress" },
+      { "name": "Execute pillar-specific command or spatial analysis", "status": "pending" },
+      { "name": "Verify telemetry, authorization, or confirmation toast", "status": "pending" }
+    ],
+    "isComplete": false
+  }
+}

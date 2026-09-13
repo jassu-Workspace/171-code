@@ -1,0 +1,107 @@
+{
+  "status": "SUCCESS",
+  "input_image": "C:\\Users\\jaswa\\Downloads\\Checkout-Amazon-1024x912.webp",
+  "output_files": [
+    "C:\\171\\storage\\masked_outputs\\Checkout-Amazon-1024x912_masked.png",
+    "C:\\171\\storage\\sessions\\sess_amazon_checkout_verified\\masked\\step_1.png",
+    "C:\\Users\\jaswa\\.gemini\\antigravity-cli\\brain\\9a5c0b2b-2238-4a11-88cf-ae39de651d82\\Checkout-Amazon-1024x912_masked.png"
+  ],
+  "resolution": "1024x912",
+  "sensitive_regions_count": 5,
+  "redacted_regions_count": 5,
+  "all_enclosure_proofs_passed": true,
+  "filter_latency_ms": 3.23,
+  "total_latency_ms": 43.34,
+  "records": [
+    {
+      "region_id": "shipping_recipient_name",
+      "type": "PERSON",
+      "original_bbox": [
+        338,
+        72,
+        65,
+        18
+      ],
+      "redacted_bbox": [
+        333,
+        67,
+        122,
+        28
+      ],
+      "enclosure_proof_passed": true,
+      "text_masked": "John Smith"
+    },
+    {
+      "region_id": "shipping_full_address",
+      "type": "ADDRESS",
+      "original_bbox": [
+        338,
+        90,
+        160,
+        40
+      ],
+      "redacted_bbox": [
+        333,
+        85,
+        170,
+        50
+      ],
+      "enclosure_proof_passed": true,
+      "text_masked": "1600 PENNSYLVANIA AVE NW, WASHINGTON, DC 20502-0001"
+    },
+    {
+      "region_id": "payment_card_details",
+      "type": "CARD",
+      "original_bbox": [
+        338,
+        152,
+        200,
+        33
+      ],
+      "redacted_bbox": [
+        333,
+        147,
+        210,
+        43
+      ],
+      "enclosure_proof_passed": true,
+      "text_masked": "MasterCard ending in 9319"
+    },
+    {
+      "region_id": "billing_full_address",
+      "type": "ADDRESS",
+      "original_bbox": [
+        338,
+        185,
+        245,
+        26
+      ],
+      "redacted_bbox": [
+        333,
+        180,
+        255,
+        36
+      ],
+      "enclosure_proof_passed": true,
+      "text_masked": "Billing address: John Smith, 1600 PENN..."
+    },
+    {
+      "region_id": "prime_personalized_name",
+      "type": "PERSON",
+      "original_bbox": [
+        134,
+        493,
+        281,
+        65
+      ],
+      "redacted_bbox": [
+        129,
+        488,
+        291,
+        75
+      ],
+      "enclosure_proof_passed": true,
+      "text_masked": "Joe, we're giving you Prime free for 30 days!"
+    }
+  ]
+}

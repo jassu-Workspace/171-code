@@ -1,0 +1,14 @@
+{
+  "thought": "Scroll down to find iPhone 16 256GB in search results.",
+  "action": "scroll",
+  "scroll_direction": "down",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "model": "iPhone 16",
+      "storage": "256GB"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

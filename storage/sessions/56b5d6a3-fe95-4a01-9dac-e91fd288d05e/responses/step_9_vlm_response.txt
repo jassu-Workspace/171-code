@@ -1,0 +1,18 @@
+{
+  "thought": "Scroll down to find iPhone 16 256 GB in organic search results.",
+  "action": "scroll",
+  "scroll_direction": "down",
+  "value": "down",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "model": "iPhone 16",
+      "storage": "256GB"
+    },
+    "candidates": [],
+    "rejectedCandidates": [
+      "iPhone 17",
+      "iPhone Air"
+    ]
+  }
+}

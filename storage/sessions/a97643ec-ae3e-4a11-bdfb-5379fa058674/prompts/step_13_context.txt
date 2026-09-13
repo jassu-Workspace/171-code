@@ -1,0 +1,160 @@
+Task: go to amazon and clear the cart and after do add an iphone of 256gb into cart and goto the final checkout
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-118 value: ""
+- Step 2: click target: agent-130 value: ""
+- Step 3: click target: agent-119 value: ""
+- Step 4: click target: agent-131 value: ""
+- Step 5: click target: agent-116 value: ""
+- Step 6: click target: agent-21 value: ""
+- Step 7: click target: agent-59 value: ""
+- Step 8: click target: agent-15 value: ""
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <button role="button"> Go back to previous page
+[agent-3] <a> Search products
+[agent-4] <button id="savings-meter-trigger-:Reajtt9kvfa:" aria-expanded="false"> SAVING₹[PHONE]3456789You are saving ₹[PHONE]3456789₹18 on this order
+[agent-5] <button> Decrease quantity
+[agent-6] <button> Increase quantity
+[agent-7] <button role="button"> Add more items
+[agent-8] <div role="button"> 9% OFFTata Salt1 kg₹29₹32
+[agent-9] <div role="button"> +
+[agent-10] <button role="button"> +
+[agent-11] <div role="button"> 14% OFFFortune Premium Kachi Ghani Pure Mustard Oil Pouch1 L₹203₹235
+[agent-12] <div role="button"> +
+[agent-13] <button role="button"> +
+[agent-14] <div role="button"> 16% OFFFortune Premium Kachi Ghani Pure Mustard Oil910 g₹213₹255
+[agent-15] <div role="button"> +
+[agent-16] <button role="button"> +
+[agent-17] <div role="button"> 22% OFFAashirvaad Iodized Salt1 kg₹25₹32
+[agent-18] <div role="button"> +
+[agent-19] <button role="button"> +
+[agent-20] <div role="button"> 19% OFFFreedom Refined Sunflower Oil Pouch1 L₹187₹230
+[agent-21] <div role="button"> +
+[agent-22] <button role="button"> +
+[agent-23] <div role="button"> 27% OFFFortune Chakki Fresh Atta5 kg₹264₹360
+[agent-24] <div role="button"> +
+[agent-25] <button role="button"> +
+[agent-26] <div role="button"> 10% OFFParry's White Label Sugar1 kg₹72₹80
+[agent-27] <div role="button"> +
+[agent-28] <button role="button"> +
+[agent-29] <div role="button"> 19% OFFFortune Rice Bran Health Oil Pouch870 g₹177₹219
+[agent-30] <div role="button"> +
+[agent-31] <button role="button"> +
+[agent-32] <div role="button"> Maggi 2-Minute Masala Instant Noodles70 g₹15
+[agent-33] <div role="button"> +
+[agent-34] <button role="button"> +
+[agent-35] <div role="button"> 20% OFFParle Platina Hide & Seek Chocolate Chip Cookies200 g₹48₹60
+[agent-36] <div role="button"> +
+[agent-37] <button role="button"> +
+[agent-38] <div role="button"> 69% OFFVedaka Cumin (Jeera)200 g₹93₹300
+[agent-39] <div role="button"> +
+[agent-40] <button role="button"> +
+[agent-41] <div role="button"> 30% OFFVedaka Raw Peanuts1 kg₹210₹300
+[agent-42] <div role="button"> +
+[agent-43] <button role="button"> +
+[agent-44] <div role="button"> 30% OFFBingo! Masala Tadka Tedhe Medhe75 g₹14₹20
+[agent-45] <div role="button"> +
+[agent-46] <button role="button"> +
+[agent-47] <div role="button"> 13% OFFBritannia Classic Little Hearts70 g₹26₹30
+[agent-48] <div role="button"> +
+[agent-49] <button role="button"> +
+[agent-50] <div role="button"> 4% OFFTata Sampann Green Moong Dal (Whole)500 g₹89₹93
+[agent-51] <div role="button"> +
+[agent-52] <button role="button"> +
+[agent-53] <div role="button"> 13% OFFMaggi 2-Minute Masala Instant Noodles420 g₹78₹90
+[agent-54] <div role="button"> +
+[agent-55] <button role="button"> +
+[agent-56] <div role="button"> 42% OFFBritannia Nutri Choice Digestive Biscuits960 g₹128₹220
+[agent-57] <div role="button"> +
+[agent-58] <button role="button"> +
+[agent-59] <div role="button"> 25% OFFTata Sampann California Almonds500 g₹579₹775
+[agent-60] <div role="button"> +
+[agent-61] <button role="button"> +
+[agent-62] <div role="button"> 10% OFFSaffola Active Multi-Source Edible Oil Pouch850 g₹187₹208
+[agent-63] <div role="button"> +
+[agent-64] <button role="button"> +
+[agent-65] <div role="button"> 21% OFFDettol Skincare Liquid Handwash Refill1.35 L₹174₹219
+[agent-66] <div role="button"> +
+[agent-67] <button role="button"> +
+[agent-68] <div role="button"> 9% OFFTata Tea Agni Elaichi Chai1 kg₹309₹340Add
+[agent-69] <button role="button"> Add
+[agent-70] <div role="button"> 9% OFFNescafe Classic Instant Coffee Powder JarWith Free Red Mug180 g₹658₹725Add
+[agent-71] <button role="button"> Add
+[agent-72] <div role="button"> Brooke Bond 3 Roses TeaWeight May Vary (250g/275g)250 g₹230Add
+[agent-73] <button role="button"> Add
+[agent-74] <div role="button"> 14% OFFNescafe Black Roast Instant Coffee90 g₹405₹470Add
+[agent-75] <button role="button"> Add
+[agent-76] <div role="button"> Tea BagsBrooke Bond Taj Mahal TeaPack of 1, 100 Pcs₹220Add
+[agent-77] <button role="button"> Add
+[agent-78] <div role="button"> 9% OFFWagh Bakri Premium Leaf TeaKadak Rich Taste250 g₹150₹165Add
+[agent-79] <button role="button"> Add
+[agent-80] <div role="button"> 4% OFFCothas Speciality Blend Filter Coffee500 g₹510₹530Add
+[agent-81] <button role="button"> Add
+[agent-82] <div role="button"> 2% OFFBrooke Bond 3 Roses Tea500 g₹441₹450Add
+[agent-83] <button role="button"> Add
+[agent-84] <div role="button"> 6% OFFWagh Bakri Premium Leaf TeaKadak Rich Taste500 g₹306₹325Add
+[agent-85] <button role="button"> Add
+[agent-86] <div role="button"> 15% OFF80 DegreeContinental Malgudi Fresh Filter Coffee Powder80% Coffee + 20% Chicory500 g₹433₹510Add
+[agent-87] <button role="button"> Add
+[agent-88] <div role="button"> 11% OFFTata Tea GoldWith 15% Long Leaves500 g₹276₹310Add
+[agent-89] <button role="button" aria-haspopup="menu" aria-expanded="false"> Add
+[agent-90] <div role="button"> 1% OFFTata Tea Kanan Devan Classic500 g₹168₹170Add
+[agent-91] <button role="button"> Add
+[agent-92] <div role="button"> 5% OFFCoffee Day Magnum Roasted Ground CoffeeWith 80% Coffee & 20% Chicory200 g₹180₹190Add
+[agent-93] <button role="button"> Add
+[agent-94] <div role="button"> Tea LeavesTata Tea Gold - Assam Tea250 g₹155Add
+[agent-95] <button role="button"> Add
+[agent-96] <div role="button"> 14% OFFContinental Super Strong Coffee Jar50 g₹86₹100Add
+[agent-97] <button role="button"> Add
+[agent-98] <div role="button"> 9% OFFTea LeavesLipton Darjeeling Long Leaf Tea250 g₹474₹520Add
+[agent-99] <button role="button"> Add
+[agent-100] <div role="button"> 7% OFFSociety Assam Leaf Tea250 g₹144₹155Add
+[agent-101] <button role="button"> Add
+[agent-102] <div role="button"> 28% OFFSleepy Owl Intense Java Xpresso Coffee100 g₹319₹440Add
+[agent-103] <button role="button"> Add
+[agent-104] <div role="button"> 1% OFFWagh Bakri Premium Spiced TeaWith 7 Refreshing Spices250 g₹163₹165Add
+[agent-105] <button role="button"> Add
+[agent-106] <div role="button"> Tata Tea Chakra Gold Tea250 g₹225Add
+[agent-107] <button role="button" aria-haspopup="menu" aria-expanded="false"> Add
+[agent-108] <div role="button"> 22% OFFWholeTata Sampann Whole Spice Cumin Seeds200 g₹101₹130Add
+[agent-109] <button role="button"> Add
+[agent-110] <div role="button"> 13% OFFKeya Pizza Oregano Spice MixContains 10 Sachets40 g₹52₹60Add
+[agent-111] <button role="button"> Add
+[agent-112] <div role="button"> 10% OFFWholeMai Rasoi Rozana Green Elaichi20 g₹130₹145Add
+[agent-113] <button role="button"> Add
+[agent-114] <div role="button"> 27% OFFWholeTata Sampann Whole Spice Coriander Seed100 g₹40₹55Add
+[agent-115] <button role="button"> Add
+[agent-116] <div role="button"> 28% OFFTata Sampann Whole Spices Fennel Seeds200 g₹116₹160Add
+[agent-117] <button role="button"> Add
+[agent-118] <div role="button"> 37% OFFWholeZoff Premium Green Cardamom25 g₹139₹220Add
+[agent-119] <button role="button"> Add
+[agent-120] <div role="button"> 36% OFFWholeTata Sampann Golden Saffron1 g₹290₹450Add
+[agent-121] <button role="button"> Add
+[agent-122] <div role="button"> 16% OFFWholeTata Sampann Whole Coriander200 g₹92₹109Add
+[agent-123] <button role="button"> Add
+[agent-124] <div role="button"> 24% OFFTata Sampann HingCompunded Asafoetida100 g₹210₹275Add
+[agent-125] <button role="button"> Add
+[agent-126] <div role="button"> 11% OFFWholeMai Rasoi Sarson Small (Mustard Seeds)100 g₹25₹28Add
+[agent-127] <button role="button"> Add
+[agent-128] <div role="button"> 10% OFFTata Sampann HingCompunded Asafoetida50 g₹129₹143Add
+[agent-129] <button role="button"> Add
+[agent-130] <div role="button"> 14% OFFWholeAashirvaad Black Pepper100 g₹173₹200Add
+[agent-131] <button role="button"> Add
+[agent-132] <div role="button"> 27% OFFCatch Black Pepper Powder100 g₹132₹180Add
+[agent-133] <button role="button"> Add
+[agent-134] <div role="button"> 11% OFFWholeMai Rasoi Big Sarson100 g₹25₹28Add
+[agent-135] <button role="button"> Add
+[agent-136] <div role="button"> 18% OFFTata Sampann Turmeric PowderHaldi Powder200 g₹80₹98Add
+[agent-137] <button role="button"> Add
+[agent-138] <div role="button"> 32% OFFWholeZoff Premium Big Fennel (Saunf)100 g₹54₹79Add
+[agent-139] <button role="button"> Add
+[agent-140] <div role="button"> 14% OFFWholeTata Sampann Whole Spice Cumin Seeds100 g₹56₹65Add
+[agent-141] <button role="button"> Add
+
+--- PAGE TEXT ---
+[ADDRESS REDACTED]
+
+redaction_legend:
+[{"id":"R1","type":"card","bbox":[300.6789069198276,837.9881820773486,271.5219791235513,16.99909561820652]}]

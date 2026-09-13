@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mission Control global shell — Sovereign Intelligence theme */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+/* Scrollbars */
+* {
+  scrollbar-width: thin;
+}
+
+/* Light mode scrollbars */
+* {
+  scrollbar-color: #c5a059 #f1f5f9;
+}
+*::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+*::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+*::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #c5a059;
+}
+
+/* Dark mode scrollbars */
+.dark * {
+  scrollbar-color: #c5a059 #070d18;
+}
+.dark *::-webkit-scrollbar-track {
+  background: #070d18;
+}
+.dark *::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+.dark *::-webkit-scrollbar-thumb:hover {
+  background: #c5a059;
+}

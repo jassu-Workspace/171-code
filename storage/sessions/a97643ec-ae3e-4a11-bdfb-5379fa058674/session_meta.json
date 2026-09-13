@@ -1,0 +1,119 @@
+{
+  "sessionId": "a97643ec-ae3e-4a11-bdfb-5379fa058674",
+  "createdAt": "2026-09-12T20:05:10.393Z",
+  "updatedAt": "2026-09-12T20:07:53.875Z",
+  "status": "active",
+  "task": "go to amazon and clear the cart and after do add an iphone of 256gb into cart and goto the final checkout",
+  "totalSteps": 18,
+  "subTasks": [
+    "agent-18",
+    "agent-120",
+    "agent-121",
+    "agent-120",
+    "agent-118",
+    "agent-130",
+    "agent-119",
+    "agent-131",
+    "agent-116",
+    "agent-21",
+    "agent-59",
+    "agent-15",
+    "agent-5",
+    "navigate: https://www.amazon.in/s?k=iphone+256gb",
+    "agent-94",
+    "agent-19",
+    "agent-60"
+  ],
+  "actions": [
+    {
+      "step": 1,
+      "action": "click",
+      "timestamp": "2026-09-12T20:05:10.405Z"
+    },
+    {
+      "step": 2,
+      "action": "click",
+      "timestamp": "2026-09-12T20:05:20.435Z"
+    },
+    {
+      "step": 3,
+      "action": "click",
+      "timestamp": "2026-09-12T20:05:28.193Z"
+    },
+    {
+      "step": 4,
+      "action": "click",
+      "timestamp": "2026-09-12T20:05:35.927Z"
+    },
+    {
+      "step": 5,
+      "action": "click",
+      "timestamp": "2026-09-12T20:05:45.163Z"
+    },
+    {
+      "step": 6,
+      "action": "click",
+      "timestamp": "2026-09-12T20:06:04.916Z"
+    },
+    {
+      "step": 7,
+      "action": "click",
+      "timestamp": "2026-09-12T20:06:12.261Z"
+    },
+    {
+      "step": 8,
+      "action": "click",
+      "timestamp": "2026-09-12T20:06:19.828Z"
+    },
+    {
+      "step": 9,
+      "action": "click",
+      "timestamp": "2026-09-12T20:06:28.447Z"
+    },
+    {
+      "step": 10,
+      "action": "click",
+      "timestamp": "2026-09-12T20:06:36.532Z"
+    },
+    {
+      "step": 11,
+      "action": "click",
+      "timestamp": "2026-09-12T20:06:45.710Z"
+    },
+    {
+      "step": 12,
+      "action": "click",
+      "timestamp": "2026-09-12T20:06:54.040Z"
+    },
+    {
+      "step": 13,
+      "action": "click",
+      "timestamp": "2026-09-12T20:07:01.433Z"
+    },
+    {
+      "step": 14,
+      "action": "navigate",
+      "timestamp": "2026-09-12T20:07:08.723Z"
+    },
+    {
+      "step": 15,
+      "action": "click",
+      "timestamp": "2026-09-12T20:07:22.372Z"
+    },
+    {
+      "step": 16,
+      "action": "click",
+      "timestamp": "2026-09-12T20:07:32.892Z"
+    },
+    {
+      "step": 17,
+      "action": "click",
+      "timestamp": "2026-09-12T20:07:45.915Z"
+    },
+    {
+      "step": 18,
+      "action": "done",
+      "timestamp": "2026-09-12T20:07:53.875Z"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "thought": "MOSDAC INSAT-3D thermal infrared cyclonic tracking layer inspected. Maximum frame sequence active.",
+  "action": "done",
+  "scratchpad": {
+    "activePillar": "2: Earth Observation & GIS",
+    "isroOperationalTelemetry": {
+      "spacecraft": "INSAT-3DS",
+      "metricSummary": "Thermal Infrared1 @ 10.78 µm | Full Disk Linear Stretch 1% | Nominal Live Stream",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "completed"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "completed"
+      }
+    ],
+    "isComplete": true
+  }
+}

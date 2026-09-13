@@ -1,0 +1,17 @@
+{
+  "thought": "Scroll down to find iPhone 16 256GB product listing.",
+  "action": "scroll",
+  "scroll_direction": "down",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "model": "iPhone 16",
+      "storage": "256GB"
+    },
+    "candidates": [],
+    "rejectedCandidates": [
+      "iPhone 17 256GB",
+      "iPhone Air 256GB"
+    ]
+  }
+}

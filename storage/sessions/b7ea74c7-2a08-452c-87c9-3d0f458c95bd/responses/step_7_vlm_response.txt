@@ -1,0 +1,18 @@
+{
+  "thought": "Gaganyaan TV-D1 mission details displayed. Task complete.",
+  "action": "done",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "Gaganyaan TV-D1",
+      "metricSummary": "Test Flight accomplished | CES Mach 1.2 abort verified",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      { "name": "Navigate to live portal or mission console", "status": "completed" },
+      { "name": "Execute pillar-specific command or spatial analysis", "status": "completed" },
+      { "name": "Verify telemetry, authorization, or confirmation toast", "status": "completed" }
+    ],
+    "isComplete": true
+  }
+}

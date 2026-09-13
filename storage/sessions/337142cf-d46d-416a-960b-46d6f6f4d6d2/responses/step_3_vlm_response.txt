@@ -1,0 +1,15 @@
+```json
+{
+  "thought": "Found iPhone 17 256 GB. Adding to cart.",
+  "action": "click",
+  "id": "agent-116",
+  "selector": "[data-agent-id='agent-116']",
+  "value": "",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {"storage": "256gb", "product": "iPhone"},
+    "candidates": ["iPhone 17 256 GB"],
+    "rejectedCandidates": []
+  }
+}
+```

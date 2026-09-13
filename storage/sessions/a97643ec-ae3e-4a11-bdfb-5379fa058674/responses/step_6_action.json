@@ -1,0 +1,15 @@
+{
+  "thought": "Delete Sunny Herbals item from cart.",
+  "action": "click",
+  "id": "agent-130",
+  "selector": "input[name='submit.delete-active.82c1d15d-e701-4e66-b029-ec41ff8ef941']",
+  "value": "",
+  "scratchpad": {
+    "currentBudget": 150000,
+    "requiredSpecs": {
+      "storage": "256gb"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

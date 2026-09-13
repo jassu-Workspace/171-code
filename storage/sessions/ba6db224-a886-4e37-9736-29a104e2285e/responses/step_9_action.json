@@ -1,0 +1,30 @@
+{
+  "thought": "Category identified. Click Titanium Sheet specification link.",
+  "action": "click",
+  "id": "agent-21",
+  "selector": "[data-agent-id='agent-21']",
+  "value": "",
+  "scratchpad": {
+    "activePillar": "6: Procurement",
+    "isroOperationalTelemetry": {
+      "spacecraft": "LVM3 / PSLV",
+      "metricSummary": "GeM Portal | Item: Titanium Sheet Ti-6Al-4V | Spec: Aerospace Grade",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Open GeM portal",
+        "status": "completed"
+      },
+      {
+        "name": "Search Ti-6Al-4V procurement specifications",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify specifications",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

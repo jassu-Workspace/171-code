@@ -1,0 +1,22 @@
+```json
+{
+  "thought": "Open the layer selection menu to choose INSAT-3D thermal infrared cyclonic tracking layer.",
+  "action": "click",
+  "id": "agent-123",
+  "selector": "#abbr",
+  "scratchpad": {
+    "activePillar": "2: Earth Observation & GIS",
+    "isroOperationalTelemetry": {
+      "spacecraft": "INSAT-3D",
+      "metricSummary": "Payload: Imager / Sounder | Channel: Thermal Infrared (TIR-1) | Target: Cyclonic Tracking",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      { "name": "Navigate to live portal or mission console", "status": "completed" },
+      { "name": "Execute pillar-specific command or spatial analysis", "status": "in_progress" },
+      { "name": "Verify telemetry, authorization, or confirmation toast", "status": "pending" }
+    ],
+    "isComplete": false
+  }
+}
+```

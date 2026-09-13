@@ -1,0 +1,160 @@
+Task: go to amazon and clear the cart and after do add an iphone 16 of 256gb into cart and goto the final checkout
+
+Recent Actions Executed in this Session:
+- Step 1: scroll  value: ""
+- Step 2: scroll  value: ""
+- Step 3: type target: agent-12 value: "Apple iPhone 16 256 GB\n"
+- Step 4: scroll  value: "down"
+- Step 5: scroll  value: ""
+- Step 6: scroll  value: ""
+- Step 7: scroll  value: ""
+- Step 8: scroll  value: ""
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <a id="nav-top"> (empty input)
+[agent-2] <a id="nav-assist-skip-to-main-content"> Main content
+[agent-3] <a id="nav-assist-skip-to-results"> Results
+[agent-4] <a id="nav-assist-search" role="link"> Search alt + /
+[agent-5] <a id="nav-assist-cart" role="link"> Cart shift + alt + C
+[agent-6] <a id="nav-assist-home" role="link"> Home shift + alt + H
+[agent-7] <a id="nav-assist-your-orders" role="link"> Orders shift + alt + O
+[agent-8] <button id="nav-assist-show-shortcuts" role="button"> Show/Hide shortcuts shift + alt + Z
+[agent-9] <a id="nav-logo-sprites"> .in
+[agent-10] <a id="nav-global-location-popover-link" role="button"> Deliver to D.V.V.R... Visakhapa... 530047‌
+[agent-11] <select type="select" id="searchDropdownBox" name="url" selected="All Categories"> [Select Dropdown - Current: "All Categories"] Available Options: [opt-1: "All Categories" (val: "search-alias=aps")], [opt-2: "Alexa Skills"
+[agent-12] <input type="text" id="twotabsearchtextbox" name="field-keywords" placeholder="Search Amazon.in" data-has-content="true" data-char-count="22"> [Typed Value (22 chars)]: Apple iPhone 16 256 GB
+[agent-13] <input type="submit" id="nav-search-submit-button" data-has-content="true" data-char-count="2"> [Typed Value (2 chars)]: Go
+[agent-14] <a> Choose a language for shopping in Amazon India. The current selection is English (EN).
+[agent-15] <button> Expand to Change Language or Country
+[agent-16] <a> Hello, D.V.V.RAMANA Account & Lists
+[agent-17] <button> Expand Account and Lists
+[agent-18] <a id="nav-orders"> Returns & Orders
+[agent-19] <a id="nav-cart"> 0 Cart
+[agent-20] <a id="nav-hamburger-menu" role="button" aria-expanded="false"> Open All Categories Menu
+[agent-21] <button id="nav-rufus-disco" role="button"> Open Rufus panel
+[agent-22] <a> Fresh
+[agent-23] <a> Prime Video
+[agent-24] <a> Sell
+[agent-25] <a> Gift Cards
+[agent-26] <a> Amazon Pay
+[agent-27] <a> Today's Deals
+[agent-28] <a> Buy Again
+[agent-29] <a> Gift Ideas
+[agent-30] <a> Browsing History
+[agent-31] <button aria-expanded="false"> Browsing History Details
+[agent-32] <a id="nav-your-amazon"> D.V.V.RAMANA's Amazon.in
+[agent-33] <a> Prime
+[agent-34] <button aria-expanded="false"> Prime Details
+[agent-35] <a> Health, Household & Personal Care
+[agent-36] <a> Subscribe & Save
+[agent-37] <a> AmazonBasics
+[agent-38] <a> Home Improvement
+[agent-39] <a> Customer Service
+[agent-40] <a> Audible
+[agent-41] <a> Electronics
+[agent-42] <a> Books
+[agent-43] <a> Toys & Games
+[agent-44] <a> Beauty & Personal Care
+[agent-45] <a> Bestsellers
+[agent-46] <a> Home & Kitchen
+[agent-47] <a> Computers
+[agent-48] <a> New Releases
+[agent-49] <a> Mobiles
+[agent-50] <a> Sports, Fitness & Outdoors
+[agent-51] <a> Car & Motorbike
+[agent-52] <a> Kindle eBooks
+[agent-53] <a> Pet Supplies
+[agent-54] <a> Video Games
+[agent-55] <a> Baby
+[agent-56] <select type="select" id="s-result-sort-select" name="s" selected="Featured"> [Select Dropdown - Current: "Featured"] Available Options: [opt-1: "Featured" (val: "relevanceblender")], [opt-2: "Price: Low to High" (val:
+[agent-57] <a> Sponsored ad from JETech. "JETech iPhone 16 cases." Shop JETech.
+[agent-58] <a> JETech
+[agent-59] <a> JETech iPhone 16 casesJETech iPhone 16 cases
+[agent-60] <span role="button"> Leave feedback on Sponsored ad
+[agent-61] <a> Shop JETech Shop now
+[agent-63] <a> JETech Magnetic Matte Case for iPhone 16, Ultramarine | Cover Compatible with MagSafe, Translucent Matte Back, Slim Shockproof ProtectionJET
+[agent-64] <a> Rated 4.6 out of 5 stars by 14513 reviews. Go to review section.
+[agent-65] <a> ₹1,399.00₹1,399.00
+[agent-67] <a> JETech Magnetic Case for iPhone 16, Teal | Cover Compatible with MagSafe, Solid Color Matte TPU Frame, Clear Back, Shockproof BumperJETech M
+[agent-68] <a> Rated 4.5 out of 5 stars by 6643 reviews. Go to review section.
+[agent-69] <a> ₹1,299.00₹1,299.00
+[agent-71] <a> JETech Matte Case for iPhone 16, Black | Military-Grade Protection, Frosted Matte Back, Anti-Fingerprint Finish, Shockproof CoverJETech Matt
+[agent-72] <a> Rated 4.5 out of 5 stars by 9905 reviews. Go to review section.
+[agent-73] <a> Ends in 22:19:43
+[agent-74] <a> -27%₹949.00₹949.00
+[agent-76] <a> JETech Case for iPhone 16, Teal | Solid Color Matte TPU Frame, Scratch Resistant, Clear Back Phone CoverJETech Case for iPhone 16, Teal | So
+[agent-77] <a> Rated 4.5 out of 5 stars by 5432 reviews. Go to review section.
+[agent-78] <a> ₹999.00₹999.00
+[agent-80] <a> JETech Case for iPhone 16, 360° Protection, Black | Cover Compatible with MagSafe, Built-in Tempered Glass Screen Protector, Camera Control 
+[agent-81] <a> Rated 4.1 out of 5 stars by 465 reviews. Go to review section.
+[agent-82] <a> ₹1,699.00₹1,699.00
+[agent-84] <a> JETech Silicone Case for iPhone 16, Black | Silky Soft Touch, Shockproof Cover, Scratch Resistant, Microfiber LiningJETech Silicone Case for
+[agent-85] <a> Rated 4.5 out of 5 stars by 5320 reviews. Go to review section.
+[agent-86] <a> ₹999.00₹999.00
+[agent-88] <a> JETech Slim Case for iPhone 16, Black | Camera Lens Protection, Ultra-Thin Matte Finish, Lightweight Minimalist CoverJETech Slim Case for iP
+[agent-89] <a> Rated 4.3 out of 5 stars by 1502 reviews. Go to review section.
+[agent-90] <a> ₹999.00₹999.00
+[agent-92] <a> JETech Magnetic Silicone Case for iPhone 16, Black | Compatible with MagSafe, Silky Soft Touch, Full Camera Lens Protection, Shock Absorbing
+[agent-93] <a> Rated 4.5 out of 5 stars by 2307 reviews. Go to review section.
+[agent-94] <a> ₹1,499.00₹1,499.00
+[agent-96] <a> JETech Magnetic Case for iPhone 16, Clear | Compatible with MagSafe, Shockproof Phone Bumper Cover, Scratch Resistant, Clear BackJETech Magn
+[agent-97] <a> Rated 4.6 out of 5 stars by 9800 reviews. Go to review section.
+[agent-98] <a> ₹999.00₹999.00
+[agent-99] <a id="a-autoid-2" role="button"> Next page
+[agent-100] <a role="button"> SponsoredSponsored
+[agent-101] <a> iPhone 17 256 GB: 15.93 cm (6.3″) Display with Promotion, A19 Chip, Center Stage Front Camera for Smarter Group Selfies, Improved Scratch Re
+[agent-102] <a role="button"> 4.6 out of 5 stars, rating details
+[agent-103] <a> 662 ratings
+[agent-104] <a> ₹82,900₹82,900
+[agent-105] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart")
+[agent-106] <a role="link"> +1 other color/pattern
+[agent-107] <a role="button"> SponsoredSponsored
+[agent-108] <a> iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camer
+[agent-109] <a role="button"> 4.5 out of 5 stars, rating details
+[agent-110] <a> 360 ratings
+[agent-111] <a> ₹1,01,900₹1,01,900 M.R.P: ₹1,19,900M.R.P: ₹1,19,900₹1,19,900
+[agent-112] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart")
+[agent-113] <a role="link"> +3 other colors/patterns
+[agent-114] <a> iPhone 17 256 GB: 15.93 cm (6.3″) Display with Promotion, A19 Chip, Center Stage Front Camera for Smarter Group Selfies, Improved Scratch Re
+[agent-115] <a role="button"> 4.6 out of 5 stars, rating details
+[agent-116] <a> 662 ratings
+[agent-117] <a> ₹82,900₹82,900
+[agent-118] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart")
+[agent-119] <a> White
+[agent-120] <a> Black
+[agent-121] <a> Nord 6 | 8GB+256GB | Pitch Black | Snapdragon 8s Gen 4 | Segment's First Stable 165FPS Gaming | Segment's Largest 9000mAh Battery | Most Com
+[agent-122] <a role="button"> 4.3 out of 5 stars, rating details
+[agent-123] <a> 2,179 ratings
+[agent-124] <a> ₹46,999₹46,999 M.R.P: ₹52,999M.R.P: ₹52,999₹52,999
+[agent-125] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart")
+[agent-126] <a> Pitch Black
+[agent-127] <a> Fresh Mint
+[agent-128] <a> Quick Silver
+[agent-129] <a> Reno16c 5G (Stellar Purple, 8GB, 128GB) | 50MP 3.5X Telephoto Camera | 4K Video | AI Remix Collage | 7000mAh 80W SUPERVOOC | ColorOS 16 | IP
+[agent-130] <a role="button"> 4.3 out of 5 stars, rating details
+[agent-131] <a> 58 ratings
+[agent-132] <a> ₹49,999₹49,999 M.R.P: ₹74,999M.R.P: ₹74,999₹74,999
+[agent-133] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart")
+[agent-134] <a> Stellar Purple
+[agent-135] <a> Starry White
+[agent-136] <a> Twilight Violet
+[agent-137] <a> Debug info copied.
+[agent-138] <a> iPhone Charger Adapter 20W Type C (MFi-Certified) for iPhone 17/17 Air/17 Pro/17 Pro Max,16/16 Plus/Pro/Pro Max, 15/14/13/12/11 Series with 
+[agent-139] <a role="button"> 4.3 out of 5 stars, rating details
+[agent-140] <a> 5,089 ratings
+[agent-141] <a> ₹499₹499 M.R.P: ₹1,599M.R.P: ₹1,599₹1,599
+[agent-142] <a> iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camer
+[agent-143] <a role="button"> 4.5 out of 5 stars, rating details
+[agent-144] <a> 360 ratings
+[agent-145] <a> ₹1,01,900₹1,01,900 M.R.P: ₹1,19,900M.R.P: ₹1,19,900₹1,19,900
+[agent-146] <input type="submit" name="submit.addToCart"> (empty input, placeholder: "Add to cart")
+[agent-147] <a> Light Gold
+[agent-148] <a> Cloud White
+[agent-149] <a> Sky Blue
+
+--- PAGE TEXT ---
+[ADDRESS REDACTED]
+
+redaction_legend:
+[]

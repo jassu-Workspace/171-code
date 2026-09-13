@@ -1,0 +1,14 @@
+{
+  "thought": "Navigate to Amazon homepage.",
+  "action": "navigate",
+  "value": "https://www.amazon.in",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "product": "iPhone",
+      "storage": "256GB"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "thought": "Delete first item from cart to begin clearing cart.",
+  "action": "click",
+  "id": "agent-121",
+  "scratchpad": {
+    "currentBudget": 15000,
+    "requiredSpecs": {
+      "storage": "256gb",
+      "item": "iphone"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": false
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "wxt.config.ts", "vite.config.ts"]
+}

@@ -1,0 +1,34 @@
+{
+  "sessionId": "c41c27f3-9b57-4a46-810d-cfc1424371a6",
+  "createdAt": "2026-09-13T06:38:24.546Z",
+  "updatedAt": "2026-09-13T06:38:43.707Z",
+  "status": "active",
+  "task": "Open the ISRO website, and show me the news about the rocket's ot satilite's which are sent or launched latestly",
+  "totalSteps": 3,
+  "subTasks": [
+    "agent-21",
+    "agent-29"
+  ],
+  "actions": [
+    {
+      "step": 1,
+      "action": "click",
+      "timestamp": "2026-09-13T06:38:24.570Z"
+    },
+    {
+      "step": 2,
+      "action": "click",
+      "timestamp": "2026-09-13T06:38:33.777Z"
+    },
+    {
+      "step": 3,
+      "action": "done",
+      "timestamp": "2026-09-13T06:38:43.707Z"
+    }
+  ],
+  "imageStats": {
+    "rawImagesCount": 3,
+    "maskedImagesCount": 2,
+    "vlmImagesCount": 3
+  }
+}

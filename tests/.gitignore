@@ -1,0 +1,8 @@
+# Test artifacts
+node_modules/
+coverage/
+fixtures/mock_scenarios_150.json
+
+# OS
+.DS_Store
+Thumbs.db

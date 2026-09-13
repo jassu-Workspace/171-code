@@ -1,0 +1,63 @@
+Task: go to amazon and clear the cart and after do add an iphone of 256gb into cart and goto the final checkout
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <a id="nav-top"> (empty input)
+[agent-2] <a id="nav-logo-sprites"> .in
+[agent-3] <a id="nav-checkout-title-header-text" role="button"> Secure checkout
+[agent-4] <a id="nav-cart"> Cart
+[agent-5] <input type="submit"> (empty input)
+[agent-6] <a id="pay-method-fee-details-link"> Marketplace Fee:
+[agent-7] <a> RK World Infocom Pvt Ltd
+[agent-8] <a> Remove item
+[agent-9] <button> Minimum quantity reached. Delete item
+[agent-10] <button> Increase item quantity
+[agent-11] <select type="select" name="line-item-address" selected="D.V.V.RAMANA 7-128/2 Appalanarasayyacolony, appalanarasayya colony, naiduthota, Visakhapatnam, ANDHRA PRADESH, 530047, India"> [ADDRESS REDACTED]
+[agent-12] <a> [SWIFT_BIC] INDIA
+[agent-13] <a> Remove item
+[agent-14] <button> Minimum quantity reached. Delete item
+[agent-15] <button> Increase item quantity
+[agent-16] <select type="select" name="line-item-address" selected="D.V.V.RAMANA 7-128/2 Appalanarasayyacolony, appalanarasayya colony, naiduthota, Visakhapatnam, ANDHRA PRADESH, 530047, India"> [ADDRESS REDACTED]
+[agent-17] <a> RK World Infocom Pvt Ltd
+[agent-18] <a> Remove item
+[agent-19] <button> Minimum quantity reached. Delete item
+[agent-20] <button> Increase item quantity
+[agent-21] <select type="select" name="line-item-address" selected="D.V.V.RAMANA 7-128/2 Appalanarasayyacolony, appalanarasayya colony, naiduthota, Visakhapatnam, ANDHRA PRADESH, 530047, India"> [ADDRESS REDACTED]
+[agent-22] <a> MS ENTERPRISES1940
+[agent-23] <a> Remove item
+[agent-24] <button> Minimum quantity reached. Delete item
+[agent-25] <button> Increase item quantity
+[agent-26] <select type="select" name="line-item-address" selected="D.V.V.RAMANA 7-128/2 Appalanarasayyacolony, appalanarasayya colony, naiduthota, Visakhapatnam, ANDHRA PRADESH, 530047, India"> [ADDRESS REDACTED]
+[agent-27] <a> Clicktech Retail Private Ltd
+[agent-28] <a> Remove item
+[agent-29] <button> Minimum quantity reached. Delete item
+[agent-30] <button> Increase item quantity
+[agent-31] <select type="select" name="line-item-address" selected="D.V.V.RAMANA 7-128/2 Appalanarasayyacolony, appalanarasayya colony, naiduthota, Visakhapatnam, ANDHRA PRADESH, 530047, India"> [ADDRESS REDACTED]
+[agent-32] <a> Undo
+[agent-33] <a> RK World Infocom Pvt Ltd
+[agent-34] <a> Remove item
+[agent-35] <button> Minimum quantity reached. Delete item
+[agent-36] <button> Increase item quantity
+[agent-37] <select type="select" name="line-item-address" selected="D.V.V.RAMANA 7-128/2 Appalanarasayyacolony, appalanarasayya colony, naiduthota, Visakhapatnam, ANDHRA PRADESH, 530047, India"> [ADDRESS REDACTED]
+[agent-38] <a> RK World Infocom Pvt Ltd
+[agent-39] <a> Remove item
+[agent-40] <button> Minimum quantity reached. Delete item
+[agent-41] <button> Increase item quantity
+[agent-42] <select type="select" name="line-item-address" selected="D.V.V.RAMANA 7-128/2 Appalanarasayyacolony, appalanarasayya colony, naiduthota, Visakhapatnam, ANDHRA PRADESH, 530047, India"> [ADDRESS REDACTED]
+[agent-43] <a> Ship items to one address
+[agent-44] <input type="submit"> (empty input)
+[agent-45] <a> help pages
+[agent-46] <a> contact us 24x7
+[agent-47] <a> Return Policy
+[agent-48] <a> Back to cart
+[agent-49] <button id="navBackToTop"> Back to top
+[agent-51] <a> Help
+[agent-52] <a> Conditions of Use & Sale
+[agent-53] <a> Privacy Notice
+[agent-54] <a> Interest-Based Ads
+
+--- PAGE TEXT ---
+[ADDRESS REDACTED]
+
+redaction_legend:
+[]

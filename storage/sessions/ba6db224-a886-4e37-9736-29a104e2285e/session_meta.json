@@ -1,0 +1,83 @@
+{
+  "sessionId": "ba6db224-a886-4e37-9736-29a104e2285e",
+  "createdAt": "2026-09-12T19:57:11.222Z",
+  "updatedAt": "2026-09-12T19:59:32.629Z",
+  "status": "active",
+  "task": "Open GeM portal and search for space-grade titanium alloy Ti-6Al-4V procurement specifications.\n",
+  "totalSteps": 12,
+  "subTasks": [
+    "navigate: https://gem.gov.in",
+    "agent-12",
+    "agent-17",
+    "agent-30",
+    "agent-15",
+    "agent-24",
+    "agent-16",
+    "agent-30",
+    "agent-21",
+    "agent-30",
+    "agent-15"
+  ],
+  "actions": [
+    {
+      "step": 1,
+      "action": "navigate",
+      "timestamp": "2026-09-12T19:57:11.238Z"
+    },
+    {
+      "step": 2,
+      "action": "type",
+      "timestamp": "2026-09-12T19:57:25.086Z"
+    },
+    {
+      "step": 3,
+      "action": "click",
+      "timestamp": "2026-09-12T19:57:43.023Z"
+    },
+    {
+      "step": 4,
+      "action": "click",
+      "timestamp": "2026-09-12T19:57:54.580Z"
+    },
+    {
+      "step": 5,
+      "action": "type",
+      "timestamp": "2026-09-12T19:58:05.477Z"
+    },
+    {
+      "step": 6,
+      "action": "click",
+      "timestamp": "2026-09-12T19:58:15.629Z"
+    },
+    {
+      "step": 7,
+      "action": "click",
+      "timestamp": "2026-09-12T19:58:32.313Z"
+    },
+    {
+      "step": 8,
+      "action": "click",
+      "timestamp": "2026-09-12T19:58:51.767Z"
+    },
+    {
+      "step": 9,
+      "action": "click",
+      "timestamp": "2026-09-12T19:59:02.011Z"
+    },
+    {
+      "step": 10,
+      "action": "click",
+      "timestamp": "2026-09-12T19:59:12.338Z"
+    },
+    {
+      "step": 11,
+      "action": "type",
+      "timestamp": "2026-09-12T19:59:20.654Z"
+    },
+    {
+      "step": 12,
+      "action": "done",
+      "timestamp": "2026-09-12T19:59:32.629Z"
+    }
+  ]
+}

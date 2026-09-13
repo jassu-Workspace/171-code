@@ -1,0 +1,77 @@
+{
+  "sessionId": "337142cf-d46d-416a-960b-46d6f6f4d6d2",
+  "createdAt": "2026-09-12T20:02:10.055Z",
+  "updatedAt": "2026-09-12T20:03:42.374Z",
+  "status": "active",
+  "task": "go toamazon and add an iphone of 256gb into cart and goto the final checkout",
+  "totalSteps": 11,
+  "subTasks": [
+    "navigate: https://www.amazon.in",
+    "agent-11",
+    "agent-116",
+    "agent-19",
+    "agent-63",
+    "down",
+    "down",
+    "agent-5",
+    "down",
+    "agent-5"
+  ],
+  "actions": [
+    {
+      "step": 1,
+      "action": "navigate",
+      "timestamp": "2026-09-12T20:02:10.072Z"
+    },
+    {
+      "step": 2,
+      "action": "type",
+      "timestamp": "2026-09-12T20:02:17.801Z"
+    },
+    {
+      "step": 3,
+      "action": "click",
+      "timestamp": "2026-09-12T20:02:33.161Z"
+    },
+    {
+      "step": 4,
+      "action": "click",
+      "timestamp": "2026-09-12T20:02:42.818Z"
+    },
+    {
+      "step": 5,
+      "action": "click",
+      "timestamp": "2026-09-12T20:02:54.052Z"
+    },
+    {
+      "step": 6,
+      "action": "done",
+      "timestamp": "2026-09-12T20:03:06.196Z"
+    },
+    {
+      "step": 7,
+      "action": "done",
+      "timestamp": "2026-09-12T20:03:14.350Z"
+    },
+    {
+      "step": 8,
+      "action": "click",
+      "timestamp": "2026-09-12T20:03:21.652Z"
+    },
+    {
+      "step": 9,
+      "action": "done",
+      "timestamp": "2026-09-12T20:03:27.949Z"
+    },
+    {
+      "step": 10,
+      "action": "click",
+      "timestamp": "2026-09-12T20:03:36.385Z"
+    },
+    {
+      "step": 11,
+      "action": "done",
+      "timestamp": "2026-09-12T20:03:42.374Z"
+    }
+  ]
+}

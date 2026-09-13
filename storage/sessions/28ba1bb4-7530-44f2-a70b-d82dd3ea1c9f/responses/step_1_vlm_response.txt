@@ -1,0 +1,31 @@
+{
+  "thought": "MOSDAC live satellite products gallery navigation. Click Satellite Products menu item. Inspect INSAT-3D thermal infrared product.",
+  "action": "click",
+  "id": "agent-31",
+  "selector": "a[role='menuitem']:contains('Satellite Products')",
+  "value": "",
+  "scroll_direction": "down",
+  "scratchpad": {
+    "activePillar": "2: Earth Observation & GIS",
+    "isroOperationalTelemetry": {
+      "spacecraft": "INSAT-3D",
+      "metricSummary": "Payload: Imager / Sounder | Channel: Thermal Infrared (TIR-1 / TIR-2) | Frames: 240",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

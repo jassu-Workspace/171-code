@@ -1,0 +1,28 @@
+{
+  "thought": "Navigate directly to the Gaganyaan mission page on ISRO portal.",
+  "action": "navigate",
+  "value": "https://www.isro.gov.in/Gaganyaan.html",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "Gaganyaan / TV-D1",
+      "metricSummary": "Crew Module Abort Mission / Flight Test",
+      "operationalStatus": "Active Development"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

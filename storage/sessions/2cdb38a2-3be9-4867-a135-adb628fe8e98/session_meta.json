@@ -1,0 +1,23 @@
+{
+  "sessionId": "2cdb38a2-3be9-4867-a135-adb628fe8e98",
+  "createdAt": "2026-09-12T20:04:53.005Z",
+  "updatedAt": "2026-09-12T20:05:02.733Z",
+  "status": "active",
+  "task": "go to amazon and clear the cart and after do add an iphone of 256gb into cart and goto the final checkout",
+  "totalSteps": 2,
+  "subTasks": [
+    "agent-4"
+  ],
+  "actions": [
+    {
+      "step": 1,
+      "action": "click",
+      "timestamp": "2026-09-12T20:04:53.015Z"
+    },
+    {
+      "step": 2,
+      "action": "click",
+      "timestamp": "2026-09-12T20:05:02.733Z"
+    }
+  ]
+}

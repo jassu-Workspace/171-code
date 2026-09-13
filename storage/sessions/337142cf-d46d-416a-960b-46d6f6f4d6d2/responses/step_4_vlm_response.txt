@@ -1,0 +1,16 @@
+{
+  "thought": "Go to cart.",
+  "action": "click",
+  "id": "agent-19",
+  "selector": "#nav-cart",
+  "value": "",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "product": "iPhone",
+      "storage": "256GB"
+    },
+    "candidates": ["iPhone 17 256 GB"],
+    "rejectedCandidates": []
+  }
+}

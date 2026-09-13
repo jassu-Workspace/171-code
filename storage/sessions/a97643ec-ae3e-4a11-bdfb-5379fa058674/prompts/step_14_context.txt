@@ -1,0 +1,25 @@
+Task: go to amazon and clear the cart and after do add an iphone of 256gb into cart and goto the final checkout
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-130 value: ""
+- Step 2: click target: agent-119 value: ""
+- Step 3: click target: agent-131 value: ""
+- Step 4: click target: agent-116 value: ""
+- Step 5: click target: agent-21 value: ""
+- Step 6: click target: agent-59 value: ""
+- Step 7: click target: agent-15 value: ""
+- Step 8: click target: agent-5 value: ""
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-2] <button role="button"> Start Shopping
+
+--- PAGE TEXT ---
+Your cart is empty
+
+Shop now and get daily essentials in minutes!
+
+Start Shopping
+
+redaction_legend:
+[]

@@ -1,0 +1,16 @@
+{
+  "thought": "Search iPhone 256GB on Amazon.",
+  "action": "type",
+  "id": "agent-11",
+  "selector": "#twotabsearchtextbox",
+  "value": "iPhone 256gb\n",
+  "scratchpad": {
+    "currentBudget": 150000,
+    "requiredSpecs": {
+      "brand": "Apple",
+      "storage": "256GB"
+    },
+    "candidates": [],
+    "rejectedCandidates": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "thought": "Cart empty. Add iPhone 256GB to cart.",
+  "action": "click",
+  "id": "agent-94",
+  "selector": "[data-agent-id='agent-94']",
+  "value": "",
+  "scratchpad": {
+    "currentBudget": null,
+    "requiredSpecs": {
+      "storage": "256gb"
+    },
+    "candidates": [
+      "iPhone 17 256 GB"
+    ],
+    "rejectedCandidates": []
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "sessionId": "b7ea74c7-2a08-452c-87c9-3d0f458c95bd",
+  "createdAt": "2026-09-13T06:35:53.501Z",
+  "updatedAt": "2026-09-13T06:37:26.206Z",
+  "status": "active",
+  "task": "Open the ISRO website, navigate to the Missions section, and find the latest updates regarding the Gaganyaan crewed spaceflight program.",
+  "totalSteps": 7,
+  "subTasks": [
+    "agent-73",
+    "agent-28",
+    "agent-35",
+    "agent-31",
+    "navigate: https://www.isro.gov.in/Gaganyaan.html",
+    "agent-31"
+  ],
+  "actions": [
+    {
+      "step": 1,
+      "action": "click",
+      "timestamp": "2026-09-13T06:35:53.521Z"
+    },
+    {
+      "step": 2,
+      "action": "type",
+      "timestamp": "2026-09-13T06:36:06.563Z"
+    },
+    {
+      "step": 3,
+      "action": "click",
+      "timestamp": "2026-09-13T06:36:26.665Z"
+    },
+    {
+      "step": 4,
+      "action": "click",
+      "timestamp": "2026-09-13T06:36:44.897Z"
+    },
+    {
+      "step": 5,
+      "action": "navigate",
+      "timestamp": "2026-09-13T06:37:04.234Z"
+    },
+    {
+      "step": 6,
+      "action": "click",
+      "timestamp": "2026-09-13T06:37:17.287Z"
+    },
+    {
+      "step": 7,
+      "action": "done",
+      "timestamp": "2026-09-13T06:37:26.206Z"
+    }
+  ],
+  "imageStats": {
+    "rawImagesCount": 7,
+    "maskedImagesCount": 5,
+    "vlmImagesCount": 7
+  }
+}

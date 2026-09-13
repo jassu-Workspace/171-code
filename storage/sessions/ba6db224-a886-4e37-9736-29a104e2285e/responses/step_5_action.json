@@ -1,0 +1,30 @@
+{
+  "thought": "Search input found. Type query and submit search.",
+  "action": "type",
+  "id": "agent-15",
+  "selector": "#search-input",
+  "value": "Ti-6Al-4V\n",
+  "scratchpad": {
+    "activePillar": "6: Procurement",
+    "isroOperationalTelemetry": {
+      "spacecraft": "LVM3-M4 / Semi-Cryogenic Stage",
+      "metricSummary": "Procurement Search: Ti-6Al-4V Grade 5 Titanium",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

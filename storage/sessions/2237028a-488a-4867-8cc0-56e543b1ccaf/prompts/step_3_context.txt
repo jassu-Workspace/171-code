@@ -1,0 +1,68 @@
+Task: Open the ISRO website, and show me the news about the rocket's ot satilite's which are sent or launched latestly
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-56 value: ""
+- Step 2: click target: agent-56 value: ""
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <button id="openbtnAccessibility"> (empty input)
+[agent-2] <a> English
+[agent-3] <a> हिंदी
+[agent-4] <a> Sitemap
+[agent-5] <a> Contact us
+[agent-6] <a> Feedback
+[agent-7] <a> RTI
+[agent-8] <a> Career
+[agent-9] <a> Tender
+[agent-10] <a> FAQ
+[agent-11] <a> Visit ISRO on Facebook
+[agent-13] <a> Visit ISRO on Youtube
+[agent-14] <a> Instagram
+[agent-15] <a id="Ainc"> A+
+[agent-16] <a id="Arest"> A
+[agent-17] <a id="Adec"> A-
+[agent-18] <a> Skip to main content
+[agent-19] <a> ISRO DOS Home
+[agent-20] <a> Government of India
+[agent-21] <a role="menuitem"> Home
+[agent-22] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> About
+[agent-23] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Activities
+[agent-24] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Services
+[agent-25] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Programmes
+[agent-26] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Resources
+[agent-27] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Engagements
+[agent-28] <input type="text" id="searchTextD" placeholder="search"> (empty input, placeholder: "search")
+[agent-29] <a> Home
+[agent-30] <a> GSLV-F17/EOS-05 MISSION
+[agent-31] <a> Launch Streaming
+[agent-32] <a> Brochure
+[agent-33] <a> Lift-off & Onboard Camera Video
+[agent-34] <a> Gallery
+[agent-35] <a> RTI
+[agent-36] <a> Feedback
+[agent-37] <a> Contact us
+[agent-38] <a> FAQ
+[agent-39] <a> Website Policy
+[agent-40] <a> Copyright Policy
+[agent-41] <a> Hyper Linking Policy
+[agent-42] <a> Terms of Use
+[agent-43] <a> Archives
+[agent-44] <a> Web Information Manager
+[agent-45] <a> Space Policy
+[agent-46] <a> Parliament Questions
+[agent-47] <a> PIB
+[agent-48] <a> e-Saral Hindi Vakyakosh
+[agent-49] <a> Related links
+[agent-50] <a> Pensioners' Portal
+[agent-51] <a> Site Map
+[agent-52] <a> Help
+[agent-53] <a> Government of India
+[agent-54] <a> IYC 2025 logo
+[agent-55] <a> Website Quality Certificate
+
+--- PAGE TEXT ---
+[ADDRESS REDACTED]
+
+redaction_legend:
+[]

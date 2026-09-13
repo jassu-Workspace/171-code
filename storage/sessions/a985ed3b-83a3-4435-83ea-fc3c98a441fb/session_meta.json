@@ -1,0 +1,40 @@
+{
+  "sessionId": "a985ed3b-83a3-4435-83ea-fc3c98a441fb",
+  "createdAt": "2026-09-13T06:22:12.059Z",
+  "updatedAt": "2026-09-13T06:22:52.288Z",
+  "status": "active",
+  "task": "Open MOSDAC, navigate to Live Satellite Products, and inspect the INSAT-3D thermal infrared cyclonic tracking layer. and keep that in 60 frames",
+  "totalSteps": 4,
+  "subTasks": [
+    "agent-123",
+    "agent-125",
+    "agent-142"
+  ],
+  "actions": [
+    {
+      "step": 1,
+      "action": "click",
+      "timestamp": "2026-09-13T06:22:12.071Z"
+    },
+    {
+      "step": 2,
+      "action": "select",
+      "timestamp": "2026-09-13T06:22:20.458Z"
+    },
+    {
+      "step": 3,
+      "action": "select",
+      "timestamp": "2026-09-13T06:22:31.823Z"
+    },
+    {
+      "step": 4,
+      "action": "done",
+      "timestamp": "2026-09-13T06:22:52.288Z"
+    }
+  ],
+  "imageStats": {
+    "rawImagesCount": 0,
+    "maskedImagesCount": 0,
+    "vlmImagesCount": 0
+  }
+}

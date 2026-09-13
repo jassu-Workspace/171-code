@@ -1,0 +1,228 @@
+Task: Open GeM portal and search for space-grade titanium alloy Ti-6Al-4V procurement specifications.
+
+
+Recent Actions Executed in this Session:
+- Step 1: type target: agent-12 value: "space-grade titanium alloy Ti-"
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <a> Dark Mode
+[agent-2] <a> Font Size
+[agent-3] <a> A-
+[agent-4] <a> A
+[agent-5] <a> A+
+[agent-6] <a> Skip to Main Content
+[agent-7] <a data-dropdown="true"> Need Help?
+[agent-8] <a> Login
+[agent-10] <a> Forward Auction
+[agent-11] <a> Bids
+[agent-12] <a> Signup
+[agent-14] <select type="select" selected="All Categories"> [Select Dropdown - Current: "All Categories"] Available Options: [opt-1: "All Categories" (val: "/home/search ")]
+[agent-15] <input type="text" id="search-input" name="q" data-has-content="true" data-char-count="36"> [Typed Value (36 chars)]: space-grade titanium alloy Ti-6Al-4V
+[agent-16] <input type="submit" data-has-content="true" data-char-count="2"> [Typed Value (2 chars)]: GO
+[agent-17] <a> Titanium Sheet(Q3)
+[agent-18] <a> Titanium Putty(Q3)
+[agent-19] <a> Titanium Dioxide as per IS: 2529(Q3)
+[agent-20] <a> Locking Compression Plates (V2)(Q2)
+[agent-21] <a> Ferro Titanium (SAIL)(Q3)
+[agent-22] <a> XLPE Cable, Working Voltage from 3.3 kV up to and including 33 kV (V2) ISI Marked to IS 7098 (Part 2)(Q2)
+[agent-23] <a> Desk and Bench Set for Classroom/Training Area(Q2)
+[agent-24] <a> Tin Mess Aluminium Alloy(Q3)
+[agent-25] <a> Ligation Clips(Q2)
+[agent-26] <a> Aluminium Alloy Timer Pulley to Suit the Timer Belt (Defence)(Q3)
+[agent-27] <a> Solder Bar (in Kg)(Q3)
+[agent-28] <a> Non Sparking Hammers (V2)(Q2)
+[agent-29] <a> Non Sparking Adjustable Wrench (V2)(Q2)
+[agent-30] <a> Non Sparking Pipe Wrench (V2)(Q2)
+[agent-31] <a> Non Sparking Open end Slugging Spanners (V2)(Q3)
+[agent-32] <a> Terms of Use
+[agent-33] <a> Website Policies
+[agent-34] <a> Document Help
+[agent-35] <a> Sitemap
+[agent-36] <a> Web Information Manager
+[agent-37] <a> Introduction to GeM
+[agent-38] <a> Statistics
+[agent-39] <a> Right to Information
+[agent-40] <a> Analytics
+[agent-41] <a> New on GeM
+[agent-42] <a> BRAND GeM
+[agent-43] <a> Newsroom
+[agent-44] <a> Gallery
+[agent-45] <a> Notifications
+[agent-46] <a> CCM Schedule
+[agent-47] <a> Forums
+[agent-48] <a> Testimonials
+[agent-49] <a> GeM Handbook
+[agent-50] <a> OM’s/Circulars
+[agent-51] <a> Terms and Conditions
+[agent-52] <a> Policies/Manuals
+[agent-53] <a> Miscellaneous
+[agent-54] <a> MoU's
+[agent-55] <a> LMS
+[agent-56] <a> Training Calendar
+[agent-57] <a> Training Module
+[agent-58] <a> Facilitators
+[agent-59] <a> Download GeM Logo
+[agent-60] <a> FAQs
+[agent-61] <a> Feedback
+[agent-62] <a> Raise a Ticket
+[agent-63] <a> Contact Us
+[agent-64] <a> Careers
+[agent-65] <a> External link that opens in a new window
+[agent-66] <a> External link that opens in a new window
+[agent-67] <a> External link that opens in a new window
+[agent-68] <a> External link that opens in a new window
+[agent-69] <a> External link that opens in a new window
+[agent-70] <a> External link that opens in a new window
+[agent-71] <a> External link that opens in a new window
+[agent-72] <a> External link that opens in a new window
+[agent-73] <a> External link that opens in a new window
+[agent-74] <a> STQC Certification for Quality Evaluation of GeM
+[agent-75] <a> External link that opens in a new window
+[agent-76] <a> External link that opens in a new window
+[agent-77] <a> External link that opens in a new window
+[agent-78] <a> External link that opens in a new window
+[agent-79] <a> External link that opens in a new window
+
+--- PAGE TEXT ---
+ 
+ Dark Mode
+ 
+Font Size
+ 
+A-
+ 
+A
+ 
+A+
+ 
+Skip to Main Content
+Need Help? Login
+Forward Auction Bids Signup
+
+ 
+
+All Categories
+Category Results for: "space-grade titanium alloy Ti-6Al-4V"
+Keywords searched by you appear in following categories, please click on the category name to look at relevant products:
+
+Uploading of wrong or misleading product in category not relevant for that product is strictly prohibited and such sellers are liable for strict Administrative action as per GeM GTC clause 3 (A) (xiii). Buyers are also warned not to place contracts against such items listed in wrong or irrelevant categories since all such contract shall be treated as null and void as per GeM GTC.
+
+Titanium Bars And Sheets
+Titanium Sheet(Q3)
+Adhesives
+Titanium Putty(Q3)
+Pigments
+Titanium Dioxide As Per IS: 2529(Q3)
+Orthopedic Trauma Implants
+Locking Compression Plates (V2)(Q2)
+Base Metals
+Ferro Titanium (SAIL)(Q3)
+Electrical Cable & Accessories
+XLPE Cable, Working Voltage From 3.3 KV Up To And Including 33 KV (V2) ISI Marked To IS 7098 (Part 2)(Q2)
+General Classroom Furnishings
+Desk And Bench Set For Classroom/Training Area(Q2)
+Domestic Dishes And Servingware And Storage Containers
+Tin Mess Aluminium Alloy(Q3)
+Medical Tissue Closure And Related Products
+Ligation Clips(Q2)
+Drive Components
+Aluminium Alloy Timer Pulley To Suit The Timer Belt (Defence)(Q3)
+Welding And Soldering And Brazing Supplies
+Solder Bar (In Kg)(Q3)
+Forming Tools
+Non Sparking Hammers (V2)(Q2)
+Wrenches And Drivers
+Non Sparking Adjustable Wrench (V2)(Q2)
+Non Sparking Pipe Wrench (V2)(Q2)
+Non Sparking Open End Slugging Spanners (V2)(Q3)
+
+WEB INFO
+
+Terms of Use
+
+Website Policies
+
+Document Help
+
+Sitemap
+
+Web Information Manager
+
+ABOUT GeM
+
+Introduction to GeM
+
+Statistics
+
+Right to Information
+
+Analytics
+
+New on GeM
+
+BRAND GeM
+NEWS & EVENTS
+
+Newsroom
+
+Gallery
+
+Notifications
+
+CCM Schedule
+
+Forums
+
+TESTIMONIALS
+RESOURCES
+
+GeM Handbook
+
+OM’s/Circulars
+
+Terms and Conditions
+
+Policies/Manuals
+
+Miscellaneous
+
+MOU'S
+[SWIFT_BIC]
+
+LMS
+
+Training Calendar
+
+Training Module
+
+Facilitators
+
+Download GeM Logo
+
+NEED HELP ?
+
+FAQs
+
+Feedback
+
+Raise a Ticket
+
+Contact Us
+
+Careers
+
+ 
+ 
+         
+ 
+
+© 2021 GeM All rights reserved
+
+Site operated and maintained by Managed Service Provider
+
+     
+ 
+
+redaction_legend:
+[]

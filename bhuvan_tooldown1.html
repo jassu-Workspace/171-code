@@ -1,0 +1,187 @@
+﻿﻿<html> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/tab.css" TYPE="text/css" MEDIA="screen">
+ </head>
+
+<body oncontextmenu="return true;" bgcolor="#ffffff" class="s10" height="100%" onload="result()"> <br/>
+
+
+
+<div id="firstpage" height="100%" >
+<table width="100%" valign="center" class="tableborder" bgcolor="#FFFFFF"  > <tr>
+<td height="60px" align="justify" ><br/>
+<span class="s10">Bhuvan-Thematic Services facilitate the users to select, browse and query the Thematic Datasets from this portal. Users can consume these Thematic Datasets and integrate into their systems as OGC Web Services.
+</span><br/></td></tr>
+<tr><td>
+			
+<div class="tabber"   >
+<div class="tabbertab" id='selectSearchTab' >
+<h2>Search</h2>
+<p><span class="s10"> 
+<form method="post" action="" name="form1">
+<input type="hidden" name="csrf" value="" />
+<table bgcolor="#FFFFFF" cellpadding="2" cellspacing="0"  >
+<tr> <td height="90px" width='100px'>
+<label  align="left">
+<span  class="s10b">&nbsp;Select Theme</span>
+</label><br/>
+</td>
+<td>
+<div id="categorydiv">
+&nbsp;<select id='theme' name='theme' onChange='getStates(this.value),themechange()'><option>Select</option><option value='lulc_Statistics,Analysis,Metadata,WebServices,Overlay,GetData_1_Geography_1_1_1_LULC50K_0506' title='Land Use refers to mans activities and various uses which are carried on Land. Land Cover refers to natural vegetation, water bodies, rock, soil etc. Although Land Use is generally inferred based on the cover, yet both the terms are related and interchangeable.(Scale-1:50000)' onmouseover='showHideTooltip()'>Land Use Land Cover(50K):2005-06</option><option value='lulc502_Statistics,Analysis,Metadata,WebServices,Overlay,GetData_1_State_1_0_1_LULC50K_1112' title='Land Use refers to mans activities and various uses which are carried on Land. Land Cover refers to natural vegetation, water bodies, rock, soil etc. Although Land Use is generally inferred based on the cover, yet both the terms are related and interchangeable.(Scale-1:50000)
+' onmouseover='showHideTooltip()'>Land Use Land Cover(50K):2011-12</option><option value='lulc503_Statistics,Analysis,Metadata,WebServices,Overlay,GetData_1_State_1_0_1_LULC50K_1516' title='Land Use refers to mans activities and various uses which are carried on Land. Land Cover refers to natural vegetation, water bodies, rock, soil etc. Although Land Use is 	generally inferred based on the cover, yet both the terms are related and interchangeable.(Scale-1:50000)' onmouseover='showHideTooltip()'>Land Use Land Cover(50K):2015-16</option><option value='lulc250_Statistics,Metadata,WebServices,Overlay,GetData_2_Year_0_1_0' title='Land Use refers to mans activities and various uses which are carried on Land. Land Cover refers to natural vegetation, water bodies, rock, soil etc. Although Land Use is generally inferred based on the cover, yet both the terms are related and interchangeable.(Scale-1:250000)' onmouseover='showHideTooltip()'>Land Use Land Cover(250K)</option><option value='lulc10_WebServices,Overlay_2_State_0_0_0' title='Land Use refers to mans activities and various uses which are carried on Land. Land Cover refers to natural vegetation, water bodies, rock, soil etc. Although Land Use is generally inferred based on the cover, yet both the terms are related and interchangeable.(Scale-1:10000)' onmouseover='showHideTooltip()'>Land Use Land Cover (10K):SIS-DP</option><option value='lulc101619_WebServices,Overlay,GetData_1_State_0_0_0' title='Land Use refers to mans activities and various uses which are carried on Land. Land Cover refers to natural vegetation, water bodies, rock, soil etc. Although Land Use is generally inferred based on the cover, yet both the terms are related and interchangeable.(Scale-1:10000)' onmouseover='showHideTooltip()'>Land Use Land Cover (10K):SIS-DP Phase2:2018-23</option><option value='ld0506_Statistics,Metadata,WebServices,Overlay_1_State_1_1_1_LD50K_0506' title='land degradation information 2005-06.' onmouseover='showHideTooltip()'>Land Degradation(50K):2005-06</option><option value='ld1516_Statistics,Metadata,WebServices,Overlay_1_State_1_1_1_LD50K_1516' title='land degradation information 2015-16.' onmouseover='showHideTooltip()'>Land Degradation(50K):2015-16</option><option value='nuis_Metadata,WebServices,Overlay_2_State_0_0_0' title='NUIS scheme is conceived for mapping Thematic assets on a scale of 1:10,000 for the city and environs to assist in preparing the Perspective Master Plans / Development Plan for present and for future development' onmouseover='showHideTooltip()'>Urban Land Use (10K) :NUIS</option><option value='amrut_WebServices,Overlay_2_State_0_0_0' title='AMRUT scheme is conceived for mapping Thematic assets on a scale of 1:4,000 for the city and environs to 
+assist in preparing the Perspective Master Plans / Development Plan for present and for future development' onmouseover='showHideTooltip()'>Urban Land Use (4K) :AMRUT</option><option value='wl_Statistics,Analysis,Metadata,WebServices,Overlay_1_State_1_1_1_WL50K_0809' title='wasteland is defined as degraded land that can be brought under vegetative cover with reasonable effort and which is currently under-utilized and land which is deteriorating due to lack of appropriate water and soil management or on account of natural causes.' onmouseover='showHideTooltip()'>Wasteland(50K):2008-09</option><option value='wl1516_Statistics,Analysis,Metadata,WebServices,Overlay_1_State_1_1_1_WL50K_1516' title='wasteland is defined as degraded land that can be brought under vegetative cover with reasonable effort and which is currently under-utilized and land which is deteriorating due to lack of appropriate water and soil management or on account of natural causes.' onmouseover='showHideTooltip()'>Wasteland(50K):2015-16</option><option value='glwb_Metadata,WebServices_1_Area_1_1_0' title='Inventory and Monitoring of Glacial Lakes and Water Bodies in The Himalayan Region' onmouseover='showHideTooltip()'>Glacial Lakes/Waterbodies</option><option value='gm_Metadata,WebServices,Overlay_2_State_1_1_1_GM50K_0506' title='Geomorphology is defined as scientific study of landforms. Geo means ‘earth’, Morpho means ‘form’ and Logy means ‘discourse’ or ‘science’.' onmouseover='showHideTooltip()'>Geomorphology(50K):2005-06</option><option value='ln_Metadata,WebServices,Overlay_2_State_1_1_1_LN50K_0506' title='A lineament is a linear or curvilinear surface feature of geological significance which presumably reflects a subsurface phenomenon' onmouseover='showHideTooltip()'>Lineament(50K)</option><option value='fldhz_Statistics,Analysis,Metadata,WebServices,Overlay_1_State_0_1_0' title='The maximum flood inundation layers corresponding to various years (1998-2007) were integrated for assessing the frequency of inundation and subsequent generation of hazard layer' onmouseover='showHideTooltip()'>Flood Hazard</option><option value='fld_Metadata,WebServices,Overlay_2_State_0_1_0' title='The flood inundation layers generated for different flood waves in a calendar year were integrated to generate the maximum flood inundation extent observed in that year.' onmouseover='showHideTooltip()'>Flood Annual Layers</option><option value='wsa_Overlay_1_Year_0_0_0' title='Satellite data utilization for inventory, mapping and monitoring water bodies over larger areas ' onmouseover='showHideTooltip()'>Water Bodies</option><option value='urbn__1_State_0_0_0' title='Characterization and Monitoring of the urban growth patterns using Multi temporal and multi spectral satellite data.' onmouseover='showHideTooltip()'>Urban Sprawl</option></select>
+</div></td> </tr> 
+<tr><td height="40px" colspan="2">
+
+<div id="statesdiv"><table><tr><td width='100px'><label align="left"><span class="s10b">Select Geography</span></label> </td><td> <select name="states" id="states1">	<option>Select Theme first</option>	</select> </td></tr></table></div><br/>
+</td></tr><tr><td colspan="2">
+<div id="level2div" style="display:none"> <select name="states" id="level2">	<option>Select state first</option>	</select> </div>
+
+<div id="seasondiv" style="display:none"> <select name="states" id="level2">	<option>Select year first</option>	</select> </div><br/>
+
+</td></tr>
+
+
+
+<tr><td colspan="2">
+ <span  class="s10" id="docSpan" style="display:none" >
+ </span></td>
+ <td> <span class="s10" id="docSpan2" style="display:none" >
+ </span></td> </tr>	
+</table>	
+
+</form>  </span>
+<!--  Specific for NUIS Layers group tree  -->
+<div id="nuis_main_layers" style="display:none" class="s8"> </div>
+
+<!--  View starts here -->
+<div id="view" style="display:inline">
+<table><tr><td width="50%"> 
+<img src="img/view.png" id="mapbutton" value="Remove/Add to Map" onclick="if(this.src.match('view.png')=='view.png'){stats('4')} else {view_remove(),doc()}" style="cursor: pointer" /> 
+</td><td>
+<div id="districtsdiv" >
+</div> </td></tr></table>
+	<br/>
+<div class="s8r" id="drawSpan" style="display:none" > 
+Use <b>Info Tool</b> to get the Information on click.<br/><br/>
+</div>
+<div class="s8r" id="drawhelp" style="display:none" > 
+Click on <img width='15px' title='Click on Glacial Lakes and Waterbodies for Temporal Analysis'  onclick="parent.document.getElementById('query_1').click()" height='15px' src='../../img/info.png'/>&nbsp;&nbsp;button for <b> Temporal Analysis </b><br/><br/>
+</div>
+ 	 
+</div>
+
+<div id="legend"  >
+<div id="lg" width="100%" height="100%" ></div> </div> </p></div>
+
+
+<!--  Statistics -->	 
+<div class="tabbertab">
+<h2>Statistics</h2>
+<p>	<div id="st1" style="display:none">
+ <table> <tr><td >
+ <input checked type="radio" onclick="stats('5')" name="st1" value="state" id="state_r"> <span class='s10'>State-wise Statistics  
+</span></td>
+<td>
+<div style="float:left"><input type="radio" name="st1" onclick="stats('6')" value="district" id="dist_r" > <span class='s10'> District-wise Statistics</span></div>
+<div style="float:right" id="dist_stats"></div>
+</td></tr></table> </div>
+
+<div id="st2" style="display:none">
+ <table> <tr><td >
+ <input checked type="radio" onclick="stats('5')" name="st2" value="country" id="country_r"><span class='s10'> Country-wise Statistics  </span>
+</td>
+<td>
+<!--rabi kharif added-->
+<div style="float:left" id="state_display"><input type="radio" name="st2" onclick="stats('6')" value="state1" id="state_r1" > <span class='s10'> State-wise Statistics </span> </div>
+
+<!--div style="float:left"><input type="radio" name="st2" onclick="stats('6')" value="state1" id="state_r1" > <span class='s10'> State-wise Statistics </span> </div-->
+<div style="float:right" id="state_stats"></div>
+</td></tr></table> </div>
+
+<div id="st" align="center"></div> </p>   </div>
+
+<div class="tabbertab">
+<h2>Analysis</h2>
+<p>
+	 <div id="an_buttons" class="s10" >
+	 </div>
+	 
+	 
+	 <div id="an" align="center">
+	 </div> </p>   </div>
+	   <div class="tabbertab">
+	  <h2>Metadata</h2>
+	  <p><div id="md" align="center"></div> </p>   </div>
+	  
+	   <div class="tabbertab">
+	  <h2>WebServices</h2>
+	  <p><div id="ws" align="center"></div> </p>    </div>
+	  
+	   <div class="tabbertab">
+	  <h2>Overlay</h2>
+	  <p><div id="ov"  align="center"></div> </p>    </div>
+	  
+	    <div id='selectGetDataTab' class="tabbertab" >
+	  <h2>GetData</h2>
+	  <p> 
+	<div id="getData1">
+	 </div>
+	  <div id="getData2"  align="left">  </div> </p>    </div>
+ 
+</div>
+
+</div> </td></tr>
+<iframe  id='ifrmPrint' src='#' style="border:0;width:0px; height:0px"></iframe>
+</td></tr>
+</table>
+
+<div id="CalendarControl"  style=" left: 168px; top: 378px"></div>
+
+
+</body>
+<!--<script type="text/javascript" src="js/tabber.js"></script> -->
+  <script type="text/javascript" src="js/uncomp/tabber.js"></script> 
+<script type="text/javascript" src="js/slider.js"></script>
+<!--<script src="../../lib/cbhuvanol210_284.js"></script> -->
+<script type="text/javascript" src="js/uncomp/script1.js"></script>
+<!--script type="text/javascript" src="js/script1.min.js"></script></script-->
+
+   <script src="../../lib/jquery_new.js"></script>
+
+<SCRIPT language="JavaScript">
+
+<!--
+function showHideTooltip()
+{
+
+var obj = document.getElementById("theme");
+obj.title=obj.title;
+
+}
+
+ /*function init()
+{
+	console.log("init....");
+	const urlParams = new URLSearchParams(window.location.search);
+    const selectedTab = urlParams.get("theme");
+
+    console.log("selectedTab...", selectedTab);
+    // Activate the tab based on the URL parameter
+   if (selectedTab) {
+        const tabLink = document.querySelector(`.tabs a[href="#${selectedTab}"]`);
+        if (tabLink) {
+            tabLink.click(); // Simulate a click on the tab link to activate it
+        }
+    }
+}*/
+//-->
+</SCRIPT>
+
+</html>
+
+
+
+

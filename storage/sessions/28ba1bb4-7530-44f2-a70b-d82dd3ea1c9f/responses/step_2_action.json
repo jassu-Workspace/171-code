@@ -1,0 +1,30 @@
+{
+  "thought": "Select 240 Frames option on animation frames dropdown.",
+  "action": "select",
+  "id": "agent-10",
+  "selector": "#agent-10",
+  "value": "240 Frames",
+  "scratchpad": {
+    "activePillar": "2: Earth Observation & GIS",
+    "isroOperationalTelemetry": {
+      "spacecraft": "INSAT-3DS",
+      "metricSummary": "Thermal Infrared1 @ 10.78um | L1B Full Disk",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}
