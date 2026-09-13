@@ -1,0 +1,21 @@
+{
+  "thought": "INSAT-3D select dropdown. Switch satellite.",
+  "action": "select",
+  "id": "agent-125",
+  "selector": "#sat",
+  "value": "INSAT-3D",
+  "scratchpad": {
+    "activePillar": "2: Earth Observation & GIS",
+    "isroOperationalTelemetry": {
+      "spacecraft": "INSAT-3D",
+      "metricSummary": "Payload: IMAGER / SOUNDER | Channel: Thermal Infrared TIR-1 | Frames: 32",
+      "operationalStatus": "Nominal / Live Tracking"
+    },
+    "milestones": [
+      { "name": "Navigate to live portal or mission console", "status": "completed" },
+      { "name": "Execute pillar-specific command or spatial analysis", "status": "in_progress" },
+      { "name": "Verify telemetry, authorization, or confirmation toast", "status": "pending" }
+    ],
+    "isComplete": false
+  }
+}

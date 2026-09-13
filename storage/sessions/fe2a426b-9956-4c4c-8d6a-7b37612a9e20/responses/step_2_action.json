@@ -1,0 +1,30 @@
+{
+  "thought": "Navigate to Missions accomplished under Activities menu to locate Chandrayaan-3 updates.",
+  "action": "click",
+  "id": "agent-24",
+  "selector": "[data-agent-id='agent-24']",
+  "value": "",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "Chandrayaan-3",
+      "metricSummary": "Status: Accomplished | Payloads: APXS, ChaSTE, ILSA, RAMBHA",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

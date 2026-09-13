@@ -1,0 +1,80 @@
+Task: Open the ISRO website, navigate to the Missions section, and find the latest updates regarding the chandrayan 3 latest news
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-23 value: ""
+- Step 2: click target: agent-24 value: ""
+- Step 3: type target: agent-28 value: "Chandrayaan-3\n"
+- Step 4: click target: agent-34 value: ""
+- Step 5: click target: agent-32 value: ""
+- Step 6: scroll  value: ""
+- Step 7: click target: agent-40 value: ""
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <button id="openbtnAccessibility"> (empty input)
+[agent-2] <a> English
+[agent-3] <a> हिंदी
+[agent-4] <a> Sitemap
+[agent-5] <a> Contact us
+[agent-6] <a> Feedback
+[agent-7] <a> RTI
+[agent-8] <a> Career
+[agent-9] <a> Tender
+[agent-10] <a> FAQ
+[agent-11] <a> Visit ISRO on Facebook
+[agent-13] <a> Visit ISRO on Youtube
+[agent-14] <a> Instagram
+[agent-15] <a id="Ainc"> A+
+[agent-16] <a id="Arest"> A
+[agent-17] <a id="Adec"> A-
+[agent-18] <a> Skip to main content
+[agent-19] <a> ISRO DOS Home
+[agent-20] <a> Government of India
+[agent-21] <a role="menuitem"> Home
+[agent-22] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> About
+[agent-23] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Activities
+[agent-24] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Services
+[agent-25] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Programmes
+[agent-26] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Resources
+[agent-27] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Engagements
+[agent-28] <input type="text" id="searchTextD" placeholder="search"> (empty input, placeholder: "search")
+[agent-29] <a> Home
+[agent-30] <a> Future Missions
+[agent-31] <a> Chandrayaan-3
+[agent-32] <a> Chandrayaan-3 Details
+[agent-33] <a> Launch Streaming
+[agent-34] <a> Brochure
+[agent-35] <a> Curtain Raiser Video
+[agent-36] <a> LVM3 M4 Onboard Video
+[agent-37] <a> Chandrayaan-3 Videos
+[agent-38] <a> Gallery
+[agent-39] <a> Appraisal
+[agent-40] <a> Press Release on Aug 05, 2023
+[agent-41] <a> Science Results
+[agent-42] <a> RTI
+[agent-43] <a> Feedback
+[agent-44] <a> Contact us
+[agent-45] <a> FAQ
+[agent-46] <a> Website Policy
+[agent-47] <a> Copyright Policy
+[agent-48] <a> Hyper Linking Policy
+[agent-49] <a> Terms of Use
+[agent-50] <a> Archives
+[agent-51] <a> Web Information Manager
+[agent-52] <a> Space Policy
+[agent-53] <a> Parliament Questions
+[agent-54] <a> PIB
+[agent-55] <a> e-Saral Hindi Vakyakosh
+[agent-56] <a> Related links
+[agent-57] <a> Pensioners' Portal
+[agent-58] <a> Site Map
+[agent-59] <a> Help
+[agent-60] <a> Government of India
+[agent-61] <a> IYC 2025 logo
+[agent-62] <a> Website Quality Certificate
+
+--- PAGE TEXT ---
+[ADDRESS REDACTED]
+
+redaction_legend:
+[]

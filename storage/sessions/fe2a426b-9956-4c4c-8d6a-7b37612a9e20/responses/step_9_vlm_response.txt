@@ -1,0 +1,21 @@
+{
+  "thought": "Chandrayaan-3 science results update inspect. Click Science Results.",
+  "action": "click",
+  "id": "agent-41",
+  "selector": "[data-agent-id='agent-41']",
+  "value": "",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "Chandrayaan-3",
+      "metricSummary": "Status: Science Results & Mission Updates",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      { "name": "Navigate to live portal or mission console", "status": "completed" },
+      { "name": "Execute pillar-specific command or spatial analysis", "status": "in_progress" },
+      { "name": "Verify telemetry, authorization, or confirmation toast", "status": "pending" }
+    ],
+    "isComplete": false
+  }
+}

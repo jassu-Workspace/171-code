@@ -1,0 +1,1 @@
+Open MOSDAC, navigate to Live Satellite Products, and inspect the INSAT-3D thermal infrared cyclonic tracking layer. and keep in 32 frame's

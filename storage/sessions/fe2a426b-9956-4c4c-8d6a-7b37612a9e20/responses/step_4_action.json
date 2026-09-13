@@ -1,0 +1,30 @@
+{
+  "thought": "Chandrayaan-3 Details link click to open mission updates. View latest mission news.",
+  "action": "click",
+  "id": "agent-34",
+  "selector": "[data-agent-id='agent-34']",
+  "value": "",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "Chandrayaan-3",
+      "metricSummary": "Status: Lunar Surface Operations / Mission Complete",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "thought": "Chandrayaan-3 Details link found. Click agent-32. Inspect latest mission updates.",
+  "action": "click",
+  "id": "agent-32",
+  "selector": "[data-agent-id='agent-32']",
+  "value": "",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "Chandrayaan-3",
+      "metricSummary": "Status: Mission Completed / Science Results Active",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      { "name": "Navigate to ISRO missions", "status": "completed" },
+      { "name": "Access Chandrayaan-3 updates page", "status": "in_progress" },
+      { "name": "Extract latest news / mission updates", "status": "pending" }
+    ],
+    "isComplete": false
+  }
+}

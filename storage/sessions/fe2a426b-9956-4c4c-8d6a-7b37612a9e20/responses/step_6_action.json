@@ -1,0 +1,28 @@
+{
+  "thought": "Scroll down inspect Chandrayaan-3 mission updates news",
+  "action": "scroll",
+  "scroll_direction": "down",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "Chandrayaan-3",
+      "metricSummary": "Mission section accessed | Viewing latest updates and press releases",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "completed"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "in_progress"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

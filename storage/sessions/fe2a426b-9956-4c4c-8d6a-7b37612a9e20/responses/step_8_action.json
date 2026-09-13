@@ -1,0 +1,25 @@
+{
+  "thought": "ISRO missions Chandrayaan-3 updates navigate directly.",
+  "action": "navigate",
+  "selector": "",
+  "value": "https://www.isro.gov.in/Chandrayaan3_Details.html",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "Chandrayaan-3",
+      "metricSummary": "Status: Lunar Surface Mission Completed | Scientific Payloads Operated",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to Chandrayaan-3 mission updates",
+        "status": "in_progress"
+      },
+      {
+        "name": "Inspect latest updates and telemetry",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}

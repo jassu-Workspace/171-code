@@ -1,0 +1,88 @@
+Task: Open the ISRO website, navigate to the Missions section, and find the latest updates regarding the chandrayan 3 latest news
+
+Recent Actions Executed in this Session:
+- Step 1: click target: agent-24 value: ""
+- Step 2: type target: agent-28 value: "Chandrayaan-3\n"
+- Step 3: click target: agent-34 value: ""
+- Step 4: click target: agent-32 value: ""
+- Step 5: scroll  value: ""
+- Step 6: click target: agent-40 value: ""
+- Step 7: click target: agent-41 value: ""
+- Step 8: click target: agent-30 value: ""
+
+Masked DOM:
+--- INTERACTIVE ELEMENTS (Target these with "id" or "selector": "[data-agent-id='id']") ---
+[agent-1] <button id="openbtnAccessibility"> (empty input)
+[agent-2] <a> English
+[agent-3] <a> हिंदी
+[agent-4] <a> Sitemap
+[agent-5] <a> Contact us
+[agent-6] <a> Feedback
+[agent-7] <a> RTI
+[agent-8] <a> Career
+[agent-9] <a> Tender
+[agent-10] <a> FAQ
+[agent-11] <a> Visit ISRO on Facebook
+[agent-13] <a> Visit ISRO on Youtube
+[agent-14] <a> Instagram
+[agent-15] <a id="Ainc"> A+
+[agent-16] <a id="Arest"> A
+[agent-17] <a id="Adec"> A-
+[agent-18] <a> Skip to main content
+[agent-19] <a> ISRO DOS Home
+[agent-20] <a> Government of India
+[agent-21] <a role="menuitem"> Home
+[agent-22] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> About
+[agent-23] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Activities
+[agent-24] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Services
+[agent-25] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Programmes
+[agent-26] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Resources
+[agent-27] <a role="menuitem" aria-haspopup="true" aria-expanded="false"> Engagements
+[agent-28] <input type="text" id="searchTextD" placeholder="search"> (empty input, placeholder: "search")
+[agent-29] <a> Home
+[agent-30] <a> Future Missions
+[agent-31] <a> Chandrayaan-3 Mission Soft-landing Video
+[agent-32] <a> ILSA listens to the movements around the landing site
+[agent-33] <a> RAMBHA-LP on-board Chandrayaan-3 measures near-surface plasma content
+[agent-34] <a> APXS on-board Ch-3 rover detects the presence of minor elements
+[agent-35] <a> LIBS confirms the presence of Sulphur (S) on the lunar surface through unambiguous in-situ measurements.
+[agent-36] <a> The first observations from the ChaSTE payload onboard Vikram Lander
+[agent-37] <a> Chandrayaan-3 Video: The Moon, as viewed by Chandrayaan-3 during Lunar Orbit Insertion
+[agent-38] <a> Chandrayaan-3
+[agent-39] <a> Chandrayaan-3 Details
+[agent-40] <a> Launch Streaming
+[agent-41] <a> Brochure
+[agent-42] <a> Curtain Raiser Video
+[agent-43] <a> LVM3 M4 Onboard Video
+[agent-44] <a> Chandrayaan-3 Videos
+[agent-45] <a> Gallery
+[agent-46] <a> Appraisal
+[agent-47] <a> Press Release on Aug 05, 2023
+[agent-48] <a> Science Results
+[agent-49] <a> RTI
+[agent-50] <a> Feedback
+[agent-51] <a> Contact us
+[agent-52] <a> FAQ
+[agent-53] <a> Website Policy
+[agent-54] <a> Copyright Policy
+[agent-55] <a> Hyper Linking Policy
+[agent-56] <a> Terms of Use
+[agent-57] <a> Archives
+[agent-58] <a> Web Information Manager
+[agent-59] <a> Space Policy
+[agent-60] <a> Parliament Questions
+[agent-61] <a> PIB
+[agent-62] <a> e-Saral Hindi Vakyakosh
+[agent-63] <a> Related links
+[agent-64] <a> Pensioners' Portal
+[agent-65] <a> Site Map
+[agent-66] <a> Help
+[agent-67] <a> Government of India
+[agent-68] <a> IYC 2025 logo
+[agent-69] <a> Website Quality Certificate
+
+--- PAGE TEXT ---
+[ADDRESS REDACTED]
+
+redaction_legend:
+[]

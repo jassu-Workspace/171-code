@@ -1,0 +1,30 @@
+{
+  "thought": "Open latest Chandrayaan-3 scientific update report.",
+  "action": "click",
+  "id": "agent-30",
+  "selector": "a:contains('ILSA listens to the movements')",
+  "value": "",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "Chandrayaan-3",
+      "metricSummary": "Payload: ILSA / RAMBHA / ChaSTE / APXS / LIBS | Status: Lunar Surface Ops",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to ISRO portal",
+        "status": "completed"
+      },
+      {
+        "name": "Navigate to Missions / Chandrayaan-3 section",
+        "status": "completed"
+      },
+      {
+        "name": "Access latest Chandrayaan-3 update",
+        "status": "in_progress"
+      }
+    ],
+    "isComplete": false
+  }
+}

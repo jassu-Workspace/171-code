@@ -1,0 +1,88 @@
+{
+  "sessionId": "fe2a426b-9956-4c4c-8d6a-7b37612a9e20",
+  "createdAt": "2026-09-13T07:35:54.852Z",
+  "updatedAt": "2026-09-13T07:37:33.679Z",
+  "status": "active",
+  "task": "Open the ISRO website, navigate to the Missions section, and find the latest updates regarding the chandrayan 3 latest news",
+  "totalSteps": 12,
+  "subTasks": [
+    "agent-23",
+    "agent-24",
+    "agent-28",
+    "agent-34",
+    "agent-32",
+    "action",
+    "agent-40",
+    "navigate: https://www.isro.gov.in/Chandrayaan3_Details.html",
+    "agent-41",
+    "agent-30",
+    "navigate: https://www.isro.gov.in/Chandrayaan3.html"
+  ],
+  "actions": [
+    {
+      "step": 1,
+      "action": "click",
+      "timestamp": "2026-09-13T07:35:54.878Z"
+    },
+    {
+      "step": 2,
+      "action": "click",
+      "timestamp": "2026-09-13T07:36:03.100Z"
+    },
+    {
+      "step": 3,
+      "action": "type",
+      "timestamp": "2026-09-13T07:36:11.710Z"
+    },
+    {
+      "step": 4,
+      "action": "click",
+      "timestamp": "2026-09-13T07:36:21.026Z"
+    },
+    {
+      "step": 5,
+      "action": "click",
+      "timestamp": "2026-09-13T07:36:29.774Z"
+    },
+    {
+      "step": 6,
+      "action": "scroll",
+      "timestamp": "2026-09-13T07:36:39.514Z"
+    },
+    {
+      "step": 7,
+      "action": "click",
+      "timestamp": "2026-09-13T07:36:48.328Z"
+    },
+    {
+      "step": 8,
+      "action": "navigate",
+      "timestamp": "2026-09-13T07:36:58.098Z"
+    },
+    {
+      "step": 9,
+      "action": "click",
+      "timestamp": "2026-09-13T07:37:06.672Z"
+    },
+    {
+      "step": 10,
+      "action": "click",
+      "timestamp": "2026-09-13T07:37:14.501Z"
+    },
+    {
+      "step": 11,
+      "action": "navigate",
+      "timestamp": "2026-09-13T07:37:26.999Z"
+    },
+    {
+      "step": 12,
+      "action": "done",
+      "timestamp": "2026-09-13T07:37:33.679Z"
+    }
+  ],
+  "imageStats": {
+    "rawImagesCount": 4,
+    "maskedImagesCount": 1,
+    "vlmImagesCount": 4
+  }
+}

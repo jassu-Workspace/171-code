@@ -1,0 +1,28 @@
+{
+  "thought": "Navigate to Chandrayaan-3 mission updates page.",
+  "action": "navigate",
+  "value": "https://www.isro.gov.in/Chandrayaan3.html",
+  "scratchpad": {
+    "activePillar": "1: Mission Control",
+    "isroOperationalTelemetry": {
+      "spacecraft": "Chandrayaan-3",
+      "metricSummary": "Lunar Orbit Insertion Complete | Lander & Rover Operational",
+      "operationalStatus": "Nominal"
+    },
+    "milestones": [
+      {
+        "name": "Navigate to live portal or mission console",
+        "status": "in_progress"
+      },
+      {
+        "name": "Execute pillar-specific command or spatial analysis",
+        "status": "pending"
+      },
+      {
+        "name": "Verify telemetry, authorization, or confirmation toast",
+        "status": "pending"
+      }
+    ],
+    "isComplete": false
+  }
+}
